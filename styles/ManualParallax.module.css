@@ -6,23 +6,25 @@
     background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
-   
+    
 }
 
 .metadollContainer{
-    
+    background-color: black;
 }
 
 .bgimg{
     background-image: url("../public/metadoll.jpeg") ;
-   /*  min-height: 80vh; */
-    width: 100%;
     min-height: 80vh;
+   width: 100%;
+   
+  
+
     object-fit: cover;
     bottom: 0;
     clip-path: polygon(0 0,100% 0,100% 88%,50% 100%,0 88%);
     
-    
+   
     padding: 0 0 0 0;
 }
 
@@ -63,7 +65,9 @@
 
 
 @media (max-width: 600px){
-
+    .metaText{
+        font-size: 20px;
+    }
    /*  .metaText{
         position: absolute;
     

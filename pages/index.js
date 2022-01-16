@@ -10,6 +10,7 @@ import CollectionCard from '../components/CollectionCard'
 import axios from 'axios'
 import { useState, useEffect } from 'react'
 import ManualParallax from '../components/ManualParallax'
+import { About } from '../components/About'
 export default function Home({posts}) {
   
  console.log(posts)
@@ -25,8 +26,8 @@ export default function Home({posts}) {
       
       <Nabvar/>
       <ManualParallax/>
-      <Top/>
-     
+      {/* <Top/> */}
+      <About/>
       <div className={styles.about}>
       <CollectionCard id={0} name={'MetaDoll 2'} traits={[{'value':7}]} image={'./Metadoll-02.jpg'}/>
       {/* <a href="#about">

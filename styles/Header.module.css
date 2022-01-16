@@ -1,0 +1,63 @@
+.header {
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;    
+    align-items: center;
+   
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    margin-top: 10px;
+}
+
+.header > div {
+    margin-left: 50px;
+margin-right: 50px;
+margin-bottom: 3px;
+}
+.logoContainer{
+    align-self: center;
+}
+.localLinksContainer{
+    display: flex;
+    flex: 1;
+    align-self: center;
+    
+}
+
+.localLinksContainer > h5 {
+    margin-right: 10px;
+    margin-bottom: 3px;
+}
+
+.titleTextHeader {
+    font-size: 2;
+    color: rgb(23,150,250);
+}
+
+.communityContainer{
+    padding-right: 20px;
+    display: flex;
+    flex: 1;
+    min-width: 90px;
+
+}
+
+.communityContainer > div  {
+    margin-right: 10px;
+    margin-bottom: 3px;
+    
+}
+
+
+.discordButton{
+    
+    background: linear-gradient(to right,#1796FA,#5983a5) ;
+    padding: 8px;
+    border-radius: 50px ;
+    color: black;
+    font-weight: bold;
+    min-width: 150px;
+    
+}

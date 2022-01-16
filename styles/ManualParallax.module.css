@@ -1,0 +1,84 @@
+.bgimg,
+.bgimg1,
+.bgimg2{
+    position: relative;
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.metadollContainer{
+    
+}
+
+.bgimg{
+    background-image: url("../public/metadoll.jpeg") ;
+   /*  min-height: 80vh; */
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+    bottom: 0;
+}
+
+.caption{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color:#000;
+   
+}
+
+.metaText{
+    position: absolute;
+    left:5%;
+    top: 30%;
+    width:300px;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: Space Grotesk;
+    font-size: 25px;
+}
+   
+
+
+.caption .border{
+
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+
+
+
+@media (max-width: 600px){
+
+    .metaText{
+        position: absolute;
+    
+        width: 250px;
+        font-size: 14px;
+        color: white;
+        text-align: center;
+    }
+
+    
+.caption .border{
+    background-color: #111;
+    color: #fff;
+    padding: 15px;
+    font-size: 14px;
+    letter-spacing: 10px;
+}
+
+.bgimg{
+  
+    height: 40vh;
+}
+
+}

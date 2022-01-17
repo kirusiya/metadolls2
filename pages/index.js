@@ -12,7 +12,7 @@ import { useState, useEffect } from 'react'
 import ManualParallax from '../components/ManualParallax'
 import { About } from '../components/About'
 import SimpleImageSlider from "react-simple-image-slider";
-
+import RoadMap from '../components/RoadMap'
 const images = [
   { url: "Metadoll-02.jpg" },
   { url: "metadoll.jpeg" },
@@ -57,16 +57,31 @@ export default function Home({posts}) {
       <ManualParallax/>
       {/* <Top/> */}
       <About/>
-     
+      <RoadMap/>
+     {/*  <div style={{width:'100%',backgroundColor:'#04091a',height:'30px'}}></div>
+      <div style={{width:'100%',backgroundColor:'#04091a',display:'flex',justifyContent:'center',height:'auto'}}> */}
+      {/* <SimpleImageSlider
+        width={'100%'}
+        height={500}
+        images={images}
+        showBullets={true}
+        showNavs={true}
+        autoPlay
+        
+      /> */}
+     {/*  </div>
+      <div> */}
+        
+    {/*   </div> */}
  
     
-      <div className={styles.about}>
+     {/*  <div className={styles.about}> */}
      {/*  <CollectionCard id={0} name={'MetaDoll 2'} traits={[{'value':7}]} image={'./Metadoll-02.jpg'}/> */}
       {/* <a href="#about">
         aboutdddddddddd
       </a>
       <a name='about'>hhhhh</a> */}
-      </div>
+    {/*   </div> */}
       {/* 
       <Nabvar/>
       <Top/>

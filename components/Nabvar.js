@@ -20,7 +20,7 @@ const Nabvar = () => {
               </div> */}
           
           
-            <li className={styles.navbarLogo}>MetaDolls {size.width}px / {size.height}px</li>
+            <li className={styles.navbarLogo}>MetaDolls {/* {size.width}px / {size.height}px */}</li>
             { size.width<600 ? <button className={["btn btn-primary btn-sm"]}>Discord</button> : null }
             <li className={styles.navbarToggle} onClick={()=>{setToggleMenu(!toggleMenu)
             console.log('ajaamamm')

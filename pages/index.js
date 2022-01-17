@@ -11,6 +11,19 @@ import axios from 'axios'
 import { useState, useEffect } from 'react'
 import ManualParallax from '../components/ManualParallax'
 import { About } from '../components/About'
+import SimpleImageSlider from "react-simple-image-slider";
+
+const images = [
+  { url: "Metadoll-02.jpg" },
+  { url: "metadoll.jpeg" },
+  { url: "metadoll.jpeg" },
+  { url: "Metadoll-02.jpg" },
+  { url: "metadoll.jpeg" },
+  { url: "Metadoll-02.jpg" },
+  { url: "metadoll.jpeg" },
+];
+
+
 
 import { Parallax, Background } from "react-parallax";
 const insideStyles = {
@@ -31,6 +44,7 @@ export default function Home({posts}) {
         <title>Metadolls NFT's</title>
         <meta name="description" content="Metadolls NFT's" />
         <link rel="icon" href="/favicon.ico" />
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"></link>
         <script src="https://kit.fontawesome.com/a076d05399.js" crossOrigin="anonymous"></script>
       </Head>
       
@@ -43,8 +57,11 @@ export default function Home({posts}) {
       <ManualParallax/>
       {/* <Top/> */}
       <About/>
+     
+ 
+    
       <div className={styles.about}>
-      <CollectionCard id={0} name={'MetaDoll 2'} traits={[{'value':7}]} image={'./Metadoll-02.jpg'}/>
+     {/*  <CollectionCard id={0} name={'MetaDoll 2'} traits={[{'value':7}]} image={'./Metadoll-02.jpg'}/> */}
       {/* <a href="#about">
         aboutdddddddddd
       </a>

@@ -11,7 +11,8 @@ function ManualParallax() {
 and I want more than that..."
 - MetaDoll 0001</p>
                <div className={styles.caption}>
-                <span className={styles.border}>Join Now</span>
+                <span className={styles.border} data-aos="fade-up"
+     data-aos-anchor-placement="bottom-bottom">Join Now</span>
                </div>
          
                </div>

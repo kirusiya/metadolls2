@@ -9,7 +9,8 @@
     padding: 0 80px;
     margin: auto;
     flex-wrap: wrap;
-    background-color: black;
+    background-color:#01030d;
+    
 }
 .projectDescriptionContainer{
     width: calc(50% - 80px);
@@ -17,21 +18,35 @@
     margin-top: 150px;
     margin-bottom: 150px;
     text-align: justify;
+    background-color: #04091a;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.bigTitle{
+    background: linear-gradient(
+        90deg
+        ,#25abd0,#ff79a8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+           
 }
 .titles{
-    font-family: Space Grotesk;
+   
     font-weight: 600;
     color: white;
     text-align: justify;
    
 }
 .randomImageContainer{
-    
-    padding: 1px;
+    display: flex;
+    flex: 1;
+    margin-left: 50px;
     width:300px;
    height: auto;
+   max-width: 500px;
 
-   
+
 }
 
 
@@ -40,6 +55,7 @@
     width:100%;
    height: auto;
   border-radius: 1rem;
+  max-width: 500px;
 }
 
 
@@ -59,21 +75,22 @@
         width: 100%;
         min-width: 100%;
     }
-    .randomImageContainer{
     
-        padding: 20px;
-        width:100%;
-       height: auto;
-       
-    }
     .aboutContainer{
-    
+   
+        padding: 0 30px;
       
-        /* max-width: 1160px; */
-        padding: 0 60px;
-        margin: auto;
-        
-        background-color: black;
+      
     }
+
+    .randomImageContainer{
+       
+        width:100px;
+    
+       
+    
+    
+    }
+
     
 }

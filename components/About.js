@@ -15,10 +15,6 @@ export const About = () => {
             it’s possible to define our own identity and build our own language from there.
             
             </p>
-            </div>
-            <div className={styles.randomImageContainer}>
-            <img className={styles.imageSection} src='./Metadoll.jpeg'/>
-            </div>
             <p className={styles.titles}> 
             <br/><br/>The **MetaDolls** make up a metaverse of artistic
              expressions through their changes in their body. Face Tatts, Nose rings,
@@ -27,7 +23,12 @@ export const About = () => {
             <br/><br/>Not only would you be getting an NFT but by holding 
             our MetaDolls you would be elegible to get a phisical version
              of your Doll later on through
-             an exclusive digital boutique only accesible to wallets holding the NFT.</p> {/*  <div className={styles.randomImagePicker}>
+             an exclusive digital boutique only accesible to wallets holding the NFT.</p>
+            </div>
+            <div className={styles.randomImageContainer}>
+            <img className={styles.imageSection} src='./Metadoll.jpeg'/>
+            </div>
+             {/*  <div className={styles.randomImagePicker}>
                 <img className={styles.imageSection}>  </img>
             </div> */}
         </section>

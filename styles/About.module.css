@@ -6,27 +6,31 @@
     display: flex;
     flex-direction: row;
     /* max-width: 1160px; */
-    padding: 0 60px;
+    padding: 0 80px;
     margin: auto;
     flex-wrap: wrap;
     background-color: black;
 }
 .projectDescriptionContainer{
     width: calc(50% - 80px);
-    min-width: 150px;
+    min-width: 260px;
     margin-top: 150px;
     margin-bottom: 150px;
+    text-align: justify;
 }
 .titles{
     font-family: Space Grotesk;
     font-weight: 600;
     color: white;
+    text-align: justify;
+   
 }
 .randomImageContainer{
     
-    padding: 20px;
+    padding: 1px;
     width:300px;
    height: auto;
+
    
 }
 
@@ -39,23 +43,29 @@
 }
 
 
-@media (max-width: 600px){
+@media (max-width: 622px){
     .projectDescriptionContainer{
         width: 100%;
         min-width: 20px;
         margin-top: 50px;
         margin-bottom: 20px;
-        text-align: center;
+        text-align: justify;
     }
     .titles{
         font-family: Space Grotesk;
         font-weight: 600;
         color: white;
-       
+      
         width: 100%;
         min-width: 100%;
     }
-
+    .randomImageContainer{
+    
+        padding: 20px;
+        width:100%;
+       height: auto;
+       
+    }
     .aboutContainer{
     
       

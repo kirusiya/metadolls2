@@ -26,7 +26,7 @@ export const About = () => {
              an exclusive digital boutique only accesible to wallets holding the NFT.</p>
             </div>
             <div className={styles.randomImageContainer}>
-            <img className={styles.imageSection} src='./Metadoll.jpeg'/>
+            <img className={styles.imageSection} src='metadoll.jpeg'/>
             </div>
              {/*  <div className={styles.randomImagePicker}>
                 <img className={styles.imageSection}>  </img>

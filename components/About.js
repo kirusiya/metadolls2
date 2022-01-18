@@ -23,8 +23,13 @@ export const About = () => {
             it’s possible to define our own identity and build our own language from there.
             
             </p>
+            <div style={{display:'flex',width:'100%', justifyContent:'space-between',alignItems:'center',}}>
+            <p className={styles.bigTitle} > Join now</p>
+            <p className={styles.bigTitle} > Discord</p>
+            </div>
+           
             <p className={styles.titles} data-aos="fade-right"> 
-            <br/><br/>The **MetaDolls** make up a metaverse of artistic
+            <br/>The **MetaDolls** make up a metaverse of artistic
              expressions through their changes in their body. Face Tatts, Nose rings,
               golden chains, meme tatts on their shoulders, mohawks are examples of ways
                **MetaDolls** decide to express themselves.
@@ -32,6 +37,7 @@ export const About = () => {
             our MetaDolls you would be elegible to get a phisical version
              of your Doll later on through
              an exclusive digital boutique only accesible to wallets holding the NFT.</p>
+             <p className={styles.bigTitle} style={{textAlign:'center'}} > !We are on the Whitelist!</p>
             </div>
             {/* <div className={styles.randomImageContainer}>
            

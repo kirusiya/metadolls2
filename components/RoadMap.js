@@ -21,8 +21,15 @@ const RoadMap = () =>{
                     <li className={styles.descriptionStyle}> We’ll be dropping</li>
                 </ul>
                 <p className={styles.descriptionStyle}>
-
-               
+                    Lets run this together, follow the path to freedom
+                    <br/>
+                    <br/>
+                    <div style={{display:'flex',width:'100%', justifyContent:'space-between',alignItems:'center',}}>
+                    <p className={styles.numerStyle}>Discord</p>
+                    <p className={styles.numerStyle}>Twitter</p>
+                    <p className={styles.numerStyle}>OpenSea</p>
+            </div>
+                   
                 </p>
             </div>
             <div className={styles.RoadMapSteps} data-aos="zoom-in">

@@ -91,6 +91,7 @@
 @media (max-width: 600px){
     .metaText{
         font-size: 20px;
+        top: 55%;
     }
    /*  .metaText{
         position: absolute;

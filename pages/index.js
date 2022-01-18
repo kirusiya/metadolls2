@@ -46,6 +46,7 @@ export default function Home({posts}) {
         <meta name="description" content="Metadolls NFT's" />
         <link rel="icon" href="/favicon.ico" />
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"></link>
+        
         <script src="https://kit.fontawesome.com/a076d05399.js" crossOrigin="anonymous"></script>
       </Head>
       

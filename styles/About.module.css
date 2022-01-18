@@ -1,3 +1,8 @@
+
+@font-face {
+  font-family: 'font-orbitron';
+  src: url('/fonts/orbitron-light.ttf');
+ }
 .aboutContainer{
     
     justify-content: space-between;
@@ -61,10 +66,7 @@
   border-radius: 1rem;
   max-width: 500px;
 }
-@font-face {
-    font-family: 'font-orbitron';
-    src: url('/fonts/orbitron-light.ttf');
-   }
+
 
 
 @media (max-width: 622px){

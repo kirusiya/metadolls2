@@ -27,9 +27,12 @@
     font-family: 'font-orbitron';
     background: linear-gradient(
         90deg
-        ,#25abd0,#ff79a800);
+        ,#fe1393,#ffffff);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
+            text-align: left; 
+    font-size: 1.2rem;
+    font-weight: bold;
            
 }
 .titles{

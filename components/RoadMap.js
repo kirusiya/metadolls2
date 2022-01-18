@@ -10,10 +10,11 @@ const RoadMap = () =>{
       }, []);
     return (
         <section className={styles.RoadMapContainer}>
+            
+            <div className={styles.RoadMapSteps} data-aos="zoom-in">
             <h2 className={styles.RoadMapTitle}>RoadMap</h2>
             <p className={styles.RoadMapIntro}>"Rebellion against the perfect blonde is inked on my skin and in the color of my hair." - **MetaDoll** 0001
             </p>
-            <div className={styles.RoadMapSteps} data-aos="zoom-in">
                 <p className={styles.numerStyle}>.01 Whitelist</p>
                 <ul>
                     <li className={styles.descriptionStyle}> 1000 spots and elegible for 2 MetaDolls per wallet</li>

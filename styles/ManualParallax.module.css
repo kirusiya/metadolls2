@@ -52,7 +52,7 @@
     width:100%;
     font-weight: bold;
     color: #eff0f6;
-   
+    font-family: 'font-orbitron';
     font-size: 25px;
     padding:20px;
 }
@@ -66,7 +66,7 @@
     padding: 18px;
     font-size: 25px;
     letter-spacing: 10px;
-
+    font-family: 'font-orbitron';
     /* display:inline-block; */
    /*  color:#444; */
     /* border:1px solid #CCC; */
@@ -140,7 +140,7 @@
         width:60%;
         font-weight: bold;
         color: #ffffff;
-        font-family: Space Grotesk;
+        font-family: 'font-orbitron';
         font-size: 25px;
      
         

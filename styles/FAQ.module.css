@@ -3,12 +3,14 @@
     background-color:#01030d;
 }
 .RoadMapTitle{
-background: linear-gradient(
-    90deg
-    ,#25abd0,#ff79a800);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        text-align: center;
+    background: linear-gradient(
+        90deg
+        ,#fe1393,#ffffff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-align: center; 
+    font-size: 1.2rem;
+    font-weight: bold;
 }
 
 
@@ -19,7 +21,7 @@ background: linear-gradient(
 .numerStyle{
     background: linear-gradient(
         90deg
-        ,#25abd0,#ffffff);
+        ,#fe1393,#ffffff);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             text-align: left; 
@@ -30,6 +32,7 @@ background: linear-gradient(
 .descriptionStyle{
     text-align: left; 
      color: rgb(175, 190, 217);
+     font-family: 'font-orbitron';
 }
 
 .RoadMapSteps{

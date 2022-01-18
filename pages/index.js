@@ -49,7 +49,7 @@ export default function Home({posts}) {
         
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin=''/>
-<link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet"></link>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron" rel="stylesheet"></link>
       </Head>
       
       <Nabvar/>

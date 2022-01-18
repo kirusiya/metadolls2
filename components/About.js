@@ -36,7 +36,7 @@ export const About = () => {
             {/* <div className={styles.randomImageContainer}>
            
             </div> */}
-             <img data-aos="fade-up" className={styles.imageSection} src='./Metadoll.jpeg'/>
+             <img data-aos="fade-up" className={styles.imageSection} src={'Metadoll.jpeg'}/>
              {/*  <div className={styles.randomImagePicker}>
                 <img className={styles.imageSection}>  </img>
             </div> */}

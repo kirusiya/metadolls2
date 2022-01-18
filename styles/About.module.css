@@ -24,6 +24,7 @@
 }
 
 .bigTitle{
+    font-family: 'font-orbitron';
     background: linear-gradient(
         90deg
         ,#25abd0,#ff79a800);
@@ -32,8 +33,8 @@
            
 }
 .titles{
+    font-family: 'font-orbitron';
    
-    font-weight: 600;
     color: white;
     text-align: justify;
    
@@ -57,6 +58,10 @@
   border-radius: 1rem;
   max-width: 500px;
 }
+@font-face {
+    font-family: 'font-orbitron';
+    src: url('/fonts/orbitron-light.ttf');
+   }
 
 
 @media (max-width: 622px){
@@ -67,10 +72,15 @@
         margin-bottom: 20px;
         text-align: justify;
     }
+
+    
+
+
     .titles{
+        
         /* font-family: Space Grotesk; */
-        font-weight: 600;
-        color: white;
+        font-weight: 200;
+        color: rgb(255, 255, 255);
       
         width: 100%;
         min-width: 100%;

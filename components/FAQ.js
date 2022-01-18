@@ -1,6 +1,8 @@
-import React from 'react'
+import React,{useState} from 'react'
 import styles from '../styles/FAQ.module.css'
 const FAQ = () => {
+    const [toggleFAQ, setToggleFAQ] = useState(false);
+    /*  onClick={()=>{setToggleMenu(!toggleMenu) */
     return (
         <section className={styles.RoadMapContainer}>
             <h2 className={styles.RoadMapTitle}>FAQ</h2>

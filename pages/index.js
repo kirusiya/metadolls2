@@ -47,7 +47,9 @@ export default function Home({posts}) {
         <link rel="icon" href="/favicon.ico" />
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"></link>
         
-        <script src="https://kit.fontawesome.com/a076d05399.js" crossOrigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet"></link>
       </Head>
       
       <Nabvar/>

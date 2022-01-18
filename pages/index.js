@@ -26,6 +26,7 @@ const images = [
 
 
 import { Parallax, Background } from "react-parallax";
+import FAQ from '../components/FAQ'
 const insideStyles = {
   background: "white",
   padding: 20,
@@ -58,6 +59,7 @@ export default function Home({posts}) {
       {/* <Top/> */}
       <About/>
       <RoadMap/>
+      <FAQ/>
      {/*  <div style={{width:'100%',backgroundColor:'#04091a',height:'30px'}}></div>
       <div style={{width:'100%',backgroundColor:'#04091a',display:'flex',justifyContent:'center',height:'auto'}}> */}
       {/* <SimpleImageSlider

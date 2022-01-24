@@ -17,3 +17,7 @@ a {
   margin: 0;
   
 }
+
+:root {
+  --swiper-theme-color: #000;
+}

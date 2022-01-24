@@ -13,7 +13,7 @@ export const About = () => {
             
             <div className={styles.projectDescriptionContainer}>
               <h2 className={styles.bigTitle}  >About The</h2>
-            <h2 className={styles.titles} >MetaDolls</h2><br/>
+            <h2 className={styles.titles} style={{fontWeight:'bold'}}>METADOLLS</h2><br/>
             <p className={styles.titles} data-aos="fade-right">MetaDolls is an NFT Collection Project based 
             on the Polygon network. It's comprised of 7000 randomly generated 3D hyper 
             realistic dolls with the possibility to get a phisical version.

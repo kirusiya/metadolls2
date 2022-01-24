@@ -32,12 +32,20 @@
 .descriptionStyle{
     text-align: left; 
      color: rgb(175, 190, 217);
-     font-family: 'Orbitron';;
+     font-family: 'Orbitron';
+     display:none
+}
+.descriptionStyleactive{
+    text-align: left; 
+     color: rgb(175, 190, 217);
+     font-family: 'Orbitron';
+     display:block
 }
 
 .RoadMapSteps{
     background-color: #04091a;
     padding: 30px;
     margin: 10px;
+    cursor: pointer;
     /* display: block; none */
 }

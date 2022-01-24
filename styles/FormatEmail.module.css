@@ -1,0 +1,31 @@
+.inputGroup {
+    height: 50%;
+    width: 200%;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+  }
+  .inputLabel {
+    text-align: left;
+  }
+  .inputField {
+    height: 30px;
+  }
+
+  .container {
+    min-height: 100vh;
+    padding: 0 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main {
+    padding: 5rem 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }

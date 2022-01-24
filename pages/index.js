@@ -13,6 +13,8 @@ import ManualParallax from '../components/ManualParallax'
 import { About } from '../components/About'
 import SimpleImageSlider from "react-simple-image-slider";
 import RoadMap from '../components/RoadMap'
+import Slider from '../components/Slider'
+import Pixel from '../components/Pixel'
 const images = [
   { url: "Metadoll-02.jpg" },
   { url: "metadoll.jpeg" },
@@ -27,6 +29,8 @@ const images = [
 
 import { Parallax, Background } from "react-parallax";
 import FAQ from '../components/FAQ'
+import FormatEmail from '../components/FormatEmail'
+
 const insideStyles = {
   background: "white",
   padding: 20,
@@ -62,8 +66,18 @@ export default function Home({posts}) {
       <ManualParallax/>
       {/* <Top/> */}
       <About/>
+      <div styles={{
+        padding:'10%',
+    backgroundColor:'#01030d'
+    }}>
+       {/*  <Slider/> */}
+      </div>
+      
       <RoadMap/>
       <FAQ/>
+      <FormatEmail/>
+      <Pixel/>
+     
      {/*  <div style={{width:'100%',backgroundColor:'#04091a',height:'30px'}}></div>
       <div style={{width:'100%',backgroundColor:'#04091a',display:'flex',justifyContent:'center',height:'auto'}}> */}
       {/* <SimpleImageSlider
@@ -128,7 +142,14 @@ export default function Home({posts}) {
 export async function getStaticProps() {
   // Call an external API endpoint to get posts.
   // You can use any data fetching library
-  const res = await fetch('https://api.opensea.io/api/v1/assets?token_ids=27388&token_ids=13856&asset_contract_address=0x60e4d786628fea6478f785a6d7e704777c86a7c6&order_direction=asc&offset=0&limit=20', {method:'GET'})
+  const onLine = {
+    x:1222,
+    y:12221,
+    name:'name',
+    likes:['nft','yellow-news'],
+    email:'carlos.gs.andres@gmail.com'
+  }
+ /*  const res = await fetch('https://api.opensea.io/api/v1/assets?token_ids=27388&token_ids=13856&asset_contract_address=0x60e4d786628fea6478f785a6d7e704777c86a7c6&order_direction=asc&offset=0&limit=20', {method:'GET'}) */
   const posts = []
   
   // By returning { props: { posts } }, the Blog component

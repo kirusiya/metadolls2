@@ -28,7 +28,7 @@ const images = [
 
 
 
-import { Parallax, Background } from "react-parallax";
+
 import FAQ from '../components/FAQ'
 import FormatEmail from '../components/FormatEmail'
 import Team from '../components/Team'
@@ -55,26 +55,20 @@ export default function Home({posts}) {
         <link rel="icon" href="/favicon.ico" />
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"></link>
           
-        <link rel="preconnect" href="https://fonts.googleapis.com"/>
-<link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin=''/>
-<link href="https://fonts.googleapis.com/css2?family=Orbitron" rel="stylesheet"></link>
+
         <script src="https://kit.fontawesome.com/a076d05399.js" crossOrigin="anonymous"></script>
       </Head>
       
       <Nabvar/>
-      {/* <Parallax bgImage={'metadoll.jpeg'} strength={10}>
-      <div style={{ height: '1000px' }}>
-        <div style={insideStyles}>HTML inside the parallax</div>
-      </div>
-    </Parallax> */}
+   
       <ManualParallax/>
-      {/* <Top/> */}
+
       <About/>
       <div styles={{
         padding:'10%',
     backgroundColor:'#01030d'
     }}>
-       {/*  <Slider/> */}
+    
       </div>
       
       <RoadMap/>
@@ -85,62 +79,7 @@ export default function Home({posts}) {
       
       <Team/>
       <Footer/>
-     {/*  <FormatEmail/>
-      <Pixel/>
-    <VideoScrolling/> */}
-     {/*  <div style={{width:'100%',backgroundColor:'#04091a',height:'30px'}}></div>
-      <div style={{width:'100%',backgroundColor:'#04091a',display:'flex',justifyContent:'center',height:'auto'}}> */}
-      {/* <SimpleImageSlider
-        width={'100%'}
-        height={500}
-        images={images}
-        showBullets={true}
-        showNavs={true}
-        autoPlay
-        
-      /> */}
-     {/*  </div>
-      <div> */}
-        
-    {/*   </div> */}
- 
-    
-     {/*  <div className={styles.about}> */}
-     {/*  <CollectionCard id={0} name={'MetaDoll 2'} traits={[{'value':7}]} image={'./Metadoll-02.jpg'}/> */}
-      {/* <a href="#about">
-        aboutdddddddddd
-      </a>
-      <a name='about'>hhhhh</a> */}
-    {/*   </div> */}
-      {/* 
-      <Nabvar/>
-      <Top/>
-     <button></button>
-      <div className={styles.about}>
-      <a href="#about">
-        aboutdddddddddd
-      </a>
-      <a name='about'>hhhhh</a>
-      </div> */}
-      {/* <Header/>
-      <Top/> */}
-      
-      {/* <main className={styles.main}>
-       
-      </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
-      </footer> */}
+     
     </div>
   )
 }
@@ -170,4 +109,6 @@ export async function getStaticProps() {
     },
   }
 }
- 
+ /*         <link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin=''/>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron" rel="stylesheet"></link> */

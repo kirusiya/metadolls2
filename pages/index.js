@@ -5,16 +5,16 @@ import Header from '../components/Header'
 import Video from '../components/Video'
 import Top from '../components/Top'
 import Nabvar from '../components/Nabvar'
-import { motion } from 'framer-motion';
+
 import CollectionCard from '../components/CollectionCard'
 import axios from 'axios'
 import { useState, useEffect } from 'react'
 import ManualParallax from '../components/ManualParallax'
-import { About } from '../components/About'
+import  About from '../components/About'
 import SimpleImageSlider from "react-simple-image-slider";
 import RoadMap from '../components/RoadMap'
-import Slider from '../components/Slider'
-import Pixel from '../components/Pixel'
+
+
 
 const images = [
   { url: "Metadoll-02.jpg" },
@@ -54,16 +54,23 @@ export default function Home({posts}) {
         <meta name="description" content="Metadolls NFT's" />
         <link rel="icon" href="/favicon.ico" />
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"></link>
-          
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin=''/>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron" rel="stylesheet"></link>
 
         <script src="https://kit.fontawesome.com/a076d05399.js" crossOrigin="anonymous"></script>
       </Head>
-      
       <Nabvar/>
-   
       <ManualParallax/>
-
       <About/>
+      <RoadMap/>
+      <FAQ/>
+      <Team/>
+      {/* 
+   
+      
+
+     
       <div styles={{
         padding:'10%',
     backgroundColor:'#01030d'
@@ -71,14 +78,14 @@ export default function Home({posts}) {
     
       </div>
       
-      <RoadMap/>
-      <FAQ/>
+     
+      
       <div className={styles.titleContainer}>
       <h2 className={styles.titleTeam}>Team</h2>
       </div>
       
-      <Team/>
-      <Footer/>
+      
+      <Footer/> */}
      
     </div>
   )

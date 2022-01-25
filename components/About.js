@@ -9,7 +9,7 @@ import 'react-awesome-slider/dist/styles.css';
 
 const AutoplaySlider = withAutoplay(AwesomeSlider);
 
-export const About = () => {
+function About() {
   useEffect(() => {
     AOS.init({
       duration : 2000
@@ -68,3 +68,5 @@ export const About = () => {
         </section>
     )
 }
+
+export default About

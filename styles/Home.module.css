@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
 
- background-color: white;
+  background-color:#01030d;
   min-height: 100vh;
   
   width: 100%;
@@ -16,4 +16,18 @@
   background-color: rgb(0, 0, 0);
   margin-top:-10px;
   padding: 30px;
+}
+.titleContainer{
+  background-color:#01030d;
+}
+.titleTeam{
+  font-family: 'Orbitron';;
+  background: linear-gradient(
+      90deg
+      ,#fe1393,#ffffff);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          text-align: center; 
+  font-size: 1.2rem;
+  font-weight: bold;
 }

@@ -12,7 +12,7 @@ const Nabvar = () => {
     return (
         <nav className={styles.navbar}> 
         
-        <ul style={{marginBottom:'0px',padding:'0px'}}>
+        <ul style={{marginBottom:'0px',padding:'10px'}}>
           
               {/* <div className={styles.frame}>
               
@@ -31,7 +31,7 @@ const Nabvar = () => {
             <li className={toggleMenu ? styles.navbarLinks2 : styles.navbarLinks}><a style={{color: "rgb(0, 162, 255)",fontWeight:'bold'}} href='#'>RoadMap</a></li>
             <li className={toggleMenu ? styles.navbarLinks2 : styles.navbarLinks}><a style={{color: "rgb(0, 162, 255)",fontWeight:'bold'}} href='#'>FAQs</a></li>  
             { size.width>600 ? <button className={["btn btn-primary btn-sm "]}>Join our Discord</button> : null }
-            <div styles={{width:'10px'}}>Meta@</div>
+          
             {/* <button className="btn btn-primary m-3">Join our Discord</button>
             <a href="https://discord.com/invite/mekaverse" name="discordnav" rel="noopener" target="_blank" class="discord row"></a> */}
         </ul>

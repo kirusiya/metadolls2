@@ -15,6 +15,7 @@ import SimpleImageSlider from "react-simple-image-slider";
 import RoadMap from '../components/RoadMap'
 import Slider from '../components/Slider'
 import Pixel from '../components/Pixel'
+
 const images = [
   { url: "Metadoll-02.jpg" },
   { url: "metadoll.jpeg" },
@@ -30,6 +31,9 @@ const images = [
 import { Parallax, Background } from "react-parallax";
 import FAQ from '../components/FAQ'
 import FormatEmail from '../components/FormatEmail'
+import Team from '../components/Team'
+import  VideoScrolling from '../components/VideoScrolling'
+import { Footer } from '../components/Footer'
 
 const insideStyles = {
   background: "white",
@@ -75,9 +79,15 @@ export default function Home({posts}) {
       
       <RoadMap/>
       <FAQ/>
-      <FormatEmail/>
+      <div className={styles.titleContainer}>
+      <h2 className={styles.titleTeam}>Team</h2>
+      </div>
+      
+      <Team/>
+      <Footer/>
+     {/*  <FormatEmail/>
       <Pixel/>
-     
+    <VideoScrolling/> */}
      {/*  <div style={{width:'100%',backgroundColor:'#04091a',height:'30px'}}></div>
       <div style={{width:'100%',backgroundColor:'#04091a',display:'flex',justifyContent:'center',height:'auto'}}> */}
       {/* <SimpleImageSlider

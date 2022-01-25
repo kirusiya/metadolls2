@@ -2,6 +2,13 @@ import React,{useEffect} from 'react'
 import styles from '../styles/About.module.css'
 import AOS from 'aos'
 
+import AwesomeSlider from 'react-awesome-slider';
+
+import withAutoplay from 'react-awesome-slider/dist/autoplay';
+import 'react-awesome-slider/dist/styles.css';
+
+const AutoplaySlider = withAutoplay(AwesomeSlider);
+
 export const About = () => {
   useEffect(() => {
     AOS.init({
@@ -10,7 +17,7 @@ export const About = () => {
   }, []);
     return (
         <section className={styles.aboutContainer}>
-            
+          
             <div className={styles.projectDescriptionContainer}>
               <h2 className={styles.bigTitle}  >About The</h2>
             <h2 className={styles.titles} style={{fontWeight:'bold'}}>METADOLLS</h2><br/>
@@ -42,7 +49,19 @@ export const About = () => {
             {/* <div className={styles.randomImageContainer}>
            
             </div> */}
-             <img data-aos="fade-up" className={styles.imageSection} src={'metadoll.jpeg'}/>
+             <AutoplaySlider
+             className={styles.aja}
+    play={true}
+    cancelOnInteraction={false} // should stop playing on user interaction
+    interval={500}
+  >
+    <div data-src="metadoll.jpeg" />
+    <div data-src="Metadoll-02.jpg" />
+    <div data-src="weth.png" />
+  </AutoplaySlider>
+
+            {/*  <img data-aos="fade-up" className={styles.imageSection} src={'metadoll.jpeg'}/>
+            
              {/*  <div className={styles.randomImagePicker}>
                 <img className={styles.imageSection}>  </img>
             </div> */}

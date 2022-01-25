@@ -33,7 +33,7 @@ import FAQ from '../components/FAQ'
 import FormatEmail from '../components/FormatEmail'
 import Team from '../components/Team'
 import  VideoScrolling from '../components/VideoScrolling'
-import { Footer } from '../components/Footer'
+import Footer  from '../components/Footer'
 
 const insideStyles = {
   background: "white",

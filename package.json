@@ -19,7 +19,7 @@
     "next": "12.0.7",
     "nodemailer": "^6.7.2",
     "react": "17.0.2",
-    "react-awesome-slider": "^4.1.0",
+   
     "react-dom": "17.0.2",
     "react-parallax": "^3.3.0",
     "react-simple-image-slider": "^2.3.0",

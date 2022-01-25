@@ -1,13 +1,13 @@
 import React,{useEffect} from 'react'
 import styles from '../styles/About.module.css'
 import AOS from 'aos'
-
+/* 
 import AwesomeSlider from 'react-awesome-slider';
 
 import withAutoplay from 'react-awesome-slider/dist/autoplay';
 import AwesomeSliderStyles from "react-awesome-slider/dist/styles.css?raw";
 
-const AutoplaySlider = withAutoplay(AwesomeSlider);
+const AutoplaySlider = withAutoplay(AwesomeSlider); */
 
 function About() {
   useEffect(() => {

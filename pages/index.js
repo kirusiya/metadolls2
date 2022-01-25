@@ -13,7 +13,7 @@ import ManualParallax from '../components/ManualParallax'
 import  About from '../components/About'
 import SimpleImageSlider from "react-simple-image-slider";
 import RoadMap from '../components/RoadMap'
-
+import Script from 'next/script'
 
 
 const images = [
@@ -58,7 +58,7 @@ export default function Home({posts}) {
 <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin=''/>
 <link href="https://fonts.googleapis.com/css2?family=Orbitron" rel="stylesheet"></link>
 
-        <script src="https://kit.fontawesome.com/a076d05399.js" crossOrigin="anonymous"></script>
+        <Script src="https://kit.fontawesome.com/a076d05399.js" crossOrigin="anonymous"></Script>
       </Head>
       <Nabvar/>
       <ManualParallax/>

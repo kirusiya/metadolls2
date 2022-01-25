@@ -49,8 +49,8 @@ function About() {
             {/* <div className={styles.randomImageContainer}>
            
             </div> */}
-             <AutoplaySlider
-             /* className={styles.aja} */
+            {/*  <AutoplaySlider
+            
     play={true}
     cancelOnInteraction={false} // should stop playing on user interaction
     interval={500}
@@ -58,7 +58,7 @@ function About() {
     <div data-src="metadoll.jpeg" />
     <div data-src="Metadoll-02.jpg" />
     <div data-src="weth.png" />
-  </AutoplaySlider>
+  </AutoplaySlider> */}
 
             {/*  <img data-aos="fade-up" className={styles.imageSection} src={'metadoll.jpeg'}/>
             

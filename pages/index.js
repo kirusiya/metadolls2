@@ -116,3 +116,14 @@ export async function getStaticProps() {
 <link href="https://fonts.googleapis.com/css2?family=Orbitron" rel="stylesheet"></link>
 
         <script src="https://kit.fontawesome.com/a076d05399.js" crossOrigin="anonymous"></script> */
+
+
+        /* 
+         https://www.instagram.com/metadollsnft/ 
+        discord.gg/fMhpdrKRDG
+        Top Link twitter discord
+        Adding document fix 
+        Video Player 
+        discord.gg/fMhpdrKRDG
+        '.4 real wolrd
+        */

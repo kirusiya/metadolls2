@@ -32,7 +32,6 @@ const images = [
 import FAQ from '../components/FAQ'
 import FormatEmail from '../components/FormatEmail'
 import Team from '../components/Team'
-import  VideoScrolling from '../components/VideoScrolling'
 import Footer  from '../components/Footer'
 
 const insideStyles = {
@@ -53,7 +52,7 @@ export default function Home({posts}) {
         <title>Metadolls NFT's</title>
         <meta name="description" content="Metadolls NFT's" />
         <link rel="icon" href="/favicon.ico" />
-      
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron" rel="stylesheet"/>
       </Head>
       <Nabvar/>
       <ManualParallax/>

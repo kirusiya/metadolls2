@@ -50,7 +50,7 @@ function About() {
            
             </div> */}
              <AutoplaySlider
-             className={styles.aja}
+             /* className={styles.aja} */
     play={true}
     cancelOnInteraction={false} // should stop playing on user interaction
     interval={500}

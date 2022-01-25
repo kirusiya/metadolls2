@@ -1,4 +1,4 @@
-export default function (req, res) {
+export default function contact (req, res) {
   let nodemailer = require("nodemailer");
 
   console.log(req.body);

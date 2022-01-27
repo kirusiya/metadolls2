@@ -1,4 +1,7 @@
-
+.logitos{
+    height: 35px;
+    width: 35px;
+}
 .navbar{
    
    z-index: 100000;

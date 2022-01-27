@@ -129,7 +129,7 @@ export async function getStaticProps() {
 
         /* 
          https://www.instagram.com/metadollsnft/ 
-        discord.gg/fMhpdrKRDG
+        https://discord.com/invite/fMhpdrKRDG
         Top Link twitter discord
         Adding document fix 
         Video Player 

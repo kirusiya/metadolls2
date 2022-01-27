@@ -56,7 +56,7 @@ export default function Home({posts}) {
       </Head>
       <Nabvar/>
       <ManualParallax/>
-      <div className={styles.caption}>
+      <div className={styles.caption} onClick={()=>window.open("https://discord.com/invite/fMhpdrKRDG")}>
                 <span className={styles.border} data-aos="fade-up"
      data-aos-anchor-placement="bottom-bottom">Join Now</span>
                </div>

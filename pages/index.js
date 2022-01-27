@@ -14,7 +14,7 @@ import  About from '../components/About'
 import SimpleImageSlider from "react-simple-image-slider";
 import RoadMap from '../components/RoadMap'
 import Script from 'next/script'
-
+import GsapVideo from '../components/GsapVideo'
 
 const images = [
   { url: "Metadoll-02.jpg" },
@@ -60,6 +60,7 @@ export default function Home({posts}) {
       <RoadMap/>
       <FAQ/>
       <Team/>
+      <GsapVideo/>
       {/* 
    
       

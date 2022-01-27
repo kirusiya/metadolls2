@@ -18,7 +18,7 @@
     display: flex;
     width: 100%;
     align-items: center;
-    background-color:white
+    background-color: transparent;
     /* rgba(255, 165, 0, 0.73); */
    /*  background-color:white;
     color: white; */

@@ -12,7 +12,7 @@ const Nabvar = () => {
     return (
         <nav className={styles.navbar}> 
         
-        <ul style={{marginBottom:'0px',paddingRight:'50px',background:'none'}}>
+        <ul style={{marginBottom:'0px',paddingRight:'50px'}}>
           
               {/* <div className={styles.frame}>
               

@@ -27,8 +27,8 @@ const Nabvar = () => {
             console.log(toggleMenu)}}><img src='menu.png' className={styles.menuLogo}/></li>
             {/* <li className={toggleMenu ? styles.navbarLinks2 : styles.navbarLinks}><a href='#'></a></li> */}
             {/* <li onClick={()=>{imprimir()}} className={toggleMenu ? styles.navbarLinks2 : styles.navbarLinks}><a href='#'>Join to Discord</a></li> */}
-            <li className={toggleMenu ? styles.navbarLinks2 : styles.navbarLinks}><a target="_blank" href="https://www.instagram.com/metadollsnft/"><img src={'twitter.png'} className={styles.logitos}/></a></li>
-            <li className={toggleMenu ? styles.navbarLinks2 : styles.navbarLinks}><a target="_blank" href="https://www.instagram.com/metadollsnft/"><img src={'instagram.png'} className={styles.logitos}/></a></li>
+            <li className={toggleMenu ? styles.navbarLinks2 : styles.navbarLinks}><a target="_blank" rel="noopener"  href="https://www.instagram.com/metadollsnft/"><img src={'twitter.png'} className={styles.logitos}/></a></li>
+            <li className={toggleMenu ? styles.navbarLinks2 : styles.navbarLinks}><a target="_blank" rel="noopener" href="https://www.instagram.com/metadollsnft/"><img src={'instagram.png'} className={styles.logitos}/></a></li>
             {/* <li className={toggleMenu ? styles.navbarLinks2 : styles.navbarLinks}><a style={{color: "rgb(0, 162, 255)",fontWeight:'bold'}} href='#about'>About</a></li>
             <li className={toggleMenu ? styles.navbarLinks2 : styles.navbarLinks}><a style={{color: "rgb(0, 162, 255)",fontWeight:'bold'}} href='#'>RoadMap</a></li> */}
             <li className={toggleMenu ? styles.navbarLinks2 : styles.navbarLinks}><a style={{color: "rgb(0, 162, 255)",fontWeight:'bold'}} href='#'></a></li>  

@@ -1,6 +1,7 @@
 .RoadMapContainer{
-    padding:10%;
+    padding: 0 40px;
     background-color:#01030d;
+    margin-top:50px;
 }
 .RoadMapTitle{
     background: linear-gradient(
@@ -9,7 +10,7 @@
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             text-align: center; 
-    font-size: 1.2rem;
+            font-size: 1.5rem;
     font-weight: bold;
 }
 
@@ -44,8 +45,10 @@
 
 .RoadMapSteps{
     background-color: #04091a;
-    padding: 30px;
+   
     margin: 10px;
     cursor: pointer;
+   
+    padding: 20px;
     /* display: block; none */
 }

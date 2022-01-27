@@ -63,6 +63,9 @@ export default function Home({posts}) {
       <About/>
       <RoadMap/>
       <FAQ/>
+      <div className={styles.titleContainer}>
+      <h2 className={styles.titleTeam}>Team</h2>
+      </div>
       <Team/>
       <GsapVideo/>
       {/* 

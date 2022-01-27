@@ -36,18 +36,19 @@ const RoadMap = () => {
       <div className={styles.RoadMapSteps} data-aos="zoom-in">
         <h2 className={styles.RoadMapTitle}>RoadMap</h2>
         <p className={styles.RoadMapIntro}>
-          "Rebellion against the perfect blonde is inked on my skin and in the
-          color of my hair." - **MetaDoll** 0001
+        "Rebellion against the perfect blonde is inked on my skin and in the color of my hair." - MetaDoll 0003
+
         </p>
-        <p className={styles.numerStyle}>.01 Whitelist</p>
+        <p className={styles.numerStyle}>.01 Community Creation and Whitelist</p>
         <ul>
           <li className={styles.descriptionStyle}>
             {" "}
             1000 spots and elegible for 2 MetaDolls per wallet
           </li>
-          <li className={styles.descriptionStyle}> We’ll be dropping</li>
+          <li className={styles.descriptionStyle}> We’ll be dropping Whitelist spots for our community across all social media and on our discord server weekly until we reach 500. After we reach 500, we will reveal the rest of whitelist spots the day before minting.
+g</li>
         </ul>
-        <p className={styles.descriptionStyle}>
+       {/*  <p className={styles.descriptionStyle}>
           Lets run this together, follow the path to freedom
           <br />
           <br />
@@ -63,18 +64,18 @@ const RoadMap = () => {
           <p className={styles.numerStyle}>Discord</p>
           <p className={styles.numerStyle}>Twitter</p>
           <p className={styles.numerStyle}>OpenSea</p>
-        </div>
-        <form className={styles.main} onSubmit={(e)=>handleSubmit(e)}>
+        </div> */}
+        {/* <form className={styles.main} onSubmit={(e)=>handleSubmit(e)}>
       
         <formgroup className={styles.inputGroup}>
-         {/*  <label  className={styles.numerStyle} htmlFor="email">Email</label> */}
+       
           <input required  placeholder="Email " type="email" name="email" className={styles.input} 
           onChange={(e)=>{setEmail(e.target.value)}}
            />
         </formgroup>
        
         <input className={styles.numerStyle} style={{margin:'20px'}} type="submit"  value="Enter Whitelist"/>
-        </form>
+        </form> */}
       </div>
       <div className={styles.RoadMapSteps} data-aos="zoom-in">
         <p className={styles.numerStyle}>.02 Main Drop</p>

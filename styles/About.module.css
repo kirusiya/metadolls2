@@ -28,7 +28,7 @@ margin: 40px;
     display: flex;
     flex-direction: row;
     /* max-width: 1160px; */
-    padding: 0 80px;
+    padding: 0 40px;
     margin: auto;
    
     background-color:#01030d;
@@ -63,7 +63,7 @@ flex-wrap: wrap;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             text-align: left; 
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     font-weight: bold;
            
 }

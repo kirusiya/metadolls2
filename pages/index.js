@@ -68,7 +68,7 @@ export default function Home({posts}) {
       <Team/>
       <FAQ/>
       
-      <GsapVideo/>
+     {/*  <GsapVideo/> */}
       {/* 
    
       

@@ -6,7 +6,7 @@ import Video from '../components/Video'
 import Top from '../components/Top'
 import Nabvar from '../components/Nabvar'
 
-import CollectionCard from '../components/CollectionCard'
+/* import CollectionCard from '../components/CollectionCard' */
 import axios from 'axios'
 import { useState, useEffect } from 'react'
 import ManualParallax from '../components/ManualParallax'

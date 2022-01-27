@@ -21,7 +21,9 @@ const Nabvar = () => {
           
           
             <li className={styles.navbarLogo}><img src='image2.jpeg' style={{width:'120px'}}/> {/* {size.width}px / {size.height}px */}</li>
-            { size.width<600 ? <button className={["btn btn-primary btn-sm"]}>Discord</button> : null }
+            { size.width<600 ? <button className={["btn btn-primary btn-sm"]}
+             onClick={()=>{window.open("https://discord.com/invite/fMhpdrKRDG")}}
+            >Discord</button> : null }
             <li className={styles.navbarToggle} onClick={()=>{setToggleMenu(!toggleMenu)
             console.log('ajaamamm')
             console.log(toggleMenu)}}><img src='menu.png' className={styles.menuLogo}/></li>

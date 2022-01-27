@@ -7,8 +7,8 @@ function ManualParallax() {
            
            <div className={styles.bgimg}>
          
-               <p className={styles.metaText}>"People look at me like "the perfect Doll" and I want much more than that..." - MetaDoll 0001
-</p>
+               {/* <p className={styles.metaText}>"People look at me like "the perfect Doll" and I want much more than that..." - MetaDoll 0001
+</p> */}
                {/* <div className={styles.caption}>
                 <span className={styles.border} data-aos="fade-up"
      data-aos-anchor-placement="bottom-bottom">Join Now</span>

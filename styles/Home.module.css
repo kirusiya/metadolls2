@@ -33,6 +33,15 @@
   font-weight: bold;
 }
 
+.metaText{
+ 
+  width:100%;
+  font-weight: bold;
+  color: #eff0f6;
+  font-family: 'Orbitron';;
+  font-size: 1.5rem;
+  padding:20px;}
+
 .caption{
   margin-top: 40px;
   text-align: center;

@@ -57,6 +57,8 @@ export default function Home({posts}) {
       <Nabvar/>
       <ManualParallax/>
       <div className={styles.caption} onClick={()=>window.open("https://discord.com/invite/fMhpdrKRDG")}>
+      <p className={styles.metaText}>"People look at me like "the perfect Doll" and I want much more than that..." - MetaDoll 0001
+</p>
                 <span className={styles.border} data-aos="fade-up"
      data-aos-anchor-placement="bottom-bottom">Join Now</span>
                </div>

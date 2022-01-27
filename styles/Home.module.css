@@ -68,3 +68,20 @@
 
   
 }
+
+/* .bigContainer{
+  max-width: 1160px;
+  padding: 0 80px;
+  width:  50%;
+  margin: 0 auto
+}
+ */
+@media (min-width: 1700px){
+  .bigContainer{
+    max-width: 1160px;
+    padding: 0 80px;
+    width: 50%;
+     margin: 0 auto
+  }
+  
+}

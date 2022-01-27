@@ -1,0 +1,20 @@
+.footerContainer{
+  
+        align-self: center;
+        
+        
+        /* max-width: 1160px;
+        ; */
+        
+       
+}
+.logoFooter{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+   
+
+}
+.rights{
+    color: white;
+}

@@ -12,7 +12,7 @@ const Nabvar = () => {
     return (
         <nav className={styles.navbar}> 
         
-        <ul style={{marginBottom:'0px',padding:'10px'}}>
+        <ul style={{marginBottom:'0px',paddingRight:'50px',background:'none'}}>
           
               {/* <div className={styles.frame}>
               
@@ -20,7 +20,7 @@ const Nabvar = () => {
               </div> */}
           
           
-            <li className={styles.navbarLogo}><img src='image2.jpeg' style={{width:'120px'}}/> {/* {size.width}px / {size.height}px */}</li>
+            <li className={styles.navbarLogo}><img src='image2.png' style={{width:'120px'}}/> {/* {size.width}px / {size.height}px */}</li>
             { size.width<600 ? <button className={["btn btn-primary btn-sm"]}
              onClick={()=>{window.open("https://discord.com/invite/fMhpdrKRDG")}}
             >Discord</button> : null }

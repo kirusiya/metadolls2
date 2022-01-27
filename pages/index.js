@@ -56,6 +56,7 @@ export default function Home({posts}) {
       </Head>
       <Nabvar/>
       <ManualParallax/>
+      <div className={styles.bigContainer}>
       <div className={styles.caption} onClick={()=>window.open("https://discord.com/invite/fMhpdrKRDG")}>
       <p className={styles.metaText}>"People look at me like "the perfect Doll" and I want much more than that..." - MetaDoll 0001
 </p>
@@ -69,7 +70,8 @@ export default function Home({posts}) {
       </div>
       <Team/>
       <FAQ/>
-      
+      <Footer/>
+      </div>
      {/*  <GsapVideo/> */}
       {/* 
    

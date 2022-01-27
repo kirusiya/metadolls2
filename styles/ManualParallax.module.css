@@ -26,7 +26,7 @@
 
     object-fit: cover;
     bottom: 0;
-    /* clip-path: polygon(0 0,100% 0,100% 88%,50% 100%,0 88%); */
+    clip-path: polygon(0 0,100% 0,100% 88%,50% 100%,0 88%);
     
    
     padding: 0 0 0 0;
@@ -35,10 +35,11 @@
 .caption{
     position: absolute;
     left: 0;
-    top: 95%;
+    top:0%;
     width: 100%;
     text-align: center;
     color:#000;
+   
   
     
 }
@@ -47,7 +48,7 @@
     text-align: center;
     position: absolute;
     left: 0;
-    top:100%;
+    top: 65%;
     width:100%;
     font-weight: bold;
     color: #eff0f6;
@@ -107,7 +108,7 @@ and (max-height:873px) and (min-width:2000px) and (max-width:3400px){
 @media (max-width: 600px){
     .metaText{
         font-size: 20px;
-        top: 80%;
+        top: 65%;
     }
    /*  .metaText{
         position: absolute;
@@ -117,7 +118,9 @@ and (max-height:873px) and (min-width:2000px) and (max-width:3400px){
         color: white;
         text-align: center;
     } */
+.caption{
 
+}
     
 .caption .border{
     background-color: #111;
@@ -125,6 +128,7 @@ and (max-height:873px) and (min-width:2000px) and (max-width:3400px){
     padding: 15px;
     font-size: 14px;
     letter-spacing: 10px;
+  
 }
 .imgMetadoll{
     width: 100%;

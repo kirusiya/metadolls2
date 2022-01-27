@@ -17,7 +17,7 @@ function About() {
   }, []);
     return (
         <section className={styles.aboutContainer}>
-          
+         {/*  */}
             <div className={styles.projectDescriptionContainer}>
               <h2 className={styles.bigTitle}  >About The</h2>
             <h2 className={styles.titles} style={{fontWeight:'bold'}}>METADOLLS</h2><br/>

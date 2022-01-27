@@ -31,3 +31,30 @@
   font-size: 1.2rem;
   font-weight: bold;
 }
+
+.caption{
+  margin-top: 40px;
+  text-align: center;
+}
+
+.caption .border{
+
+ 
+  color: #fe1393;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+  font-family: 'Orbitron';;
+  /* display:inline-block; */
+ /*  color:#444; */
+  /* border:1px solid #CCC; */
+/*   background:#DDD; */
+/*   box-shadow: 0 0 5px -1px rgba(0,0,0,0.2); */
+  cursor:pointer;
+  vertical-align:middle;
+  max-width: 100px;
+/*   padding: 5px; */
+  text-align: center;
+
+  
+}

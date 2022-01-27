@@ -56,6 +56,10 @@ export default function Home({posts}) {
       </Head>
       <Nabvar/>
       <ManualParallax/>
+      <div className={styles.caption}>
+                <span className={styles.border} data-aos="fade-up"
+     data-aos-anchor-placement="bottom-bottom">Join Now</span>
+               </div>
       <About/>
       <RoadMap/>
       <FAQ/>

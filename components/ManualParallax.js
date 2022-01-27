@@ -10,10 +10,10 @@ function ManualParallax() {
                <p className={styles.metaText}>"All people look at me like "the perfect Doll"
 and I want more than that..."
 - MetaDoll 0001</p>
-               <div className={styles.caption}>
+               {/* <div className={styles.caption}>
                 <span className={styles.border} data-aos="fade-up"
      data-aos-anchor-placement="bottom-bottom">Join Now</span>
-               </div>
+               </div> */}
          
                </div>
            {/* <div className={styles.section}>

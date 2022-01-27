@@ -26,7 +26,7 @@
 
     object-fit: cover;
     bottom: 0;
-    clip-path: polygon(0 0,100% 0,100% 88%,50% 100%,0 88%);
+    /* clip-path: polygon(0 0,100% 0,100% 88%,50% 100%,0 88%); */
     
    
     padding: 0 0 0 0;
@@ -35,11 +35,10 @@
 .caption{
     position: absolute;
     left: 0;
-    top: 85%;
+    top: 95%;
     width: 100%;
     text-align: center;
     color:#000;
-   
   
     
 }
@@ -48,7 +47,7 @@
     text-align: center;
     position: absolute;
     left: 0;
-    top: 65%;
+    top:100%;
     width:100%;
     font-weight: bold;
     color: #eff0f6;
@@ -108,7 +107,7 @@ and (max-height:873px) and (min-width:2000px) and (max-width:3400px){
 @media (max-width: 600px){
     .metaText{
         font-size: 20px;
-        top: 65%;
+        top: 80%;
     }
    /*  .metaText{
         position: absolute;

@@ -70,7 +70,7 @@ export default function Home({posts}) {
       </div>
       <Team/>
       <FAQ/>
-      <JoinCommunity/>
+      {/* <JoinCommunity/> */}
       <Footer/>
       </div>
      {/*  <GsapVideo/> */}

@@ -12,7 +12,7 @@ const Nabvar = () => {
     return (
         <nav className={styles.navbar}> 
         
-        <ul style={{marginBottom:'0px',paddingRight:'50px'}}>
+        <ul style={{margin:'0px',padding:'0px'}}>
           
               {/* <div className={styles.frame}>
               
@@ -20,20 +20,31 @@ const Nabvar = () => {
               </div> */}
           
           
-            <li className={styles.navbarLogo}><img src='logoheader.png' style={{width:'120px'}}/> {/* {size.width}px / {size.height}px */}</li>
-            { size.width<600 ? <button className={["btn btn-primary btn-sm"]}
+            <li className={styles.navbarLogo}>
+              <img className={styles.LogoPrincipal} src='logoheader.png' />
+              <li className={styles.topHeaderTitles} >
+                <a 
+             
+               href='#about'>About</a>
+               </li>
+               <li className={styles.topHeaderTitles} ><a  href='#'>RoadMap</a></li>
+               <li className={styles.topHeaderTitles} ><a href='#'>FAQs</a></li>
+            
+             </li>
+         
+            { size.width<600 ? <img src="discordv.png"  className={styles.logitos}
              onClick={()=>{window.open("https://discord.com/invite/fMhpdrKRDG")}}
-            >Discord</button> : null }
-            <li className={styles.navbarToggle} onClick={()=>{setToggleMenu(!toggleMenu)
+             />: null }
+           {/*  <li className={styles.navbarToggle} onClick={()=>{setToggleMenu(!toggleMenu)
             console.log('ajaamamm')
-            console.log(toggleMenu)}}><img src='menu.png' className={styles.menuLogo}/></li>
+            console.log(toggleMenu)}}><img src='menu.png' className={styles.menuLogo}/></li> */}
             {/* <li className={toggleMenu ? styles.navbarLinks2 : styles.navbarLinks}><a href='#'></a></li> */}
             {/* <li onClick={()=>{imprimir()}} className={toggleMenu ? styles.navbarLinks2 : styles.navbarLinks}><a href='#'>Join to Discord</a></li> */}
-            <li className={toggleMenu ? styles.navbarLinks2 : styles.navbarLinks}><a target="_blank"  rel="noopener noreferrer"  href="https://www.instagram.com/metadollsnft/"><img src={'twitter.png'} className={styles.logitos}/></a></li>
-            <li className={toggleMenu ? styles.navbarLinks2 : styles.navbarLinks}><a target="_blank"  rel="noopener noreferrer" href="https://www.instagram.com/metadollsnft/"><img src={'instagram.png'} className={styles.logitos}/></a></li>
+           <img src={'twitterv.png'} className={styles.logitos}/>
+           <img src={'instagram.png'} className={styles.logitos}/>
             {/* <li className={toggleMenu ? styles.navbarLinks2 : styles.navbarLinks}><a style={{color: "rgb(0, 162, 255)",fontWeight:'bold'}} href='#about'>About</a></li>
             <li className={toggleMenu ? styles.navbarLinks2 : styles.navbarLinks}><a style={{color: "rgb(0, 162, 255)",fontWeight:'bold'}} href='#'>RoadMap</a></li> */}
-            <li className={toggleMenu ? styles.navbarLinks2 : styles.navbarLinks}><a style={{color: "rgb(0, 162, 255)",fontWeight:'bold'}} href='#'></a></li>  
+            
             { size.width>600 ? <button className={["btn btn-primary btn-sm "]} onClick={()=>{window.open("https://discord.com/invite/fMhpdrKRDG")}}>Join our Discord</button> : null }
           
             {/* <button className="btn btn-primary m-3">Join our Discord</button>

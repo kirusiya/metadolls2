@@ -33,7 +33,7 @@ import FAQ from '../components/FAQ'
 import FormatEmail from '../components/FormatEmail'
 import Team from '../components/Team'
 import Footer  from '../components/Footer'
-
+import NavBarv1 from '../components/NavBarv1'
 const insideStyles = {
   background: "white",
   padding: 20,
@@ -54,6 +54,7 @@ export default function Home({posts}) {
         <link rel="icon" href="/favicon.ico" />
         <link href="https://fonts.googleapis.com/css2?family=Orbitron" rel="stylesheet"/>
       </Head>
+      {/* <NavBarv1/> */}
       <Nabvar/>
       <ManualParallax/>
       <div className={styles.bigContainer}>

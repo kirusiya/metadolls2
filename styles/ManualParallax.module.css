@@ -7,26 +7,28 @@
     background-repeat: no-repeat;
     background-size: cover;
     
-   bottom: 0px;
+   
     
 }
 
 .metadollContainer{
-    background-color: #01030d
+    background-color: rgb(250,182,255);
+    padding-top:0px;
+    margin:0px;
 }
 
 .bgimg{
     background-image: url("../public/Metadoll-005-min.png") ;
   /*  min-height: 120vh;  */
    /*  min-height: 80vh; */
-   min-height: 60vh;
+   min-height: 80vh;
   /*  background-size:100%; */
   
   
 
     object-fit: cover;
     bottom: 0;
-    clip-path: polygon(0 0,100% 0,100% 88%,50% 100%,0 88%);
+   /*  clip-path: polygon(0 0,100% 0,100% 88%,50% 100%,0 88%); */
     
    
     padding: 0 0 0 0;

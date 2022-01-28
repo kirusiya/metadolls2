@@ -1,11 +1,16 @@
 .logitos{
     height: 35px;
     width: 35px;
+    margin-right: 20px;
 }
 .navbar{
    
    z-index: 100000;
-   position: relative;
+   display: flex;
+   position: absolute;
+   background-color: transparent;
+   width: 100%;
+   padding-right: 20px;
 }
 .menuLogo{
     width: 15px;
@@ -18,7 +23,7 @@
     display: flex;
     width: 100%;
     align-items: center;
-    background-color:white;
+   
     /* background-color: transparent; */
     /* rgba(255, 165, 0, 0.73); */
    /*  background-color:white;
@@ -27,7 +32,7 @@
 
 .navbar li {
     list-style-type: none;
-    padding: 1.5rem;
+    padding:0rem;
 }
 
 .navbar a {
@@ -37,11 +42,16 @@
 
 
 .navbarLogo{
-    flex: 1;
+  display: flex;
+  flex: 1;
     font-size: 1.5rem;
     user-select: none;
     color: black;
     font-family: fantasy;
+    background-color: transparent;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 30px;
 
 }
 
@@ -76,9 +86,24 @@
         display:none
     }
 } */
-
+.LogoPrincipal{
+    width: 200px;
+}
 
 @media (max-width: 600px){
+    
+    .LogoPrincipal{
+        width: 120px;
+    }
+    .logitos{
+        height: 25px;
+        width: 25px;
+        margin-right: 20px;
+    }
+    .topHeaderTitles{
+       
+        display: none;
+     }
     .navbar ul{     
         flex-wrap: wrap;
     }
@@ -88,12 +113,13 @@
     .navbarLinks{
         width: 100%;
         text-align: center;
-        display:none
+        display: block;
+        
     }
     .navbarLinks2{
         width: 100%;
         text-align: center;
-        display:block
+        display:none
     }
 
     .navbar li {
@@ -151,3 +177,9 @@
     
 } */
 
+
+.topHeaderTitles{
+   font-family: "Orbitron" ;
+   font-size:1.2rem;
+   margin-left:10px;
+}

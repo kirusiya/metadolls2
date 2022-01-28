@@ -1,0 +1,15 @@
+.NavBarContainer{
+   z-index: 100000;
+   position: absolute;
+   display: flex;
+   font-size: 30px;
+ top: 0;
+ right: 50%;
+background-color: tr;
+
+
+}
+
+.leftContainer{
+    background-color: transparent;
+}

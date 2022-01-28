@@ -1,6 +1,7 @@
 import React,{useEffect} from 'react'
 import styles from '../styles/About.module.css'
 import AOS from 'aos'
+import Slider from "react-slick";
 /* 
 import AwesomeSlider from 'react-awesome-slider';
 
@@ -10,6 +11,13 @@ import AwesomeSliderStyles from "react-awesome-slider/dist/styles.css?raw";
 const AutoplaySlider = withAutoplay(AwesomeSlider); */
 
 function About() {
+  var settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1
+  };
   useEffect(() => {
     AOS.init({
       duration : 2000
@@ -45,6 +53,27 @@ function About() {
 </p>
              <p className={styles.bigTitle} style={{textAlign:'center'}} > !We are on the Whitelist!</p>
             </div>
+
+           {/*  <Slider {...settings}>
+      <div>
+        <h3>1</h3>
+      </div>
+      <div>
+        <h3>2</h3>
+      </div>
+      <div>
+        <h3>3</h3>
+      </div>
+      <div>
+        <h3>4</h3>
+      </div>
+      <div>
+        <h3>5</h3>
+      </div>
+      <div>
+        <h3>6</h3>
+      </div>
+    </Slider> */}
             {/* <div className={styles.randomImageContainer}>
            
             </div> */}

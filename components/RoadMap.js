@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import styles from "../styles/RoadMap.module.css";
 import AOS from "aos";
+import { Background } from "react-parallax";
 
 const RoadMap = () => {
   const [email, setEmail] = useState("");
@@ -86,10 +87,10 @@ g</li>
         </ul>
         <p className={styles.descriptionStyle}></p>
       </div>
-      <div className={styles.RoadMapSteps} data-aos="zoom-in">
+      <div className={styles.RoadMapSteps} style={{backgroundColor:'black'}} data-aos="zoom-in">
         <p className={styles.numerStyle}>.03 DAO </p>
         <ul>
-          <li className={styles.descriptionStyle}>
+          <li className={styles.descriptionStyle} >
             {" "}
             We’ll be building a DAO with all MetaDoll holders to develop our community shaped just as the community wants.
              We believe that these NFT projects should add value to the community not only through amazing art but also 
@@ -101,14 +102,14 @@ g</li>
             {" "}
             We have a lot already prepared. And we will present options for development, given the success of the project itself.
 
-          </li>
+          </li>{/*  */}
         </ul>
         <p className={styles.descriptionStyle}></p>
       </div>
-      <div className={styles.RoadMapSteps} data-aos="zoom-in">
-        <p className={styles.numerStyle}>.04 Real World </p>
+      <div className={styles.RoadMapSteps}  style={{backgroundColor:'black'}} data-aos="zoom-in">
+        <p className={styles.numerStyle }  >.04 Real World </p>
         <ul>
-          <li className={styles.descriptionStyle}>
+          <li className={styles.descriptionStyle}  >
             {" "}
             Boutique for real world hand made MetaDolls with real jewelry, tattoos, hair dye and accessories only accessible to NFT Holders.
 

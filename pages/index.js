@@ -142,3 +142,5 @@ export async function getStaticProps() {
         discord.gg/fMhpdrKRDG
         '.4 real wolrd
         */
+
+        /* https://greensock.com/forums/topic/14206-full-screen-a-div/ */

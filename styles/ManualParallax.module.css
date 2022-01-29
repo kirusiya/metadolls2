@@ -28,7 +28,7 @@
 
     object-fit: cover;
     bottom: 0;
-   /*  clip-path: polygon(0 0,100% 0,100% 88%,50% 100%,0 88%); */
+    /* clip-path: polygon(0 0,100% 0,100% 88%,50% 100%,0 88%); */
     
    
     padding: 0 0 0 0;
@@ -89,11 +89,11 @@
 }
 @media screen and (min-width:500px) and (max-width:1400px) and (min-height:500px) 
 and (max-height:700px){
-    .bgimg{background-size: 40%} 
+    .bgimg{background-size: 80%} 
 }
-@media screen and (min-height:873px) 
-and (max-height:1400px) and (min-width:1400px) and (max-width:2000px){
-    .bgimg{background-size: 70%} 
+@media screen and (min-height:400px) 
+and (max-height:1400px) and (min-width:1100px) and (max-width:2000px){
+    .bgimg{background-size: 51%} 
 }
 @media screen and (min-height:873px) 
 and (max-height:1400px) and (min-width:2000px) and (max-width:3400px){

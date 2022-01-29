@@ -42,10 +42,17 @@ const insideStyles = {
   left: "50%",
   transform: "translate(-50%,-50%)"
 };
+
+
+
+import ImageSlider from "../components/ImageSlider";
+import { IMAGES, VIDEOS, LARGE_IMAGES } from "../data/data";
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 export default function Home({posts}) {
   
  console.log(posts)
-
+ 
   return (
     <div className={styles.container}>
       <Head>
@@ -53,6 +60,8 @@ export default function Home({posts}) {
         <meta name="description" content="Metadolls NFT's" />
         <link rel="icon" href="/favicon.ico" />
         <link href="https://fonts.googleapis.com/css2?family=Orbitron" rel="stylesheet"/>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
       </Head>
       {/* <NavBarv1/> */}
       <Nabvar/>
@@ -65,6 +74,22 @@ export default function Home({posts}) {
      data-aos-anchor-placement="bottom-bottom">Join Now</span>
                </div>
       <About/>
+      
+    {/*  <ImageSlider images={IMAGES} slidesToShow={1} /> */}
+     
+        <ImageSlider images={LARGE_IMAGES} />
+    
+    
+
+{/* <div className={styles.container}>
+        <ImageSlider images={IMAGES} slidesToShow={5} />
+      </div>
+      <div className={styles.container}>
+        <ImageSlider images={VIDEOS} />
+      </div>
+      <div className={styles.container}>
+        <ImageSlider images={LARGE_IMAGES} />
+      </div> */}
       <RoadMap/>
       <div className={styles.titleContainer}>
       <h2 className={styles.titleTeam}>Team</h2>
@@ -95,7 +120,7 @@ export default function Home({posts}) {
       
       
       <Footer/> */}
-     
+   
     </div>
   )
 }

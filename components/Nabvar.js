@@ -29,7 +29,7 @@ const Nabvar = () => {
                </li>
                <li className={styles.topHeaderTitles} ><a  href='#'>RoadMap</a></li>
                <li className={styles.topHeaderTitles} ><a href='#'>FAQs</a></li>
-            <p>{size.width + ' w/h'}{size.height}</p>
+           {/*  <p>{size.width + ' w/h'}{size.height}</p> */}
              </li>
          
             { size.width<600 ? <img src="discordv.png"  className={styles.logitos}

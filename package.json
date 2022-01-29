@@ -24,6 +24,7 @@
     "react-simple-image-slider": "^2.3.0",
     "react-slick": "^0.28.1",
     "scrollmagic": "^2.0.8",
+    "slick-carousel": "^1.8.1",
     "styled-components": "^5.3.3",
     "swiper": "^7.4.1"
   },

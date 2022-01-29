@@ -1,7 +1,7 @@
 import React,{useEffect} from 'react'
 import styles from '../styles/About.module.css'
 import AOS from 'aos'
-import Slider from "react-slick";
+
 /* 
 import AwesomeSlider from 'react-awesome-slider';
 
@@ -11,7 +11,7 @@ import AwesomeSliderStyles from "react-awesome-slider/dist/styles.css?raw";
 const AutoplaySlider = withAutoplay(AwesomeSlider); */
 
 function About() {
-  var settings = {
+  const settings = {
     dots: true,
     infinite: true,
     speed: 500,
@@ -53,7 +53,25 @@ function About() {
 </p>
              <p className={styles.bigTitle} style={{textAlign:'center'}} > !We are on the Whitelist!</p>
             </div>
-
+          
+           {/*  <div className={styles.randomImageContainer}> */}
+              {/* ZW1w */}
+            
+    {/* </div> */}
+            {/* <div className={styles.randomImageContainer}>
+           
+            </div> */}
+            {/*  <AutoplaySlider
+            
+    play={true}
+    cancelOnInteraction={false} // should stop playing on user interaction
+    interval={500}
+  >
+    <div data-src="metadoll.jpeg" />
+    <div data-src="Metadoll-02.jpg" />
+    <div data-src="weth.png" />
+  </AutoplaySlider>
+            </div>
            {/*  <Slider {...settings}>
       <div>
         <h3>1</h3>

@@ -73,7 +73,7 @@ const ImageSlider = ({ images, slidesToShow = 3 }) => {
           key={image.id}
         >
           <div className={styles.slideWrapper}>
-            {image.code ? image.code : <img src={image.src} alt={image.alt} style={{width:'300px'}}/>}
+            {image.code ? image.code : <img src={image.src} alt={image.alt} style={{maxWidth:'300px'}}/>}
           </div>
         </div>
       );

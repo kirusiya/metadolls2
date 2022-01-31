@@ -20,6 +20,12 @@ const PrevArrow = ({ onClick }) => {
   );
 };
 
+/* Plataforma donde compras un Nft y tienes acceso a material exclusivo de las marcas, solo si holdeas
+NFT y marca personal, Si holdeas a mis NFTS tienes acceso a descuentos, regalias etc.
+NFT podrian ser las inversiones del futuro con contratos inteligentes
+
+Ej NFTs UFC and watch all the figths in one platform if you are a holder you can get disscounts, like a club NFT is like to be in a footbal club
+*/
 const ImageSlider = ({ images, slidesToShow = 3 }) => {
   const [imageIndex, setImageIndex] = useState(0);
 
@@ -37,7 +43,10 @@ const ImageSlider = ({ images, slidesToShow = 3 }) => {
     focusOnSelect: true,
    /*  nextArrow: <NextArrow onClick />, */
   /*   prevArrow: <PrevArrow onClick />, */
-    beforeChange: (current, next) => setImageIndex(next),
+    beforeChange: (current, next) => {
+        console.log(current);
+        console.log(next)
+        setImageIndex(next)},
     responsive: [
       {
         breakpoint: 1490,
@@ -64,7 +73,7 @@ const ImageSlider = ({ images, slidesToShow = 3 }) => {
           key={image.id}
         >
           <div className={styles.slideWrapper}>
-            {image.code ? image.code : <img src={image.src} alt={image.alt} />}
+            {image.code ? image.code : <img src={image.src} alt={image.alt} style={{width:'300px'}}/>}
           </div>
         </div>
       );

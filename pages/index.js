@@ -74,11 +74,11 @@ export default function Home({posts}) {
      data-aos-anchor-placement="bottom-bottom">Join Now</span>
                </div>
       <About/>
-      
-    {/*  <ImageSlider images={IMAGES} slidesToShow={1} /> */}
-     
-        <ImageSlider images={LARGE_IMAGES} />
     
+     <ImageSlider images={IMAGES} slidesToShow={1} />
+    
+      {/*   <ImageSlider images={LARGE_IMAGES} />
+     */}
     
 
 {/* <div className={styles.container}>

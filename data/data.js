@@ -1,45 +1,51 @@
 export const IMAGES = [
     {
       id: 1,
-      src: "image.png",
+      src:"Metadoll-005-min.png",
       alt: "Placeholder image",
     },
     {
       id: 2,
-      src: "image.png",
+      src: "Metadoll-02.jpg",
       alt: "Placeholder image",
     },
     {
       id: 3,
-      src: "image.png",
+      src: "metadoll.jpeg",
       alt: "Placeholder image",
     },
     {
-      id: 4,
-      src: "image.png",
-      alt: "Placeholder image",
-    },
+        id: 4,
+        src: "Metadoll-003-min.png",
+        alt: "Placeholder image",
+      },
     {
       id: 5,
-      src: "image.png",
+      src: "Metadoll-003-min.jpg",
+      alt: "Placeholder image",
+    },
+   
+    {
+      id: 6,
+      src: "Metadoll-004-min.png",
       alt: "Placeholder image",
     },
     {
-      id: 6,
-      src: "image.png",
-      alt: "Placeholder image",
-    },
+        id: 7,
+        src: "Banner Join Our Discord Website-min.png",
+        alt: "Placeholder image",
+      },
   ];
   
   export const LARGE_IMAGES = [
     {
       id: 1,
-      src: "image.png",
+      src: "metadoll.jpeg",
       alt: "Placeholder image",
     },
     {
       id: 2,
-      src: "image.png",
+      src: "Metadoll-02.jpg",
       alt: "Placeholder image",
     },
     {

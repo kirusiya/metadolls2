@@ -68,6 +68,12 @@
 
   
 }
+/* .bigContainer{
+  max-width: 1125px;
+  padding: 0 80px;
+  width:  50%;
+  margin: 0 auto
+} */
 
 /* .bigContainer{
   max-width: 1160px;
@@ -78,10 +84,10 @@
  */
 @media (min-width: 1700px){
   .bigContainer{
-    max-width: 1160px;
-    padding: 0 80px;
-    width: 50%;
-     margin: 0 auto
+   max-width: 1330px;
+  padding: 0 80px;
+  /* width:  50%; */
+  margin: 0 auto
   }
   
 }

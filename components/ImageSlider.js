@@ -7,7 +7,7 @@ import styles from '../styles/ImageSlider.module.css'
 const NextArrow = ({ onClick }) => {
   return (
     <div className={styles.nextArrow} onClick={onClick}>
-      Rigth
+     {/*  Rigth */}
     </div>
   );
 };
@@ -15,7 +15,7 @@ const NextArrow = ({ onClick }) => {
 const PrevArrow = ({ onClick }) => {
   return (
     <div className={styles.prevArrow}  onClick={onClick}>
-      Left
+     {/*  Left */}
     </div>
   );
 };
@@ -41,8 +41,8 @@ const ImageSlider = ({ images, slidesToShow = 3 }) => {
     centerPadding: "0",
     swipeToSlide: true,
     focusOnSelect: true,
-   /*  nextArrow: <NextArrow onClick />, */
-  /*   prevArrow: <PrevArrow onClick />, */
+    nextArrow: <NextArrow onClick />,
+    prevArrow: <PrevArrow onClick />,
     beforeChange: (current, next) => {
         console.log(current);
         console.log(next)

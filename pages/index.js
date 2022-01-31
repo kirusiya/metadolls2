@@ -76,7 +76,7 @@ export default function Home({posts}) {
                </div>
       <About/>
     
-     <ImageSlider images={IMAGES} slidesToShow={1} />
+     {/* <ImageSlider images={IMAGES} slidesToShow={1} /> */}
     
       {/*   <ImageSlider images={LARGE_IMAGES} />
      */}

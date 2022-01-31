@@ -35,7 +35,7 @@ const ImageSlider = ({ images, slidesToShow = 3 }) => {
     className: "center",
     centerMode: true,
     infinite: true,
-    dots: false,
+    dots: true,
     speed: 300,
     slidesToShow: slidesToShow,
     centerPadding: "0",

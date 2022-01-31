@@ -82,11 +82,11 @@
   margin: 0 auto
 }
  */
-@media (min-width: 1700px){
+@media (min-width: 1160px){
   .bigContainer{
    max-width: 1330px;
   padding: 0 80px;
-  /* width:  50%; */
+  
   margin: 0 auto
   }
   

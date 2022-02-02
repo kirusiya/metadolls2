@@ -64,48 +64,8 @@ const PrevArrow = ({ onClick }) => {
   );
 };
 
-function appendDots(dots) {
-  return (
-    <div
-      style={{
-        
-        height: "20px",
-        backgroundColor: "white",
-        alignSelf: "center",
-        display:'flex',
-        justifyContent:'space-between',
-        alignItems:'center'
-        
-      }}
-    >
-        <div style={{height:'3px',width:'5px',backgroundColor:'red'}}>
-        </div>
-        <div style={{height:'3px',width:'5px',backgroundColor:'red'}}>
-        </div>
-        <div style={{height:'3px',width:'5px',backgroundColor:'red'}}>
-        </div>
-        <div style={{height:'3px',width:'5px',backgroundColor:'red'}}>
-        </div>
-        <div style={{height:'3px',width:'5px',backgroundColor:'red'}}>
-        </div>
-        <div style={{height:'3px',width:'5px',backgroundColor:'red'}}>
-        </div>
-    </div>
-  );
-}
 
-{
-  /* <div style={{  backgroundColor:'white'}}>
-        <ul style={{ margin: "3px",  borderRadius:'0px' ,height}}> {dots} </ul>
-      </div> */
-}
 
-const renderSlides = () =>
-  [1, 2, 3, 4, 5, 6, 7, 8].map((num) => (
-    <div>
-      <h3>Slide {num}</h3>
-    </div>
-  ));
 /* Plataforma donde compras un Nft y tienes acceso a material exclusivo de las marcas, solo si holdeas
 NFT y marca personal, Si holdeas a mis NFTS tienes acceso a descuentos, regalias etc.
 NFT podrian ser las inversiones del futuro con contratos inteligentes

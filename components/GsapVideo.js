@@ -4,7 +4,7 @@ const GsapVideo = () => {
         <div>
         <div id="background-container" className={styles.backgroundContainer}>
     <div id="video-container" className={styles.videoContainer}>
-      <video src="bg.mp4" type="video/mp4" id="bgVideo"></video>
+      <video src="helmet.mp4" type="video/mp4" id="bgVideo"></video>
     </div>
   </div>
   <div id="scroll-container" className={styles.scrollContainer}>

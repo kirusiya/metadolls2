@@ -29,27 +29,36 @@ function About() {
             <div className={styles.projectDescriptionContainer}>
               <h2 className={styles.bigTitle}  >About The</h2>
             <h2 className={styles.titles} style={{fontWeight:'bold'}}>METADOLLS</h2><br/>
-            <p className={styles.titles} data-aos="fade-right">MetaDolls is an NFT Collection Project based 
-            on the Polygon network. It's made up of 7000 randomly generated 3D hyper 
-            realistic dolls with the possibility to get a phisical version.
-            <br/><br/>It’s a proposal which combines pop culture, the nostalgic “Doll” concept
-             and the NFT technology to expose the body as the  blend among all instances of 
-             culture where it is possible to set our own identity and to  build our own language from there.
+            <p className={styles.titles} data-aos="fade-right">MetaDolls is an NFT Collection Project based on
+             the Polygon network. it is made up 7000 randomly generated 3D hyper realistic dolls with 
+             the possibility to obtain a physical version.
+
+            <br/><br/>It’s a proposal which combines pop culture, the nostalgic “Doll” 
+            concept and the NFT technology to expose the body as the blend among all
+             instances of culture where it is possible to set our own identity and to 
+              build our own language from there.
+
 
             
             </p>
-            <div style={{display:'flex',width:'100%', justifyContent:'space-between',alignItems:'center',}}>
+            {/* <div style={{display:'flex',width:'100%', justifyContent:'space-between',alignItems:'center',}}>
             <p className={styles.bigTitle} > Join now</p>
             <p className={styles.bigTitle} > Discord</p>
-            </div>
+            </div> */}
            
             <p className={styles.titles} data-aos="fade-right"> 
-            <br/>The MetaDolls have built a metaverse of artistic expressions through the changes in 
-            their body. Face Tatts, Nose rings, golden chains, meme tatts on their shoulders,
-             mohawks are examples of ways how MetaDolls have decided to express themselves.
-            <br/><br/>Not only would you be getting an NFT but by owning our MetaDolls you would
-             be eligible to get a physical version of your Doll later on through an exclusive digital
-              boutique only accessible to those wallets holding an NFT. 
+            <br/>The MetaDolls have built a metaverse of artistic expressions 
+            through the changes in their body. Face Tatts, Nose rings, golden
+             chains, meme tatts on their shoulders, mohawks are examples of ways
+              how MetaDolls have decided to express themselves.
+
+            <br/><br/>Not only would you be getting an NFT but by owning our MetaDolls you would be eligible 
+            to get a physical version of your Doll later on through an exclusive 
+            digital boutique only accessible to those wallets holding an NFT. 
+            <br/><br/>Our utility doesn’t stop there. We will be building a Tattoo shop
+             on the metaverse where you can bring your NFTs from our or other collections 
+             and give them Tattoos and Body modification. As a Holder you can expect airdropped art 
+
 </p>
              <p className={styles.bigTitle} style={{textAlign:'center'}} > !We are on the Whitelist!</p>
             </div>

@@ -4,6 +4,11 @@ export const IMAGES = [
       src:"Metadoll-005-min.png",
       alt: "Placeholder image",
     },
+    {
+        id: 2,
+        src:"Metadoll-005-min.png",
+        alt: "Placeholder image",
+      },
    /*  {
       id: 2,
       src: "Metadoll-02.jpg",
@@ -15,7 +20,7 @@ export const IMAGES = [
       alt: "Placeholder image",
     }, */
     {
-        id: 4,
+        id: 3,
         src: "Metadoll-003-min.png",
         alt: "Placeholder image",
       },
@@ -26,7 +31,7 @@ export const IMAGES = [
     }, */
    
     {
-      id: 6,
+      id:4,
       src: "Metadoll-004-min.png",
       alt: "Placeholder image",
     },
@@ -35,6 +40,11 @@ export const IMAGES = [
         src: "Banner Join Our Discord Website-min.png",
         alt: "Placeholder image",
       }, */
+      {
+        id: 5,
+        src: "Metadoll-004-min.png",
+        alt: "Placeholder image",
+      },
   ];
   
   export const LARGE_IMAGES = [

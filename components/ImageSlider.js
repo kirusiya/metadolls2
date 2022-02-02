@@ -119,6 +119,7 @@ const ImageSlider = ({ images, slidesToShow = 3 }) => {
     if (image !== null) {
       return (
         <div
+         key={idx}
           className={idx === imageIndex ? styles.activeSlide : styles.slide}
           key={image.id}
         >

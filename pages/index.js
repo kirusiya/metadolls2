@@ -55,7 +55,7 @@ export default function Home({posts}) {
  
   return (
     <div className={styles.container}>
-      
+      <Script strategy="beforeInteractive" src="https://unpkg.com/aos@2.3.1/dist/aos.js"></Script>
       <Head>
         <title>Metadolls NFT's</title>
         <meta name="description" content="Metadolls NFT's" />
@@ -133,7 +133,6 @@ export default function Home({posts}) {
 export async function getStaticProps() {
   // Call an external API endpoint to get posts.
   // You can use any data fetching library
-  <Script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></Script>
   const onLine = {
     x:1222,
     y:12221,

@@ -18,3 +18,12 @@
 .rights{
     color: white;
 }
+
+
+@media (min-width: 500px) {
+    .joinCommunityContainer {  min-height:65vh; }
+    .footerContainer{
+        padding-bottom: 300px;
+   }
+
+  }

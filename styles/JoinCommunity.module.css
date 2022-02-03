@@ -1,19 +1,28 @@
 .joinCommunityContainer{
-    background-image: url("../public/Metadoll-005-min.png") ;
+    background-image: url("../public/Banner Join Our Discord Website-min.png") ;
     position: relative;
     background-attachment: fixed;
     background-position:center;
     background-repeat: no-repeat;
     background-size: contain;
     
-    min-height:150vh;
+    min-height:100vh;
   /*  background-size:100%; */
   
     clip-path: polygon(0 0,100% 0,100% 88%,50% 100%,0 88%);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin: 0 40px;
+ font-family: 'Orbitron';
+ font-weight: bold;
 
 }
 
-
+@media (min-width: 500px) {
+    .joinCommunityContainer {  min-height:65vh; }
+    
+  }
 
 /* button */
 

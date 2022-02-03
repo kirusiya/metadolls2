@@ -101,7 +101,7 @@ export default function Home({posts}) {
     <br/>
     <br/>
       <FAQ/>
-      {/* <JoinCommunity/> */}
+      <JoinCommunity/>
       <Footer/>
       </div>
       <div style={{position:'relative', left:'300px'}}>

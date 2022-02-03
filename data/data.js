@@ -1,12 +1,12 @@
 export const IMAGES = [
     {
       id: 1,
-      src:"Metadoll-005-min.png",
+      src:"metadoll-min.jpeg",
       alt: "Placeholder image",
     },
     {
         id: 2,
-        src:"Metadoll-005-min.png",
+        src:"Metadoll-005-min.jpg",
         alt: "Placeholder image",
       },
    /*  {
@@ -21,7 +21,7 @@ export const IMAGES = [
     }, */
     {
         id: 3,
-        src: "Metadoll-003-min.png",
+        src: "Metadoll-02-min.jpg",
         alt: "Placeholder image",
       },
    /*  {
@@ -32,7 +32,7 @@ export const IMAGES = [
    
     {
       id:4,
-      src: "Metadoll-004-min.png",
+      src: "Metadoll-003.jpg",
       alt: "Placeholder image",
     },
    /*  {
@@ -42,7 +42,7 @@ export const IMAGES = [
       }, */
       {
         id: 5,
-        src: "Metadoll-004-min.png",
+        src: "Metadoll-004.jpg",
         alt: "Placeholder image",
       },
   ];

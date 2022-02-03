@@ -7,22 +7,17 @@
 
 
 .RoadMapContainer{
-  
-    background-color:#01030d;
+    background-color:black;
+   /*  background-color:#01030d; */
    flex-direction: row;
     display: flex;
-
+    padding: 0 40px;
    
    
 }
 .RoadMapTitle{
     font-family: 'Orbitron';
-    background: linear-gradient(
-        90deg
-        ,#fe1393,#fe1393);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            text-align: center; 
+    color:white;
     font-size: 1.5rem;
     font-weight: bold;
     text-align: left;
@@ -34,9 +29,10 @@
     color: rgb(175, 190, 217);
     font-family: 'Orbitron';
     text-align: center;
-    
-    width: 55.55%;
-    margin-left: 11.11%;
+    width: 67.7%;
+    margin-left: 11.11%
+
+   
     
 }
 
@@ -57,7 +53,7 @@
     font-family: 'Orbitron';;
     text-align: left; 
      color: rgb(175, 190, 217);
-     width: 55.55%;
+     width: 67.7%;
     margin-left: 11.11%
 }
 

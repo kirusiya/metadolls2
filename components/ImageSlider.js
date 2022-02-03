@@ -28,7 +28,7 @@ const Wrapper = styled.div`
       margin: 20px 5px;
       & button {
         border: none;
-        background: rgb(1, 170, 170);
+        background:#fe1393;
         color: transparent;
         cursor: pointer;
         display: block;

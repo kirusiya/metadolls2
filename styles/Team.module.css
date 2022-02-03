@@ -1,12 +1,21 @@
+.titleTeam{
+font-family: 'Orbitron';
+    color:white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: left;
+    padding: 20px;
+    
+}
 .gridCoiner {
-   
-    background-color:#01030d;
+  /* background-color:#01030d; */
+    background-color:black;
    
     /* padding: 0 40px; */
   margin:0px;
   display: grid;
-  
-  padding: 0 40px;
+
+ /*  padding: 0 40px; */
   }
   .memberTeamInfo {
     background-color: #04091a;
@@ -31,13 +40,27 @@
   .descriptionContainer{
     margin-left: 25px;
   }
+  .description1{
+    font-family: 'Orbitron';;
+  
+    
+     font-family: 'Orbitron';
+    
+     text-align: left;
+     
+     color: rgb(175, 190, 217);
+    }
   .description{
     font-family: 'Orbitron';;
-    text-align: left; 
-     color: rgb(175, 190, 217);
- 
- 
+    text-align: left;
+    
+     font-family: 'Orbitron';
+    
+     width: 90%;
+   
     }
+ 
+  
  
     @media (max-width:600px) {
         

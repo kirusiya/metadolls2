@@ -93,10 +93,13 @@ export default function Home({posts}) {
         <ImageSlider images={LARGE_IMAGES} />
       </div> */}
       <RoadMap/>
-      <div className={styles.titleContainer}>
-      <h2 className={styles.titleTeam}>Team</h2>
-      </div>
+    <br/>
+    <br/>
+    <br/>
       <Team/>
+      <br/>
+    <br/>
+    <br/>
       <FAQ/>
       {/* <JoinCommunity/> */}
       <Footer/>

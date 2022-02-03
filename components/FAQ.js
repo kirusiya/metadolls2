@@ -25,7 +25,7 @@ The body is represented by the Dolls, iconic objects fabricated in mass and regi
             </div>
 
             <div className={styles.RoadMapSteps} data-aos="zoom-in" onClick={()=>{toggleArray(1)}}>
-                <p className={styles.numerStyle}>**Who is the artist?**</p>
+                <p className={styles.numerStyle}>Who is the artist?</p>
                 <p  className={toggleFAQ[1] ? styles.descriptionStyleactive : styles.descriptionStyle}>This project is created by colombian artist Alejandro Rincón, tattoo artist for over 7 years. It explores the link and effect that tattoos have in the construction of our identity now a days.
 
 The body is represented by the Dolls, iconic objects fabricated in mass and registered in series, which results comparable to the characteristics of human condition in today's world. Additionally the tattoo is done over the inorganic base as an artistic expression and a form of customization, which offers a way of identification or differentiation.</p>
@@ -41,7 +41,7 @@ The body is represented by the Dolls, iconic objects fabricated in mass and regi
                 <p  className={toggleFAQ[3] ? styles.descriptionStyleactive : styles.descriptionStyle}>3%</p>
             </div>
             <div className={styles.RoadMapSteps} data-aos="zoom-in" onClick={()=>{toggleArray(4)}}>
-                <p className={styles.numerStyle}>**Which blockchain is the collection going to be minted at?**</p>
+                <p className={styles.numerStyle}>Which blockchain is the collection going to be minted at?</p>
                 <p  className={toggleFAQ[4] ? styles.descriptionStyleactive : styles.descriptionStyle}>We chose Polygon for this dies project. We believe strongly on Ethereum as a Layer 1 for everything awesome that is happening with the growing development and artistic community and Polygon is a great layer 2 solution to reduce gas fees and increase current adoption.</p>
             </div>
             <div className={styles.RoadMapSteps} data-aos="zoom-in" onClick={()=>{toggleArray(5)}}>

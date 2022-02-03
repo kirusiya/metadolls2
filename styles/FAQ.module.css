@@ -1,17 +1,19 @@
 .RoadMapContainer{
-    padding: 0 40px;
-    background-color:#01030d;
-    margin-top:50px;
+    
+    margin: 0 40px;
+    /* background-color:#01030d; */
+    background-color:#04091a;
+    
+   
 }
 .RoadMapTitle{
-    background: linear-gradient(
-        90deg
-        ,#fe1393,#fe1393);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            text-align: center; 
-            font-size: 1.5rem;
+    font-family: 'Orbitron';
+    color:white;
+    font-size: 1.5rem;
     font-weight: bold;
+    text-align: left;
+    padding: 20px;
+    
 }
 
 
@@ -20,6 +22,7 @@
 }
 
 .numerStyle{
+    font-family: 'Orbitron';
     background: linear-gradient(
         90deg
         ,#fe1393,#ffffff);

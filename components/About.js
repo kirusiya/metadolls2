@@ -28,7 +28,7 @@ function About() {
          {/*  */}
             <div className={styles.projectDescriptionContainer}>
               <h2 className={styles.bigTitle}  >About The</h2>
-            <h2 className={styles.titles} style={{fontWeight:'bold'}}>METADOLLS</h2><br/>
+            <h2 className={styles.titles2} style={{fontWeight:'bold'}}>METADOLLS</h2><br/>
             <p className={styles.titles} data-aos="fade-right">MetaDolls is an NFT Collection Project based on
              the Polygon network. it is made up 7000 randomly generated 3D hyper realistic dolls with 
              the possibility to obtain a physical version.

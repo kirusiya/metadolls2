@@ -37,7 +37,8 @@ const RoadMap = () => {
      
       <div>
       <div className={styles.RoadMapSteps} data-aos="zoom-in" style={{position:'relative'}}>
-        <h2 className={styles.RoadMapTitle}>RoadMap</h2>
+        <h2 className={styles.RoadMapTitle}>ROADMAP</h2>
+        <br/>
         <p className={styles.RoadMapIntro}>
         "Rebellion against the perfect blonde is inked on my skin and in the color of my hair." - MetaDoll 0003
 

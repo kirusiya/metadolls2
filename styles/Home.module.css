@@ -46,22 +46,22 @@
 .caption{
   margin-top: 40px;
   text-align: center;
-  background-color: ;
+ 
 }
 
 .caption .border{
-
+  background-color:white;
  
   color: #fe1393;
   padding: 18px;
   font-size: 25px;
   letter-spacing: 10px;
-  font-family: 'Orbitron';;
-  /* display:inline-block; */
- /*  color:#444; */
-  /* border:1px solid #CCC; */
-/*   background:#DDD; */
-/*   box-shadow: 0 0 5px -1px rgba(0,0,0,0.2); */
+  font-family: 'Orbitron';
+  font-weight: bold;
+  
+  border:1px solid #CCC;
+  background: #04091a;
+  box-shadow: 0 0 5px -1px rgba(0,0,0,0.2);
   cursor:pointer;
   vertical-align:middle;
   max-width: 100px;

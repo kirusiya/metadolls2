@@ -34,10 +34,8 @@ const RoadMap = () => {
   }, []);
   return (
     <div className={styles.RoadMapContainer}>
-      <div className={styles.metavid} style={{position:'absolute',zIndex:0,left: '55.7%',top:'200x'}}>
-      <GsapVideo/>
-      </div>
-      
+     
+      <div>
       <div className={styles.RoadMapSteps} data-aos="zoom-in" style={{position:'relative'}}>
         <h2 className={styles.RoadMapTitle}>RoadMap</h2>
         <p className={styles.RoadMapIntro}>
@@ -137,6 +135,10 @@ g</li>
           <li className={styles.descriptionStyle}> Coming Soon.</li>
         </ul>
         <p className={styles.descriptionStyle}></p>
+      </div>
+      </div>
+      <div className={styles.metavid} style={{}}>
+      <GsapVideo/>
       </div>
     </div>
   );

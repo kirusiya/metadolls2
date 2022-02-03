@@ -9,8 +9,9 @@
 .RoadMapContainer{
   
     background-color:#01030d;
-  
-   
+   flex-direction: row;
+    display: flex;
+
    
    
 }

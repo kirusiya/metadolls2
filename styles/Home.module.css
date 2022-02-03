@@ -35,8 +35,6 @@
 }
 
 .metaText{
- 
-  width:100%;
   font-weight: bold;
   color: #eff0f6;
   font-family: 'Orbitron';;
@@ -46,7 +44,7 @@
 .caption{
   margin-top: 40px;
   text-align: center;
-  
+  padding:20px 50px;
 }
 
 .caption .border{

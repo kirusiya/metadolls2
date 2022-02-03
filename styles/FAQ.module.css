@@ -2,7 +2,7 @@
     
     margin: 0 40px;
     /* background-color:#01030d; */
-    background-color:#04091a;
+    background-color:black;
     
    
 }
@@ -12,8 +12,8 @@
     font-size: 1.5rem;
     font-weight: bold;
     text-align: left;
-    padding: 20px;
-    
+   
+    margin-bottom: 20px;
 }
 
 
@@ -49,7 +49,7 @@
 .RoadMapSteps{
     background-color: #04091a;
    
-    margin: 10px;
+    margin-bottom: 10px;
     cursor: pointer;
    
     padding: 20px;

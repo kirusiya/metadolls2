@@ -10,9 +10,10 @@ const FAQ = () => {
         }
     return (
         <section className={styles.RoadMapContainer}>
-            <h2 className={styles.RoadMapTitle}>FAQ</h2>
+           
             
             <div className={styles.RoadMapSteps} data-aos="zoom-in"  onClick={()=>{toggleArray(0)}}>
+            <h2 className={styles.RoadMapTitle}>FAQ</h2>
                 <p className={styles.numerStyle}>How was the project born?</p>
                 <p  className={toggleFAQ[0] ? styles.descriptionStyleactive : styles.descriptionStyle}>This project is created by colombian artist Alejandro Rincón, tattoo artist for over 7 years. It explores the link and effect that tattoos have in the construction of our identity nowadays.
 The body is represented by the Dolls, iconic objects fabricated in mass and registered in series, which results comparable to the characteristics of human condition in today's world. Additionally the tattoo is done over the inorganic base as an artistic expression and a form of customization, which offers a way of identification or differentiation.

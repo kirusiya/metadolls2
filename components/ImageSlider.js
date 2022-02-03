@@ -93,8 +93,8 @@ const ImageSlider = ({ images, slidesToShow = 3 }) => {
     nextArrow: <NextArrow onClick />,
     prevArrow: <PrevArrow onClick />,
     beforeChange: (current, next) => {
-      console.log(current);
-      console.log(next);
+      /* console.log(current);
+      console.log(next); */
       setImageIndex(next);
     },
     responsive: [

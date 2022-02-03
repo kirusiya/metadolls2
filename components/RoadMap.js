@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import styles from "../styles/RoadMap.module.css";
 import AOS from "aos";
 import { Background } from "react-parallax";
-
+import GsapVideo from './GsapVideo'
 const RoadMap = () => {
   const [email, setEmail] = useState("");
 
@@ -33,8 +33,12 @@ const RoadMap = () => {
     });
   }, []);
   return (
-    <section className={styles.RoadMapContainer}>
-      <div className={styles.RoadMapSteps} data-aos="zoom-in">
+    <div className={styles.RoadMapContainer}>
+      <div className={styles.metavid} style={{position:'absolute',zIndex:0,left: '55.7%',top:'200x'}}>
+      <GsapVideo/>
+      </div>
+      
+      <div className={styles.RoadMapSteps} data-aos="zoom-in" style={{position:'relative'}}>
         <h2 className={styles.RoadMapTitle}>RoadMap</h2>
         <p className={styles.RoadMapIntro}>
         "Rebellion against the perfect blonde is inked on my skin and in the color of my hair." - MetaDoll 0003
@@ -134,7 +138,7 @@ g</li>
         </ul>
         <p className={styles.descriptionStyle}></p>
       </div>
-    </section>
+    </div>
   );
 };
 

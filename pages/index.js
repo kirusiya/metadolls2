@@ -14,7 +14,7 @@ import  About from '../components/About'
 import SimpleImageSlider from "react-simple-image-slider";
 import RoadMap from '../components/RoadMap'
 import Script from 'next/script'
-import GsapVideo from '../components/GsapVideo'
+
 import JoinCommunity from '../components/JoinCommunity'
 const images = [
   { url: "Metadoll-02.jpg" },
@@ -49,18 +49,19 @@ import ImageSlider from "../components/ImageSlider";
 import { IMAGES, VIDEOS, LARGE_IMAGES } from "../data/data";
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+
 export default function Home({posts}) {
-  
+ 
  console.log(posts)
  
   return (
     <div className={styles.container}>
-      <Script strategy="beforeInteractive" src="https://unpkg.com/aos@2.3.1/dist/aos.js"></Script>
+      <Script  strategy="afterInteractive" src="https://unpkg.com/aos@2.3.1/dist/aos.js"></Script>
       <Head>
         <title>Metadolls NFT's</title>
         <meta name="description" content="Metadolls NFT's" />
         <link rel="icon" href="/favicon.ico" />
-        <link href='https://fonts.googleapis.com/css2?family=Orbitron&display=optional' rel="stylesheet"/>
+        <link href='https://fonts.googleapis.com/css2?family=Orbitron&display=swap' rel="stylesheet" />
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
 
       </Head>
@@ -100,7 +101,9 @@ export default function Home({posts}) {
       {/* <JoinCommunity/> */}
       <Footer/>
       </div>
-     {/*  <GsapVideo/> */}
+      <div style={{position:'relative', left:'300px'}}>
+      
+      </div>
       {/* 
    
       

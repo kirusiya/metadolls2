@@ -50,7 +50,7 @@ The body is represented by the Dolls, iconic objects fabricated in mass and regi
                 <p  className={toggleFAQ[5] ? styles.descriptionStyleactive : styles.descriptionStyle}> Mid Feb. </p>
             </div>
             <div className={styles.RoadMapSteps} data-aos="zoom-in" onClick={()=>{toggleArray(6)}}>
-                <p className={styles.numerStyle}>What is the phisical doll?</p>
+                <p className={styles.numerStyle}>What is the physical doll?</p>
                 <p  className={toggleFAQ[6] ? styles.descriptionStyleactive : styles.descriptionStyle}>We will be launching a digital boutique on the metaverse only accesible to **MetaDoll** holders. There you would be able to purchase a hand made physical version of your Doll with the actual tattoos, jewelry made out of gold, platinum, swarosky and a variety of other things. </p>
             </div>
            

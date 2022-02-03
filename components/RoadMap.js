@@ -49,7 +49,7 @@ const RoadMap = () => {
             1000 spots and elegible for 2 MetaDolls per wallet
           </li>
           <li className={styles.descriptionStyle}> We’ll be dropping Whitelist spots for our community across all social media and on our discord server weekly until we reach 500. After we reach 500, we will reveal the rest of whitelist spots the day before minting.
-g</li>
+</li>
         </ul>
        {/*  <p className={styles.descriptionStyle}>
           Lets run this together, follow the path to freedom
@@ -89,10 +89,10 @@ g</li>
         </ul>
         <p className={styles.descriptionStyle}></p>
       </div>
-      <div className={styles.RoadMapSteps} style={{backgroundColor:'rgb(1, 170, 170)'}} data-aos="zoom-in">
-        <p className={styles.numerStyleSpecialCase}>.03 DAO </p>
+      <div className={styles.RoadMapSteps}  data-aos="zoom-in">
+        <p className={styles.numerStyle}>.03 DAO </p>
         <ul>
-          <li className={styles.descriptionStyleSpecialCase} >
+          <li className={styles.descriptionStyle} >
             {" "}
             We’ll be building a DAO with all MetaDoll holders to develop our community shaped just as the community wants.
              We believe that these NFT projects should add value to the community not only through amazing art but also 
@@ -100,7 +100,7 @@ g</li>
               of values and goals.
 
           </li>
-          <li className={styles.descriptionStyleSpecialCase}>
+          <li className={styles.descriptionStyle}>
             {" "}
             We have a lot already prepared. And we will present options for development, given the success of the project itself.
 
@@ -108,10 +108,10 @@ g</li>
         </ul>
         <p className={styles.descriptionStyle}></p>
       </div>
-      <div className={styles.RoadMapSteps}  style={{backgroundColor:'rgb(1, 170, 170)'}} data-aos="zoom-in">
-        <p className={styles.numerStyleSpecialCase }  >.04 Real World </p>
+      <div className={styles.RoadMapSteps} data-aos="zoom-in">
+        <p className={styles.numerStyle }  >.04 Real World </p>
         <ul>
-          <li className={styles.descriptionStyleSpecialCase}  >
+          <li className={styles.descriptionStyle}  >
             {" "}
             Boutique for real world hand made MetaDolls with real jewelry, tattoos, hair dye and accessories only accessible to NFT Holders.
 

@@ -76,8 +76,8 @@ export default function Home({posts}) {
      data-aos-anchor-placement="bottom-bottom">Join Now</span>
                </div>
       <About/>
-      <div style={{padding:'50px'}}>
-     <ImageSlider images={IMAGES} slidesToShow={1} />
+      <div style={{padding: '2.5rem 0'}}>
+     <ImageSlider images={IMAGES} slidesToShow={5} />
      </div>
       {/*   <ImageSlider images={LARGE_IMAGES} />
      */}

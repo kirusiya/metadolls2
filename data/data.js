@@ -45,6 +45,31 @@ export const IMAGES = [
         src: "Metadoll-004.jpg",
         alt: "Placeholder image",
       },
+      {
+        id: 5,
+        src: "Metadoll-004.jpg",
+        alt: "Placeholder image",
+      },
+      {
+        id: 5,
+        src: "Metadoll-004.jpg",
+        alt: "Placeholder image",
+      },
+      {
+        id: 5,
+        src: "Metadoll-004.jpg",
+        alt: "Placeholder image",
+      },
+      {
+        id: 5,
+        src: "Metadoll-004.jpg",
+        alt: "Placeholder image",
+      },
+      {
+        id: 5,
+        src: "Metadoll-004.jpg",
+        alt: "Placeholder image",
+      },
   ];
   
   export const LARGE_IMAGES = [

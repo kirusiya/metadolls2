@@ -103,15 +103,8 @@ const ImageSlider = ({ images, slidesToShow = 3 }) => {
         settings: {
           slidesToShow: 3,
           slidesToScroll: 1,
-        },
-      },
-      {
-        breakpoint: 820,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
+        }
+      }
     ],
   };
 
@@ -130,7 +123,7 @@ const ImageSlider = ({ images, slidesToShow = 3 }) => {
               <img
                 src={image.src}
                 alt={image.alt}
-                style={{ width: "300px", height: "auto", objectFit: "cover" }}
+                style={{ width: "200px", height: "auto", objectFit: "cover" }}
               />
             )}
           </div>

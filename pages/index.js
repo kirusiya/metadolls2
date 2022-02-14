@@ -99,7 +99,7 @@ export default function Home({posts}) {
       </div>
       <About/>
       <div style={{padding: '2.5rem 0'}}>
-     <ImageSlider images={IMAGES} slidesToShow={5} />
+     <ImageSlider images={IMAGES} slidesToShow={3} />
      </div>
       {/*   <ImageSlider images={LARGE_IMAGES} />
      */}

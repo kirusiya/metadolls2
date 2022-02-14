@@ -9,10 +9,11 @@ function ManualParallax() {
          
                {/* <p className={styles.metaText}>"People look at me like "the perfect Doll" and I want much more than that..." - MetaDoll 0001
 </p> */}
-               {/* <div className={styles.caption}>
-                <span className={styles.border} data-aos="fade-up"
-     data-aos-anchor-placement="bottom-bottom">Join Now</span>
-               </div> */}
+{/* 
+<button className={styles.glowOnHover} type="button">Join The Community</button>  */}
+               <div className={styles.caption}>
+               <button className={styles.glowOnHover} type="button">Join Now</button> 
+               </div>
          
                </div>
            {/* <div className={styles.section}>

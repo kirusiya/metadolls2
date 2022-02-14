@@ -44,16 +44,15 @@
   /*  min-height: 120vh;  */
    /*  min-height: 80vh; */
    min-height: 80vh;
-  /*  background-size:100%; */
   
   
 
     
-    bottom: 0;
+  /*   bottom: 0; */
     /* clip-path: polygon(0 0,100% 0,100% 88%,50% 100%,0 88%); */
     
    
-    padding: 0 0 0 0;
+    /* padding: 0 0 0 0; */
 }
 
 .caption{
@@ -174,6 +173,6 @@ and (max-height:873px) and (min-width:2000px) and (max-width:3400px){
     .bgimg {
       /* The file size of this background image is 93% smaller
        * to improve page load speed on mobile internet connections */
-       background-image: url("../public/principalBanner.png") ;
+       background-image: url("../public/Metadoll-005-min.png") ;
     }
       }

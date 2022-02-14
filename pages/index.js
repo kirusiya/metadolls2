@@ -85,10 +85,10 @@ export default function Home({posts}) {
           <img src={'/tfile/Tattoos/anarchy copia.png'} style={{width:'7%',}}/>
         </div>
        
-      <div className={styles.caption} onClick={()=>window.open("https://discord.com/invite/fMhpdrKRDG")}>
+      <div className={styles.caption} >
       <p className={styles.metaText}>"People look at me like "the perfect Doll" and I want much more than that..." - MetaDoll 0001
 </p>
-                <span className={styles.border} data-aos="fade-up"
+                <span onClick={()=>window.open("https://discord.com/invite/fMhpdrKRDG")} className={styles.border} data-aos="fade-up"
      data-aos-anchor-placement="bottom-bottom">Join Now</span>
                </div>
                <div style={{WebkitTransform:'rotate(90deg)',position:'relative',zIndex:10000000000000000000000000,left:'50%'}}>
@@ -97,7 +97,7 @@ export default function Home({posts}) {
       <div style={{WebkitTransform:'rotate(90deg)',position:'relative',zIndex:10000000000000000000000000,right:'50%'}}>
       <Rotary/>
       </div>
-      <About/>
+      <About />
       <div style={{padding: '2.5rem 0'}}>
      <ImageSlider images={IMAGES} slidesToShow={3} />
      </div>

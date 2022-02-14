@@ -24,7 +24,7 @@ function About() {
     });
   }, []);
     return (
-        <section className={styles.aboutContainer}>
+        <section id="about" className={styles.aboutContainer}>
           
          {/*  */}
             <div className={styles.projectDescriptionContainer}>

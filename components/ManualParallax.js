@@ -12,7 +12,7 @@ function ManualParallax() {
 {/* 
 <button className={styles.glowOnHover} type="button">Join The Community</button>  */}
                <div className={styles.caption}>
-               <button className={styles.glowOnHover} type="button">Join Now</button> 
+               <button onClick={()=>window.open("https://discord.com/invite/fMhpdrKRDG")} className={styles.glowOnHover} type="button">Join Now</button> 
                </div>
          
                </div>

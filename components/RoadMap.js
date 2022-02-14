@@ -34,7 +34,7 @@ const RoadMap = () => {
     
   }, []);
   return (
-    <div className={styles.RoadMapContainer}>
+    <div id="roadmap" className={styles.RoadMapContainer}>
      
       <div>
       <div className={styles.RoadMapSteps} data-aos="zoom-in" style={{position:'relative'}}>

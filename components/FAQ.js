@@ -9,7 +9,7 @@ const FAQ = () => {
             setToggleFAQ(newState)
         }
     return (
-        <section className={styles.RoadMapContainer}>
+        <section id="faqs" className={styles.RoadMapContainer}>
            
             
             <div className={styles.RoadMapSteps} data-aos="zoom-in"  onClick={()=>{toggleArray(0)}}>

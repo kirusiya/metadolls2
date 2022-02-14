@@ -29,8 +29,8 @@ const Nabvar = () => {
              
                href='#about'>About</a>
                </li>
-               <li className={styles.topHeaderTitles} ><a  href='#'>RoadMap</a></li>
-               <li className={styles.topHeaderTitles} ><a href='#'>FAQs</a></li>
+               <li className={styles.topHeaderTitles} ><a  href='#roadmap'>RoadMap</a></li>
+               <li className={styles.topHeaderTitles} ><a href='#faqs'>FAQs</a></li>
            {/*  <p>{size.width + ' w/h'}{size.height}</p> */}
              </li>
          
@@ -42,8 +42,8 @@ const Nabvar = () => {
             console.log(toggleMenu)}}><img src='menu.png' className={styles.menuLogo}/></li> */}
             {/* <li className={toggleMenu ? styles.navbarLinks2 : styles.navbarLinks}><a href='#'></a></li> */}
             {/* <li onClick={()=>{imprimir()}} className={toggleMenu ? styles.navbarLinks2 : styles.navbarLinks}><a href='#'>Join to Discord</a></li> */}
-           <img src={'twitterv.png'} className={styles.logitos}/>
-           <img src={'instagram.png'} className={styles.logitos}/>
+           <img  onClick={()=>{window.open("https://twitter.com/metadollsnft")}} src={'twitterv.png'} className={styles.logitos}/>
+           <img onClick={()=>{window.open("https://instagram.com/metadollsnft?utm_medium=copy_link")}} src={'instagram.png'} className={styles.logitos}/>
             {/* <li className={toggleMenu ? styles.navbarLinks2 : styles.navbarLinks}><a style={{color: "rgb(0, 162, 255)",fontWeight:'bold'}} href='#about'>About</a></li>
             <li className={toggleMenu ? styles.navbarLinks2 : styles.navbarLinks}><a style={{color: "rgb(0, 162, 255)",fontWeight:'bold'}} href='#'>RoadMap</a></li> */}
             

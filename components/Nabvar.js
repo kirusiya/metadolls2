@@ -3,6 +3,8 @@ import styles from'../styles/Navbar.module.css'
 
 const Nabvar = () => {
     const size = useWindowSize();
+    console.log('size navbar')
+    console.log(size.width)
     const [toggleMenu, setToggleMenu] = useState(false);
     const imprimir = ()=>{
         console.log('ajam')

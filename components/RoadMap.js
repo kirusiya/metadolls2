@@ -31,6 +31,7 @@ const RoadMap = () => {
     AOS.init({
       duration: 1000,
     });
+    
   }, []);
   return (
     <div className={styles.RoadMapContainer}>

@@ -25,8 +25,13 @@ function About() {
   }, []);
     return (
         <section className={styles.aboutContainer}>
+          
          {/*  */}
             <div className={styles.projectDescriptionContainer}>
+           {/*  <div style={{position:'relative',width:'100%',display:'flex',justifyContent:'flex-end'}}>
+              <img src={'/tfile/Tattoos/animalskull copia.png'} style={{width:'7%',position:'relative',top:'-40px',right:'0px'}}/>
+              </div> */}
+           
               <h2 className={styles.bigTitle}  >About The</h2>
             <h2 className={styles.titles2} style={{fontWeight:'bold'}}>METADOLLS</h2><br/>
             <p className={styles.titles} data-aos="fade-right">MetaDolls is an NFT Collection Project based on

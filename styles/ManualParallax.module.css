@@ -1,14 +1,36 @@
-.bgimg,
-.bgimg1,
-.bgimg2{
-    position: relative;
+.bgimg{
+  /*   position: relative;
     background-attachment: fixed;
     background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
-    
-   
-    
+     */
+   /* 
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+     background-position: center center;  */
+
+       /* Image is centered vertically and horizontally at all times */
+  background-position: center center;
+  
+  /* Image doesn't repeat */
+  background-repeat: no-repeat;
+  
+  /* Makes the image fixed in the viewport so that it doesn't move when 
+     the content height is greater than the image height */
+  background-attachment: fixed;
+  
+  /* This is what makes the background image rescale based on its container's size */
+  background-size: cover;
+  
+  /* Pick a solid background color that will be displayed while the background image is loading */
+ /*  background-color:#464646;
+   */
+  /* SHORTHAND CSS NOTATION
+   * background: url(background-photo.jpg) center center cover no-repeat fixed;
+   */
 }
 
 .metadollContainer{
@@ -18,7 +40,7 @@
 }
 
 .bgimg{
-    background-image: url("../public/Metadoll-005-min.png") ;
+    background-image: url("../public/principalBanner.png") ;
   /*  min-height: 120vh;  */
    /*  min-height: 80vh; */
    min-height: 80vh;
@@ -26,7 +48,7 @@
   
   
 
-    object-fit: cover;
+    
     bottom: 0;
     /* clip-path: polygon(0 0,100% 0,100% 88%,50% 100%,0 88%); */
     
@@ -89,19 +111,19 @@
 }
 @media screen and (min-width:500px) and (max-width:1400px) and (min-height:500px) 
 and (max-height:700px){
-    .bgimg{background-size: 80%} 
+   /*  .bgimg{background-size: 80%}  */
 }
 @media screen and (min-height:400px) 
 and (max-height:1400px) and (min-width:1100px) and (max-width:2000px){
-    .bgimg{background-size: 51%} 
+   /*  .bgimg{background-size: 51%}  */
 }
 @media screen and (min-height:873px) 
 and (max-height:1400px) and (min-width:2000px) and (max-width:3400px){
-    .bgimg{background-size: 45%} 
+    /* .bgimg{background-size: 45%}  */
 }
 @media screen and (min-height:400px) 
 and (max-height:873px) and (min-width:2000px) and (max-width:3400px){
-    .bgimg{background-size: 20%} 
+   /*  .bgimg{background-size: 20%}  */
 }
 /* @media screen 
   and (min-width: 451px) 
@@ -145,3 +167,13 @@ and (max-height:873px) and (min-width:2000px) and (max-width:3400px){
 }
 
 
+
+
+/* For mobile devices */
+@media only screen and (max-width: 767px) {
+    .bgimg {
+      /* The file size of this background image is 93% smaller
+       * to improve page load speed on mobile internet connections */
+       background-image: url("../public/principalBanner.png") ;
+    }
+      }

@@ -4,7 +4,7 @@
   background-color:black;
  /*  background-color:#01030d; */
   min-height: 100vh;
-  
+  overflow: hidden;
   width: 100%;
   text-align: center;
 
@@ -79,7 +79,7 @@
 } */
 
 .bigContainer{
-
+ /* position: absolute; */
 }
 
 @media (min-width: 1160px){
@@ -91,3 +91,5 @@
   }
   
 }
+
+

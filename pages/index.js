@@ -50,6 +50,8 @@ import { IMAGES, VIDEOS, LARGE_IMAGES } from "../data/data";
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
+import Rotary from '../components/Rotary'
+
 export default function Home({posts}) {
  
  console.log(posts)
@@ -67,14 +69,34 @@ export default function Home({posts}) {
       </Head>
       {/* <NavBarv1/> */}
       <Nabvar/>
+     
       <ManualParallax/>
       <div className={styles.bigContainer}>
+        <div style={{position:'relative',top:'-17.7px', left:'0px',width:'100%',display:'flex',justifyContent:'space-between'}}>
+          <img src={'/tfile/Tattoos/11.png'} style={{width:'7%',}}/>
+          <img src={'/tfile/Tattoos/69 copia.png'} style={{width:'7%',}}/>
+          <img src={'/tfile/Tattoos/365days copia.png'} style={{width:'7%',}}/>
+          <img src={'/tfile/Tattoos/666 copia.png'} style={{width:'7%',}}/>
+          <img src={'/tfile/Tattoos/721 copia.png'} style={{width:'7%',}}/>
+          <img src={'/tfile/Tattoos/acab copia.png'} style={{width:'7%',}}/>
+          <img src={'/tfile/Tattoos/adventure copia.png'} style={{width:'7%',}}/>
+          <img src={'/tfile/Tattoos/alien copia.png'} style={{width:'7%',}}/>
+          <img src={'/tfile/Tattoos/alwaysbored copia.png'} style={{width:'7%',}}/>
+          <img src={'/tfile/Tattoos/anarchy copia.png'} style={{width:'7%',}}/>
+        </div>
+       
       <div className={styles.caption} onClick={()=>window.open("https://discord.com/invite/fMhpdrKRDG")}>
       <p className={styles.metaText}>"People look at me like "the perfect Doll" and I want much more than that..." - MetaDoll 0001
 </p>
                 <span className={styles.border} data-aos="fade-up"
      data-aos-anchor-placement="bottom-bottom">Join Now</span>
                </div>
+               <div style={{WebkitTransform:'rotate(90deg)',position:'relative',zIndex:10000000000000000000000000,left:'50%'}}>
+      <Rotary/>
+      </div>
+      <div style={{WebkitTransform:'rotate(90deg)',position:'relative',zIndex:10000000000000000000000000,right:'50%'}}>
+      <Rotary/>
+      </div>
       <About/>
       <div style={{padding: '2.5rem 0'}}>
      <ImageSlider images={IMAGES} slidesToShow={5} />
@@ -92,6 +114,13 @@ export default function Home({posts}) {
       <div className={styles.container}>
         <ImageSlider images={LARGE_IMAGES} />
       </div> */}
+     
+      <div style={{WebkitTransform:'rotate(90deg)',position:'relative',zIndex:10000000000000000000000000,left:'50%'}}>
+      <Rotary/>
+      </div>
+      <div style={{WebkitTransform:'rotate(90deg)',position:'relative',zIndex:10000000000000000000000000,right:'50%'}}>
+      <Rotary/>
+      </div>
       <RoadMap/>
     <br/>
     <br/>
@@ -100,13 +129,32 @@ export default function Home({posts}) {
       <br/>
     <br/>
     <br/>
+    <div style={{WebkitTransform:'rotate(90deg)',position:'relative',zIndex:10000000000000000000000000,left:'50%'}}>
+      <Rotary/>
+      </div>
+      <div style={{WebkitTransform:'rotate(90deg)',position:'relative',zIndex:10000000000000000000000000,right:'50%'}}>
+      <Rotary/>
+      </div>
+    
       <FAQ/>
+      <div style={{WebkitTransform:'rotate(90deg)',position:'relative',zIndex:10000000000000000000000000,left:'50%'}}>
+      <Rotary/>
+      </div>
+      <div style={{WebkitTransform:'rotate(90deg)',position:'relative',zIndex:10000000000000000000000000,right:'50%'}}>
+      <Rotary/>
+      </div>
+ 
       <JoinCommunity/>
       <Footer/>
+     {/* <Rotary/> */}
       </div>
+      
       <div style={{position:'relative', left:'300px'}}>
       
       </div>
+      
+      
+      <Rotary/>
       {/* 
    
       

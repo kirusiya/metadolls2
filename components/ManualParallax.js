@@ -1,10 +1,10 @@
 import React from 'react'
 import styles from '../styles/ManualParallax.module.css'
-
+import Rotary from './Rotary'
 function ManualParallax() {
     return (
         <div className={styles.metadollContainer}>
-           
+          
            <div className={styles.bgimg}>
          
                {/* <p className={styles.metaText}>"People look at me like "the perfect Doll" and I want much more than that..." - MetaDoll 0001

@@ -156,3 +156,78 @@ export const IMAGES = [
     },
   ];
   
+
+  export const TATTOOS = [
+    {
+      id: 1,
+      src:"metadoll-min.jpeg",
+      alt: "Placeholder image",
+    },
+    {
+        id: 2,
+        src:"Metadoll-005-min.jpg",
+        alt: "Placeholder image",
+      },
+   /*  {
+      id: 2,
+      src: "Metadoll-02.jpg",
+      alt: "Placeholder image",
+    }, */
+   /*  {
+      id: 3,
+      src: "metadoll.jpeg",
+      alt: "Placeholder image",
+    }, */
+    {
+        id: 3,
+        src: "Metadoll-02-min.jpg",
+        alt: "Placeholder image",
+      },
+   /*  {
+      id: 5,
+      src: "Metadoll-003-min.jpg",
+      alt: "Placeholder image",
+    }, */
+   
+    {
+      id:4,
+      src: "Metadoll-003.jpg",
+      alt: "Placeholder image",
+    },
+   /*  {
+        id: 7,
+        src: "Banner Join Our Discord Website-min.png",
+        alt: "Placeholder image",
+      }, */
+      {
+        id: 5,
+        src: "Metadoll-004.jpg",
+        alt: "Placeholder image",
+      },
+      {
+        id: 5,
+        src: "Metadoll-004.jpg",
+        alt: "Placeholder image",
+      },
+      {
+        id: 5,
+        src: "Metadoll-004.jpg",
+        alt: "Placeholder image",
+      },
+      {
+        id: 5,
+        src: "Metadoll-004.jpg",
+        alt: "Placeholder image",
+      },
+      {
+        id: 5,
+        src: "Metadoll-004.jpg",
+        alt: "Placeholder image",
+      },
+      {
+        id: 5,
+        src: "Metadoll-004.jpg",
+        alt: "Placeholder image",
+      },
+  ];
+  

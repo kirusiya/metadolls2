@@ -123,7 +123,8 @@ const ImageSlider = ({ images, slidesToShow = 3 }) => {
               <img
                 src={image.src}
                 alt={image.alt}
-                style={{ width: "250px", height: "auto", objectFit: "cover" }}
+                className={styles.imgSliderSize}
+                /* style={{ width: "450px", height: "auto", objectFit: "cover" }} */
               />
             )}
           </div>

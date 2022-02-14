@@ -1,4 +1,8 @@
 
+.imgSliderSize{
+  width: 450px; height: auto; object-fit: cover
+}
+
 .containerSlide{
     padding: 2.5rem 0;
 }
@@ -38,3 +42,10 @@
     width: 4rem;
   } */
   
+
+  @media only screen and (max-width: 767px) {
+    .imgSliderSize{
+      width:200px; height: auto; object-fit: cover
+    }
+
+  }

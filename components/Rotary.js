@@ -1,13 +1,16 @@
 import styles from '../styles/Rotary.module.css';
 import { useState, useEffect, useRef } from 'react';
+import useInView from "react-cool-inview";
 import gsap from 'gsap';
 let boxW = 100;
 let boxH = 100;
 let duration = 2;
 
 export default function Rotary() {
+  
+  
   let size = useWindowSize();
-  console.log('si<eRpt',size)
+ 
   const [stateSize,setSize] = useState(size);
   const [count, setCount] = useState(0);
   const viewport = useRef();
@@ -72,11 +75,10 @@ export default function Rotary() {
   useEffect(async () => {
     
     /* gsap.set("#elemt", { }); */
-      console.log('Rotary')
-      console.log('w',size.width)
+    
       /* .current.clientWidth */
-      console.log('imgRef',imgRef)
-   console.log(viewport.current)
+   /*    console.log('imgRef',imgRef)
+   console.log(viewport.current) */
        gsap.to("#elemt" ,{ /* { display:'none' */
       /*  opacity:0, */
        /* translateX:size.width, */

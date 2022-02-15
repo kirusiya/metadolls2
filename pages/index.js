@@ -1,18 +1,22 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import dynamic from 'next/dynamic'
+import React,{useEffect,useState,useRef} from 'react'
+import gsap from 'gsap'
+
 import styles from '../styles/Home.module.css'
 import Header from '../components/Header'
-import Video from '../components/Video'
+
 import Top from '../components/Top'
 import Nabvar from '../components/Nabvar'
 
 
 import axios from 'axios'
-import { useState, useEffect } from 'react'
+
 import ManualParallax from '../components/ManualParallax'
 import  About from '../components/About'
 import SimpleImageSlider from "react-simple-image-slider";
-import RoadMap from '../components/RoadMap'
+
 import Script from 'next/script'
 
 import JoinCommunity from '../components/JoinCommunity'
@@ -45,138 +49,181 @@ const insideStyles = {
 
 
 
-import ImageSlider from "../components/ImageSlider";
+/* import ImageSlider from "../components/ImageSlider"; */
 import { IMAGES, VIDEOS, LARGE_IMAGES } from "../data/data";
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
-import Rotary from '../components/Rotary'
+/* import Rotary from '../components/Rotary' */
+import useInView from "react-cool-inview";
+const Rotary = dynamic(()=>import("../components/Rotary"));
+const ImageSlider = dynamic(()=>import("../components/ImageSlider"));
+const RoadMap = dynamic(()=>import('../components/RoadMap'));
 
 export default function Home({posts}) {
- 
- console.log(posts)
- 
+  const { observe, unobserve, inView, scrollDirection, entry } = useInView();
+  const boxRef = useRef();
+ const [loading, setLoading] = useState(true);
+ useEffect(() => {
+  const timeout = setTimeout(() => {
+    setLoading(false);
+   }, 3000);
+   return () => clearTimeout(timeout);
+ },[]);
+
+
+ useEffect(() => {
+  gsap.to(boxRef.current, {
+    rotation: "+=360"
+  });
+});
+
   return (
+ 
     <div className={styles.container}>
       <Script  strategy="afterInteractive" src="https://unpkg.com/aos@2.3.1/dist/aos.js"></Script>
       <Head>
         <title>Metadolls NFT's</title>
         <meta name="description" content="Metadolls NFT's" />
         <link rel="icon" href="/favicon.ico" />
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet"></link>
         <link href='https://fonts.googleapis.com/css2?family=Orbitron&display=swap' rel="stylesheet" />
+        <link href='https://fonts.googleapis.com/css2?family=Audiowide&display=swap' rel="stylesheet" />
+        <link href='https://fonts.googleapis.com/css2?family=Roboto&display=swap' rel="stylesheet" />
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
 
       </Head>
-      {/* <NavBarv1/> */}
-      <Nabvar/>
+
+      { loading ? <div ref={boxRef} style={{display:'flex',justifyContent:'center',alignItems:'center',height:'800px',width:'100%'}}>
+        <img src={'./logo2.png'} style={{width:'80%', height:'auto',marginTop:'25%'}}/>
+      </div> : 
+        <>
+  {/* <NavBarv1/> */}
+  <Nabvar/>
      
-      <ManualParallax/>
-      <div className={styles.bigContainer}>
-        <div style={{position:'relative',top:'-17.7px', left:'0px',width:'100%',display:'flex',justifyContent:'space-between'}}>
-          <img src={'/tfile/Tattoos/11.png'} style={{width:'7%',}}/>
-          <img src={'/tfile/Tattoos/69 copia.png'} style={{width:'7%',}}/>
-          <img src={'/tfile/Tattoos/365days copia.png'} style={{width:'7%',}}/>
-          <img src={'/tfile/Tattoos/666 copia.png'} style={{width:'7%',}}/>
-          <img src={'/tfile/Tattoos/721 copia.png'} style={{width:'7%',}}/>
-          <img src={'/tfile/Tattoos/acab copia.png'} style={{width:'7%',}}/>
-          <img src={'/tfile/Tattoos/adventure copia.png'} style={{width:'7%',}}/>
-          <img src={'/tfile/Tattoos/alien copia.png'} style={{width:'7%',}}/>
-          <img src={'/tfile/Tattoos/alwaysbored copia.png'} style={{width:'7%',}}/>
-          <img src={'/tfile/Tattoos/anarchy copia.png'} style={{width:'7%',}}/>
-        </div>
-       
-      <div className={styles.caption} >
-      <p className={styles.metaText}>"People look at me like "the perfect Doll" and I want much more than that..." - MetaDoll 0001
+  <ManualParallax/>
+  <div className={styles.bigContainer}>
+    <div style={{position:'relative',top:'-17.7px', left:'0px',width:'100%',display:'flex',justifyContent:'space-between'}}>
+      <img src={'/tfile/Tattoos/11.png'} style={{width:'7%',}}/>
+      <img src={'/tfile/Tattoos/69 copia.png'} style={{width:'7%',}}/>
+      <img src={'/tfile/Tattoos/365days copia.png'} style={{width:'7%',}}/>
+      <img src={'/tfile/Tattoos/666 copia.png'} style={{width:'7%',}}/>
+      <img src={'/tfile/Tattoos/721 copia.png'} style={{width:'7%',}}/>
+      <img src={'/tfile/Tattoos/acab copia.png'} style={{width:'7%',}}/>
+      <img src={'/tfile/Tattoos/adventure copia.png'} style={{width:'7%',}}/>
+      <img src={'/tfile/Tattoos/alien copia.png'} style={{width:'7%',}}/>
+      <img src={'/tfile/Tattoos/alwaysbored copia.png'} style={{width:'7%',}}/>
+      <img src={'/tfile/Tattoos/anarchy copia.png'} style={{width:'7%',}}/>
+    </div>
+   
+  <div className={styles.caption} >
+  <p className={styles.metaText}>"People look at me like "the perfect Doll" and I want much more than that..." - MetaDoll 0001
 </p>
-                <span onClick={()=>window.open("https://discord.com/invite/fMhpdrKRDG")} className={styles.border} data-aos="fade-up"
-     data-aos-anchor-placement="bottom-bottom">Join Now</span>
-               </div>
-               <div style={{WebkitTransform:'rotate(90deg)',position:'relative',zIndex:10000000000000000000000000,left:'50%'}}>
-      <Rotary/>
-      </div>
-      <div style={{WebkitTransform:'rotate(90deg)',position:'relative',zIndex:10000000000000000000000000,right:'50%'}}>
-      <Rotary/>
-      </div>
-      <About />
-      <div style={{padding: '2.5rem 0'}}>
-     <ImageSlider images={IMAGES} slidesToShow={3} />
-     </div>
-      {/*   <ImageSlider images={LARGE_IMAGES} />
-     */}
-    
+            <span onClick={()=>window.open("https://discord.com/invite/fMhpdrKRDG")} className={styles.border} data-aos="fade-up"
+ data-aos-anchor-placement="bottom-bottom">Join Now</span>
+           </div>
+           <div style={{WebkitTransform:'rotate(90deg)',position:'relative',zIndex:10000000000000000000000000,left:'50%'}}>
+   <Rotary   />
+  </div>
+  <div style={{WebkitTransform:'rotate(90deg)',position:'relative',zIndex:10000000000000000000000000,right:'50%'}}>
+  <Rotary  />
+  </div>
+  <About />
+  <div style={{padding: '2.5rem 0'}}>
+  <ImageSlider images={IMAGES} slidesToShow={3} />
+ </div>
+  {/*   <ImageSlider images={LARGE_IMAGES} />
+ */}
+<div style={{marginBottom:'150pxpx'}}/>
 
 {/* <div className={styles.container}>
-        <ImageSlider images={IMAGES} slidesToShow={5} />
-      </div>
-      <div className={styles.container}>
-        <ImageSlider images={VIDEOS} />
-      </div>
-      <div className={styles.container}>
-        <ImageSlider images={LARGE_IMAGES} />
-      </div> */}
-     
-      <div style={{WebkitTransform:'rotate(90deg)',position:'relative',zIndex:10000000000000000000000000,left:'50%'}}>
-      <Rotary/>
-      </div>
-      <div style={{WebkitTransform:'rotate(90deg)',position:'relative',zIndex:10000000000000000000000000,right:'50%'}}>
-      <Rotary/>
-      </div>
-      <RoadMap/>
-    <br/>
-    <br/>
-    <br/>
-      <Team/>
-      <br/>
-    <br/>
-    <br/>
-    <div style={{WebkitTransform:'rotate(90deg)',position:'relative',zIndex:10000000000000000000000000,left:'50%'}}>
-      <Rotary/>
-      </div>
-      <div style={{WebkitTransform:'rotate(90deg)',position:'relative',zIndex:10000000000000000000000000,right:'50%'}}>
-      <Rotary/>
-      </div>
-    
-      <FAQ/>
-      <div style={{WebkitTransform:'rotate(90deg)',position:'relative',zIndex:10000000000000000000000000,left:'50%'}}>
-      <Rotary/>
-      </div>
-      <div style={{WebkitTransform:'rotate(90deg)',position:'relative',zIndex:10000000000000000000000000,right:'50%'}}>
-      <Rotary/>
-      </div>
+    <ImageSlider images={IMAGES} slidesToShow={5} />
+  </div>
+  <div className={styles.container}>
+    <ImageSlider images={VIDEOS} />
+  </div>
+  <div className={styles.container}>
+    <ImageSlider images={LARGE_IMAGES} />
+  </div> */}
  
-      <JoinCommunity/>
-      <Footer/>
-     {/* <Rotary/> */}
-      </div>
-      
-      <div style={{position:'relative', left:'300px'}}>
-      
-      </div>
-      
-      
-      <Rotary/>
-      {/* 
-   
-      
+  <div  style={{WebkitTransform:'rotate(90deg)',position:'relative',zIndex:10000000000000000000000000,left:'50%'}}>
+  <Rotary   />
+  </div>
+  <div  style={{WebkitTransform:'rotate(90deg)',position:'relative',zIndex:10000000000000000000000000,right:'50%'}}>
+  <Rotary   />
+  </div>
+  <div /*  ref={observe} */>
 
-     
-      <div styles={{
-        padding:'10%',
-    backgroundColor:'#01030d'
-    }}>
+  <RoadMap />
+
+
+
+  </div>
+  
+<br/>
+<br/>
+<br/>
+  <Team/>
+  <br/>
+<br/>
+<br/>
+<div style={{WebkitTransform:'rotate(90deg)',position:'relative',zIndex:10000000000000000000000000,left:'50%'}}>
+<Rotary   />
+  </div>
+  <div  style={{WebkitTransform:'rotate(90deg)',position:'relative',zIndex:10000000000000000000000000,right:'50%'}}>
+<Rotary   />
+  </div>
+
+  <FAQ/>
+  <div   style={{WebkitTransform:'rotate(90deg)',position:'relative',zIndex:10000000000000000000000000,left:'50%'}}>
+   <Rotary   />
+  </div>
+  <div style={{WebkitTransform:'rotate(90deg)',position:'relative',zIndex:10000000000000000000000000,right:'50%'}}>
+   <Rotary   />
+  </div>
+
+  <JoinCommunity/>
+  <Footer/>
+ {/* <Rotary/> */}
+  </div>
+  
+{/*   <div style={{position:'relative', left:'300px'}}>
+  
+  </div>
+  
+  
+  <Rotary/> */}
+  {/* 
+
+  
+
+ 
+  <div styles={{
+    padding:'10%',
+backgroundColor:'#01030d'
+}}>
+
+  </div>
+  
+ 
+  
+  <div className={styles.titleContainer}>
+  <h2 className={styles.titleTeam}>Team</h2>
+  </div>
+  
+  
+  <Footer/> */}
+
+
+</>
+
+      }
+      </div>
+  
+
     
-      </div>
-      
-     
-      
-      <div className={styles.titleContainer}>
-      <h2 className={styles.titleTeam}>Team</h2>
-      </div>
-      
-      
-      <Footer/> */}
-   
-    </div>
   )
 }
 

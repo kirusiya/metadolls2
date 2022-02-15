@@ -36,11 +36,11 @@ const GsapVideo = () => {
       end: "1200",
       markers: false,
       onUpdate: function (self) {
-        console.log(self.progress)
+       /*  console.log(self.progress) */
         if (vidRef.current) {
           scrollPos = self.progress;
           videoDuration = vidRef.current.duration;
-          videoCurrentTime = videoDuration * scrollPos;
+          videoCurrentTime = (videoDuration * scrollPos);
 
           if (videoCurrentTime) {
             vidRef.current.currentTime = videoCurrentTime;

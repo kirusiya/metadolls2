@@ -1,3 +1,8 @@
+.logitos{
+  height: 35px;
+  width: 35px;
+  margin-right: 20px;
+}
 .titleTeam{
 font-family: 'Orbitron';
     color:white;
@@ -41,8 +46,7 @@ font-family: 'Orbitron';
     margin-left: 25px;
   }
   .description1{
-    font-family: 'Orbitron';;
-  
+ 
     
      font-family: 'Orbitron';
     
@@ -51,7 +55,7 @@ font-family: 'Orbitron';
      color: rgb(175, 190, 217);
     }
   .description{
-    font-family: 'Orbitron';;
+
     text-align: left;
     
      font-family: 'Orbitron';

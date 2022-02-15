@@ -1,5 +1,5 @@
 .footerContainer{
-  
+   margin-top: 250px;
         align-self: center;
         
         
@@ -20,10 +20,3 @@
 }
 
 
-@media (min-width: 500px) {
-    .joinCommunityContainer {  min-height:65vh; }
-    .footerContainer{
-        padding-bottom: 300px;
-   }
-
-  }

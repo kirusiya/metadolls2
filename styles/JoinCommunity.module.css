@@ -35,9 +35,10 @@
     color: #fff;
     background: #111;
     cursor: pointer;
-    position: relative;
-    z-index: 0;
+   position: relative;
+   bottom:150px;
     border-radius: 10px;
+    z-index: 1000000000000;
     
 }
 

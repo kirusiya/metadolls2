@@ -18,6 +18,11 @@ const Team = ()  => {
       <p className={styles.description1}>Alejandro Rincón - Visual Artist </p>
       <p className={styles.description}>The leading artist of the team has been tattooing for over 7 years specializing in micro tattoos while exploring different art mediums. He has dedicated the last years to 3D modeling and digital art combining passions to make Metadolls a reality. 
 </p>
+      <div style={{}}>
+            <img scr='linkedin.png' className={styles.logitos} />
+           
+            <img scr={'twitter.png'} />
+      </div>
       </div>
       
       </div>
@@ -40,6 +45,25 @@ m</p>
       </div>
       
       </div>
+      <div className={styles.memberTeamInfo}>
+      <img className={styles.circleImg} src='metadoll.jpeg'/>
+      <div className={styles.descriptionContainer}>
+      <p className={styles.description1}>Juan “SebastianRevan” Ruiz - Lead Developer</p>
+      <p className={styles.description}>With experience working in software projects with clients from sillicon valley, europe, and the middle east, Juan Ruiz brings the technical expertise to the team. Proficient in several languages and passionate about distributed systems, unix, cloud, open source software and math, Juan is in charge making sure we have the best in class tools so we can offer a best in class experience.</p>
+      </div>
+      
+      </div>
+
+      <div className={styles.memberTeamInfo}>
+      <img className={styles.circleImg} src='metadoll.jpeg'/>
+      <div className={styles.descriptionContainer}>
+      <p className={styles.description1}>Camilo Sardi - Chief of Operations
+</p>
+      <p className={styles.description}>COO and Cofounder of Maestrik, a leading startup in education for the latinamerican market. With his background in industrial engineering he brings the order and vision to be able to meet with our roadmap´s goals. </p>
+      </div>
+      
+      </div>
+      
     {/*   <div className={styles.memberTeamInfo}>
       <img className={styles.circleImg} src='metadoll.jpeg'/>
       <div className={styles.descriptionContainer}>

@@ -7,8 +7,9 @@ let boxH = 100;
 let duration = 2;
 
 export default function Rotary() {
-  
-  
+  const { observe, unobserve, inView, scrollDirection, entry } = useInView();
+  console.log('inviewRotary')
+  console.log(inView)
   let size = useWindowSize();
  
   const [stateSize,setSize] = useState(size);
@@ -77,8 +78,8 @@ export default function Rotary() {
     /* gsap.set("#elemt", { }); */
     
       /* .current.clientWidth */
-   /*    console.log('imgRef',imgRef)
-   console.log(viewport.current) */
+      console.log('imgRef',imgRef)
+   console.log(viewport.current)
        gsap.to("#elemt" ,{ /* { display:'none' */
       /*  opacity:0, */
        /* translateX:size.width, */
@@ -98,6 +99,7 @@ export default function Rotary() {
   return (
   
     <section 
+      ref={observe}
      id="viewport"
     ref={viewport}
     style={{

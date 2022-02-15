@@ -33,7 +33,7 @@ const GsapVideo = () => {
       scrub: true,
       pin: IntroVideoRef.current,
       start: "center center",
-      end: "1200",
+      end: "800",
       markers: false,
       onUpdate: function (self) {
        /*  console.log(self.progress) */

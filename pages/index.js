@@ -152,9 +152,9 @@ export default function Home({posts}) {
   <div  style={{WebkitTransform:'rotate(90deg)',position:'relative',zIndex:10000000000000000000000000,right:'50%'}}>
   <Rotary   />
   </div>
-  <div /*  ref={observe} */>
+  <div  ref={observe}>
 
-  <RoadMap />
+  {inView && <RoadMap />}
 
 
 

@@ -86,9 +86,7 @@ export default function Home({posts}) {
         <title>Metadolls NFT's</title>
         <meta name="description" content="Metadolls NFT's" />
         <link rel="icon" href="/favicon.ico" />
-        <link rel="preconnect" href="https://fonts.googleapis.com"/>
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-<link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet"></link>
+        
         <link href='https://fonts.googleapis.com/css2?family=Orbitron&display=swap' rel="stylesheet" />
         <link href='https://fonts.googleapis.com/css2?family=Audiowide&display=swap' rel="stylesheet" />
         <link href='https://fonts.googleapis.com/css2?family=Roboto&display=swap' rel="stylesheet" />

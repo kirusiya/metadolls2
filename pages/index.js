@@ -3,7 +3,7 @@ import Image from "next/image";
 import dynamic from "next/dynamic";
 import React, { useEffect, useState, useRef } from "react";
 import gsap from "gsap";
-
+import AOS from "aos";
 import styles from "../styles/Home.module.css";
 import Header from "../components/Header";
 
@@ -59,6 +59,11 @@ export default function Home({ posts }) {
   const boxRef = useRef();
   const [loading, setLoading] = useState(true);
   useEffect(() => {
+    AOS.init({
+      duration: 1000,
+    });
+  }, []);
+  useEffect(() => {
     const timeout = setTimeout(() => {
       setLoading(false);
     }, 3000);
@@ -111,7 +116,7 @@ export default function Home({ posts }) {
             width: "100%",
           }}
         >
-          <img
+          <img  data-aos="zoom-out"
             src={"./logo2.png"}
             style={{ width: "80%", height: "auto", marginTop: "25%" }}
           />
@@ -133,40 +138,40 @@ export default function Home({ posts }) {
                 justifyContent: "space-between",
               }}
             >
-              <img src={"/tfile/Tattoos/11.png"} style={{ width: "5%" }} />
-              <img
+              <img  data-aos="zoom-out"  src={"/tfile/Tattoos/11.png"} style={{ width: "5%" }} />
+              <img  data-aos="zoom-out"
                 src={"/tfile/Tattoos/69 copia.png"}
                 style={{ width: "5%" }}
               />
-              <img
+              <img  data-aos="zoom-out"
                 src={"/tfile/Tattoos/365days copia.png"}
                 style={{ width: "5%" }}
               />
-              <img
+              <img  data-aos="zoom-out"
                 src={"/tfile/Tattoos/666 copia.png"}
                 style={{ width: "5%" }}
               />
-              <img
+              <img  data-aos="zoom-out"
                 src={"/tfile/Tattoos/721 copia.png"}
                 style={{ width: "5%" }}
               />
-              <img
+              <img  data-aos="zoom-out"
                 src={"/tfile/Tattoos/acab copia.png"}
                 style={{ width: "5%" }}
               />
-              <img
+              <img  data-aos="zoom-out"
                 src={"/tfile/Tattoos/adventure copia.png"}
                 style={{ width: "5%" }}
               />
-              <img
+              <img  data-aos="zoom-out"
                 src={"/tfile/Tattoos/alien copia.png"}
                 style={{ width: "5%" }}
               />
-              <img
+              <img  data-aos="zoom-out"
                 src={"/tfile/Tattoos/alwaysbored copia.png"}
                 style={{ width: "5%" }}
               />
-              <img
+              <img  data-aos="zoom-out"
                 src={"/tfile/Tattoos/anarchy copia.png"}
                 style={{ width: "5%" }}
               />
@@ -182,7 +187,7 @@ export default function Home({ posts }) {
                   window.open("https://discord.com/invite/fMhpdrKRDG")
                 }
                 className={styles.border}
-                data-aos="fade-up"
+                data-aos="zoom-out"
                 data-aos-anchor-placement="bottom-bottom"
               >
                 Join Now
@@ -201,40 +206,40 @@ export default function Home({ posts }) {
               }}
             >
               <div >
-                <img src={"/tfile/Tattoos/11.png"} style={{ width: "5%",margin:'10px' }} />
-                <img
+                <img  data-aos="zoom-out" src={"/tfile/Tattoos/11.png"} style={{ width: "5%",margin:'10px' }} />
+                <img  data-aos="zoom-out"
                   src={"/tfile/Tattoos/69 copia.png"}
                   style={{ width: "5%",margin:'10px' }}
                 />
-                <img
+                <img  data-aos="zoom-out"
                   src={"/tfile/Tattoos/365days copia.png"}
                   style={{ width: "5%",margin:'10px' }}
                 />
-                <img
+                <img  data-aos="zoom-out"
                   src={"/tfile/Tattoos/666 copia.png"}
                   style={{ width: "5%",margin:'10px' }}
                 />
-                <img
+                <img  data-aos="zoom-out"
                   src={"/tfile/Tattoos/721 copia.png"}
                   style={{ width: "5%" ,margin:'10px'}}
                 />
-                <img
+                <img  data-aos="zoom-out"
                   src={"/tfile/Tattoos/acab copia.png"}
                   style={{ width: "5%",margin:'10px' }}
                 />
-                <img
+                <img  data-aos="zoom-out"
                   src={"/tfile/Tattoos/adventure copia.png"}
                   style={{ width: "5%",margin:'10px' }}
                 />
-                <img
+                <img  data-aos="zoom-out"
                   src={"/tfile/Tattoos/alien copia.png"}
                   style={{ width: "5%" ,margin:'10px'}}
                 />
-                <img
+                <img  data-aos="zoom-out"
                   src={"/tfile/Tattoos/alwaysbored copia.png"}
                   style={{ width: "5%",margin:'10px' }}
                 />
-                <img
+                <img  data-aos="zoom-out"
                   src={"/tfile/Tattoos/anarchy copia.png"}
                   style={{ width: "5%" ,margin:'10px'}}
                 />
@@ -253,40 +258,40 @@ export default function Home({ posts }) {
               }}
             >
               <div>
-                <img src={"/tfile/Tattoos/11.png"} style={{ width: "5%" }} />
-                <img
+                <img  data-aos="zoom-out" src={"/tfile/Tattoos/11.png"} style={{ width: "5%" }} />
+                <img  data-aos="zoom-out"
                   src={"/tfile/Tattoos/69 copia.png"}
                   style={{ width: "5%",margin:'10px' }}
                 />
-                <img
+                <img  data-aos="zoom-out"
                   src={"/tfile/Tattoos/365days copia.png"}
                   style={{ width: "5%" ,margin:'10px'}}
                 />
-                <img
+                <img  data-aos="zoom-out"
                   src={"/tfile/Tattoos/666 copia.png"}
                   style={{ width: "5%" ,margin:'10px'}}
                 />
-                <img
+                <img  data-aos="zoom-out"
                   src={"/tfile/Tattoos/721 copia.png"}
                   style={{ width: "5%" ,margin:'10px'}}
                 />
-                <img
+                <img  data-aos="zoom-out"
                   src={"/tfile/Tattoos/acab copia.png"}
                   style={{ width: "5%" ,margin:'10px'}}
                 />
-                <img
+                <img  data-aos="zoom-out"
                   src={"/tfile/Tattoos/adventure copia.png"}
                   style={{ width: "5%" ,margin:'10px'}}
                 />
-                <img
+                <img  data-aos="zoom-out"
                   src={"/tfile/Tattoos/alien copia.png"}
                   style={{ width: "5%",margin:'10px' }}
                 />
-                <img
+                <img  data-aos="zoom-out"
                   src={"/tfile/Tattoos/alwaysbored copia.png"}
                   style={{ width: "5%",margin:'10px' }}
                 />
-                <img
+                <img  data-aos="zoom-out"
                   src={"/tfile/Tattoos/anarchy copia.png"}
                   style={{ width: "5%" ,margin:'10px'}}
                 />
@@ -336,40 +341,40 @@ export default function Home({ posts }) {
               }}
             >
               <div >
-                <img src={"/tfile/Tattoos/baby1 copia.png"} style={{ width: "5%",margin:'10px' }} />
-                <img
+                <img  data-aos="zoom-out" src={"/tfile/Tattoos/baby1 copia.png"} style={{ width: "5%",margin:'10px' }} />
+                <img  data-aos="zoom-out"
                   src={"/tfile/Tattoos/badday copia.png"}
                   style={{ width: "5%",margin:'10px' }}
                 />
-                <img
+                <img  data-aos="zoom-out"
                   src={"/tfile/Tattoos/badkid copia.png"}
                   style={{ width: "5%",margin:'10px' }}
                 />
-                <img
+                <img  data-aos="zoom-out"
                   src={"/tfile/Tattoos/balance copia.png"}
                   style={{ width: "5%",margin:'10px' }}
                 />
-                <img
+                <img  data-aos="zoom-out"
                   src={"/tfile/Tattoos/bandaid copia.png"}
                   style={{ width: "5%" ,margin:'10px'}}
                 />
-                <img
+                <img  data-aos="zoom-out"
                   src={"/tfile/Tattoos/BarCode copia.png"}
                   style={{ width: "5%",margin:'10px' }}
                 />
-                <img
+                <img  data-aos="zoom-out"
                   src={"/tfile/Tattoos/basquiat1 copia.png"}
                   style={{ width: "5%",margin:'10px' }}
                 />
-                <img
+                <img  data-aos="zoom-out"
                   src={"/tfile/Tattoos/bayc copia.png"}
                   style={{ width: "5%" ,margin:'10px'}}
                 />
-                <img
+                <img  data-aos="zoom-out"
                   src={"/tfile/Tattoos/binance.png"}
                   style={{ width: "5%",margin:'10px' }}
                 />
-                <img
+                <img  data-aos="zoom-out"
                   src={"/tfile/Tattoos/bones copia.png"}
                   style={{ width: "5%" ,margin:'10px'}}
                 />
@@ -388,40 +393,40 @@ export default function Home({ posts }) {
               }}
             >
               <div>
-              <img src={"/tfile/Tattoos/baby1 copia.png"} style={{ width: "5%",margin:'10px' }} />
-                <img
+              <img  data-aos="zoom-out" src={"/tfile/Tattoos/baby1 copia.png"} style={{ width: "5%",margin:'10px' }} />
+                <img  data-aos="zoom-out"
                   src={"/tfile/Tattoos/badday copia.png"}
                   style={{ width: "5%",margin:'10px' }}
                 />
-                <img
+                <img  data-aos="zoom-out"
                   src={"/tfile/Tattoos/badkid copia.png"}
                   style={{ width: "5%",margin:'10px' }}
                 />
-                <img
+                <img  data-aos="zoom-out"
                   src={"/tfile/Tattoos/balance copia.png"}
                   style={{ width: "5%",margin:'10px' }}
                 />
-                <img
+                <img  data-aos="zoom-out"
                   src={"/tfile/Tattoos/bandaid copia.png"}
                   style={{ width: "5%" ,margin:'10px'}}
                 />
-                <img
+                <img  data-aos="zoom-out"
                   src={"/tfile/Tattoos/BarCode copia.png"}
                   style={{ width: "5%",margin:'10px' }}
                 />
-                <img
+                <img  data-aos="zoom-out"
                   src={"/tfile/Tattoos/basquiat1 copia.png"}
                   style={{ width: "5%",margin:'10px' }}
                 />
-                <img
+                <img  data-aos="zoom-out"
                   src={"/tfile/Tattoos/bayc copia.png"}
                   style={{ width: "5%" ,margin:'10px'}}
                 />
-                <img
+                <img  data-aos="zoom-out"
                   src={"/tfile/Tattoos/binance.png"}
                   style={{ width: "5%",margin:'10px' }}
                 />
-                <img
+                <img  data-aos="zoom-out"
                   src={"/tfile/Tattoos/bones copia.png"}
                   style={{ width: "5%" ,margin:'10px'}}
                 />
@@ -441,40 +446,40 @@ export default function Home({ posts }) {
               }}
             >
               <div >
-                <img src={"/tfile/Tattoos/boredape copia.png"} style={{ width: "5%",margin:'10px' }} />
-                <img
+                <img  data-aos="zoom-out" src={"/tfile/Tattoos/boredape copia.png"} style={{ width: "5%",margin:'10px' }} />
+                <img  data-aos="zoom-out"
                   src={"/tfile/Tattoos/brass copia.png"}
                   style={{ width: "5%",margin:'10px' }}
                 />
-                <img
+                <img  data-aos="zoom-out"
                   src={"/tfile/Tattoos/badkid copia.png"}
                   style={{ width: "5%",margin:'10px' }}
                 />
-                <img
+                <img  data-aos="zoom-out"
                   src={"/tfile/Tattoos/broken copia.png"}
                   style={{ width: "5%",margin:'10px' }}
                 />
-                <img
+                <img  data-aos="zoom-out"
                   src={"/tfile/Tattoos/btc copia.png"}
                   style={{ width: "5%" ,margin:'10px'}}
                 />
-                <img
+                <img  data-aos="zoom-out"
                   src={"/tfile/Tattoos/cat_gif1 copia.png"}
                   style={{ width: "5%",margin:'10px' }}
                 />
-                <img
+                <img  data-aos="zoom-out"
                   src={"/tfile/Tattoos/chaos copia.png"}
                   style={{ width: "5%",margin:'10px' }}
                 />
-                <img
+                <img  data-aos="zoom-out"
                   src={"/tfile/Tattoos/chill copia.png"}
                   style={{ width: "5%" ,margin:'10px'}}
                 />
-                <img
+                <img  data-aos="zoom-out"
                   src={"/tfile/Tattoos/chillpill copia.png"}
                   style={{ width: "5%",margin:'10px' }}
                 />
-                <img
+                <img  data-aos="zoom-out"
                   src={"/tfile/Tattoos/cigbox copia.png"}
                   style={{ width: "5%" ,margin:'10px'}}
                 />
@@ -493,40 +498,40 @@ export default function Home({ posts }) {
               }}
             >
               <div>
-              <img src={"/tfile/Tattoos/boredape copia.png"} style={{ width: "5%",margin:'10px' }} />
-                <img
+              <img  data-aos="zoom-out" src={"/tfile/Tattoos/boredape copia.png"} style={{ width: "5%",margin:'10px' }} />
+                <img  data-aos="zoom-out"
                   src={"/tfile/Tattoos/brass copia.png"}
                   style={{ width: "5%",margin:'10px' }}
                 />
-                <img
+                <img  data-aos="zoom-out"
                   src={"/tfile/Tattoos/badkid copia.png"}
                   style={{ width: "5%",margin:'10px' }}
                 />
-                <img
+                <img  data-aos="zoom-out"
                   src={"/tfile/Tattoos/broken copia.png"}
                   style={{ width: "5%",margin:'10px' }}
                 />
-                <img
+                <img  data-aos="zoom-out"
                   src={"/tfile/Tattoos/btc copia.png"}
                   style={{ width: "5%" ,margin:'10px'}}
                 />
-                <img
+                <img  data-aos="zoom-out"
                   src={"/tfile/Tattoos/cat_gif1 copia.png"}
                   style={{ width: "5%",margin:'10px' }}
                 />
-                <img
+                <img  data-aos="zoom-out"
                   src={"/tfile/Tattoos/chaos copia.png"}
                   style={{ width: "5%",margin:'10px' }}
                 />
-                <img
+                <img  data-aos="zoom-out"
                   src={"/tfile/Tattoos/chill copia.png"}
                   style={{ width: "5%" ,margin:'10px'}}
                 />
-                <img
+                <img  data-aos="zoom-out"
                   src={"/tfile/Tattoos/chillpill copia.png"}
                   style={{ width: "5%",margin:'10px' }}
                 />
-                <img
+                <img  data-aos="zoom-out"
                   src={"/tfile/Tattoos/cigbox copia.png"}
                   style={{ width: "5%" ,margin:'10px'}}
                 />

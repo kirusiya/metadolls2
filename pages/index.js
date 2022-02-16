@@ -427,7 +427,7 @@ export default function Home({ posts }) {
                 />
               </div>
             </div>
-           <RoadMap />
+            <div ><RoadMap /></div>
             <div
               style={{
                 WebkitTransform: "rotate(90deg)",
@@ -547,9 +547,6 @@ export default function Home({ posts }) {
   </div> */}
 
             <FAQ />
-            <br />
-            <br />
-            <br />
             {/*   <div   style={{WebkitTransform:'rotate(90deg)',position:'relative',zIndex:10000000000000000000000000,left:'50%'}}>
    <Rotary   />
   </div>

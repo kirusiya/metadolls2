@@ -50,7 +50,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 /* import Rotary from '../components/Rotary' */
 import useInView from "react-cool-inview";
-const Rotary = dynamic(() => import("../components/Rotary"));
+
 const ImageSlider = dynamic(() => import("../components/ImageSlider"));
 const RoadMap = dynamic(() => import("../components/RoadMap"));
 

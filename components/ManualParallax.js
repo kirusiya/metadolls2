@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../styles/ManualParallax.module.css'
-import Rotary from './Rotary'
+
 function ManualParallax() {
     return (
         <div className={styles.metadollContainer}>

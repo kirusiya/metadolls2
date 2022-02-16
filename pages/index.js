@@ -48,14 +48,14 @@ import { IMAGES, VIDEOS, LARGE_IMAGES } from "../data/data";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-/* import Rotary from '../components/Rotary' */
-import useInView from "react-cool-inview";
+
+
 
 const ImageSlider = dynamic(() => import("../components/ImageSlider"));
 const RoadMap = dynamic(() => import("../components/RoadMap"));
 
 export default function Home({ posts }) {
-  const { observe, unobserve, inView, scrollDirection, entry } = useInView();
+
   const boxRef = useRef();
   const [loading, setLoading] = useState(true);
   useEffect(() => {
@@ -94,10 +94,10 @@ export default function Home({ posts }) {
           href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
           rel="stylesheet"
         />
-        <link
+       {/*  <link
           href="https://unpkg.com/aos@2.3.1/dist/aos.css"
           rel="stylesheet"
-        />
+        /> */}
       </Head>
 
       {loading ? (

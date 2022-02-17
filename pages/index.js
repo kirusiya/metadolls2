@@ -135,46 +135,46 @@ export default function Home({ posts }) {
             >
               <img
                 src={tattosDesign[Math.floor(Math.random() * 38)].src}
-                style={{ width: '38px', height:'38px' }}
+                style={{ width: '50px', height:'50px' }}
               />
               
              
               
               <img
                src={tattosDesign[Math.floor(Math.random() * 38)].src}
-               style={{ width: '38px', height:'38px' }}
+               style={{ width: '50px', height:'50px' }}
               />
               <img
                 src={tattosDesign[Math.floor(Math.random() * 38)].src}
-                style={{ width: '38px', height:'38px' }}
+                style={{ width: '50px', height:'50px' }}
               />
               <img
                src={tattosDesign[Math.floor(Math.random() * 38)].src}
-               style={{ width: '38px', height:'38px' }}
+               style={{ width: '50px', height:'50px' }}
               />
               <img
                src={tattosDesign[Math.floor(Math.random() * 38)].src}
-               style={{ width: '38px', height:'38px' }}
+               style={{ width: '50px', height:'50px' }}
               />
               <img
                src={tattosDesign[Math.floor(Math.random() * 38)].src}
-               style={{ width: '38px', height:'38px' }}
+               style={{ width: '50px', height:'50px' }}
               />
               <img
                 src={tattosDesign[Math.floor(Math.random() * 38)].src}
-                style={{ width: '38px', height:'38px' }}
+                style={{ width: '50px', height:'50px' }}
               />
               <img
                 src={tattosDesign[Math.floor(Math.random() * 38)].src}
-                style={{ width: '38px', height:'38px' }}
+                style={{ width: '50px', height:'50px' }}
               />
               <img
                 src={tattosDesign[Math.floor(Math.random() * 38)].src}
-                style={{ width: '38px', height:'38px' }}
+                style={{ width: '50px', height:'50px' }}
               />
               <img
                 src={tattosDesign[Math.floor(Math.random() * 38)].src}
-                style={{ width: '38px', height:'38px' }}
+                style={{ width: '50px', height:'50px' }}
               />
             </div>
 

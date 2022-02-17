@@ -8,7 +8,7 @@
 	text-decoration: none;
 	text-transform: uppercase;
 	position: absolute;
-	top: 92%;
+	top: 95%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	margin: 0;
@@ -70,13 +70,33 @@
 	}
 }
 
-
-@media only screen and (max-width: 767px) {
+@media (max-width: 800px){
 	.glitch {
 		font: {
 			size: 0.825em;
 			family: 'Raleway', sans-serif;
 			weight: 700;
-		}}
+		};
+		position: absolute;
+		top: 92%;
+		left: 50%;
+	
+	};
+	
+
+  }
+@media only screen and (min-width: 800px) and (max-width: 1400px) {
+	.glitch {
+		font: {
+			size: 0.825em;
+			family: 'Raleway', sans-serif;
+			weight: 700;
+		};
+		position: absolute;
+		top: 110%;
+		left: 50%;
+	
+	};
+	
 
   }

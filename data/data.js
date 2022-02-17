@@ -335,7 +335,7 @@ export const IMAGES = [
     },
     {
       id: 21,
-      src: "/tfile/Tattoosmargarita copia.png",
+      src: "/tfile/duck copia.png",
       alt: "Placeholder image",
     },
     {

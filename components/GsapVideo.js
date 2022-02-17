@@ -51,10 +51,10 @@ const GsapVideo = () => {
   }, [IntroVideoRef, vidRef]);
  
     return(
-        <div>
+        <div ref={IntroVideoRef}>
         <div id="background-container" className={styles.backgroundContainer}>
-    <div ref={IntroVideoRef} id="vid eo-container" className={styles.videoContainer}>
-      <video ref={vidRef} src="metavid.mp4" type="video/mp4" id="bgVideo" style={{width:'500px'}}></video>
+    <div  id="vid eo-container" className={styles.videoContainer}>
+      <video  ref={vidRef} src="metavid.mp4" type="video/mp4" id="bgVideo" style={{width:'500px'}}></video>
     </div>
    {/*  <button onClick={(e)=>{handlePauseVideo()}}>Pause</button>
     <button onClick={()=>{handlePlayVideo()}}>Play</button> */}

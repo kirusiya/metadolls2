@@ -118,7 +118,7 @@ export default function Home({ posts }) {
             width: "100%",
           }}
         >
-           <img className={styles.hideElement} 
+           <img 
             src={"./logo2.png"}
             style={{ width: "50%", height: "auto", }}
           />

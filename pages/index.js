@@ -180,9 +180,8 @@ export default function Home({ posts }) {
 
             <div className={styles.caption}>
            {/*  <a href="#" className={glitchStyle.glitch} data-glitch="Explore">Explore</a> */}
-              <p className={[glitchStyle.glitch]} data-glitch='People look at me like "the perfect Doll" and I want much more
-                than that...'>
-                "People look at me like "the perfect Doll" and I want much more
+              <p className={[glitchStyle.glitch]} data-glitch='"People look at me like "the perfect Doll" and I want much more
+                than ..." - MetaDoll 0001'>"People look at me like "the perfect Doll" and I want much more
                 than ..." - MetaDoll 0001
               </p>
               {/* <span

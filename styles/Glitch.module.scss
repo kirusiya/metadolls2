@@ -1,14 +1,14 @@
 
 .glitch {
 	font: {
-		size: 1.125em;
+		size:1.125em;
 		family: 'Raleway', sans-serif;
 		weight: 700;
 	}
 	text-decoration: none;
 	text-transform: uppercase;
 	position: absolute;
-	top: 100%;
+	top: 92%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	margin: 0;
@@ -42,12 +42,12 @@
 	}
 }
 
-@media only screen and (max-width: 400px) {
+/* @media only screen and (max-width: 400px) {
 	.glitch {
 		font-size: 3em;
 	}
 }
-
+ */
 
 @keyframes glitch {
 	0% {
@@ -69,3 +69,14 @@
 		transform: translate(0)
 	}
 }
+
+
+@media only screen and (max-width: 767px) {
+	.glitch {
+		font: {
+			size: 0.825em;
+			family: 'Raleway', sans-serif;
+			weight: 700;
+		}}
+
+  }

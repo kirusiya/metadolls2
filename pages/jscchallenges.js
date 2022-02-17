@@ -70,11 +70,11 @@ n=4
 10  9  8 7
 */
  const createMatrix = (n) => {
-    let matrix = []
+    /* let matrix = []
     let list = []
     for( let i = 1; i<=n; i++ ){
         if(i)
-    }
+    } */
 }
 useEffect(()=>{
    createMatrix(10)

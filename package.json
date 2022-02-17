@@ -27,6 +27,7 @@
     "react-parallax": "^3.3.0",
     "react-simple-image-slider": "^2.3.0",
     "react-slick": "^0.28.1",
+    "sass": "^1.49.7",
     "scrollmagic": "^2.0.8",
     "slick-carousel": "^1.8.1",
     "styled-components": "^5.3.3",

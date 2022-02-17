@@ -19,7 +19,7 @@ const Team = ()  => {
       <p className={styles.description}>The leading artist of the team has been tattooing for over 7 years specializing in micro tattoos while exploring different art mediums. He has dedicated the last years to 3D modeling and digital art combining passions to make Metadolls a reality. 
 </p>
       <div style={{}}>
-            <img scr='linkedin.png' className={styles.logitos} />
+      <img className={styles.circleImg} src='linkedin.png' style={{color:'white'}}/>
            
             <img scr={'twitter.png'} />
       </div>

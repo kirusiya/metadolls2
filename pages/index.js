@@ -5,6 +5,7 @@ import React, { useEffect, useState, useRef } from "react";
 import gsap from "gsap";
 
 import styles from "../styles/Home.module.css";
+import glitchStyle from "../styles/Glitch.module.scss";
 import Header from "../components/Header";
 
 import Top from "../components/Top";
@@ -44,10 +45,9 @@ const insideStyles = {
 };
 
 /* import ImageSlider from "../components/ImageSlider"; */
-import { IMAGES, VIDEOS, LARGE_IMAGES } from "../data/data";
+import { IMAGES, VIDEOS, LARGE_IMAGES, tattosDesign } from "../data/data";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
 
 
 
@@ -126,58 +126,66 @@ export default function Home({ posts }) {
             <div
               style={{
                 position: "relative",
-                top: "-17.7px",
+                top: "0px",
                 left: "0px",
                 width: "100%",
                 display: "flex",
                 justifyContent: "space-between",
               }}
             >
-              <img src={"/tfile/Tattoos/11.png"} style={{ width: "5%" }} />
               <img
-                src={"/tfile/Tattoos/69 copia.png"}
-                style={{ width: "5%" }}
+                src={tattosDesign[Math.floor(Math.random() * 38)].src}
+                style={{ width: '38px', height:'38px' }}
+              />
+              
+             
+              
+              <img
+               src={tattosDesign[Math.floor(Math.random() * 38)].src}
+               style={{ width: '38px', height:'38px' }}
               />
               <img
-                src={"/tfile/Tattoos/365days copia.png"}
-                style={{ width: "5%" }}
+                src={tattosDesign[Math.floor(Math.random() * 38)].src}
+                style={{ width: '38px', height:'38px' }}
               />
               <img
-                src={"/tfile/Tattoos/666 copia.png"}
-                style={{ width: "5%" }}
+               src={tattosDesign[Math.floor(Math.random() * 38)].src}
+               style={{ width: '38px', height:'38px' }}
               />
               <img
-                src={"/tfile/Tattoos/721 copia.png"}
-                style={{ width: "5%" }}
+               src={tattosDesign[Math.floor(Math.random() * 38)].src}
+               style={{ width: '38px', height:'38px' }}
               />
               <img
-                src={"/tfile/Tattoos/acab copia.png"}
-                style={{ width: "5%" }}
+               src={tattosDesign[Math.floor(Math.random() * 38)].src}
+               style={{ width: '38px', height:'38px' }}
               />
               <img
-                src={"/tfile/Tattoos/adventure copia.png"}
-                style={{ width: "5%" }}
+                src={tattosDesign[Math.floor(Math.random() * 38)].src}
+                style={{ width: '38px', height:'38px' }}
               />
               <img
-                src={"/tfile/Tattoos/alien copia.png"}
-                style={{ width: "5%" }}
+                src={tattosDesign[Math.floor(Math.random() * 38)].src}
+                style={{ width: '38px', height:'38px' }}
               />
               <img
-                src={"/tfile/Tattoos/alwaysbored copia.png"}
-                style={{ width: "5%" }}
+                src={tattosDesign[Math.floor(Math.random() * 38)].src}
+                style={{ width: '38px', height:'38px' }}
               />
               <img
-                src={"/tfile/Tattoos/anarchy copia.png"}
-                style={{ width: "5%" }}
+                src={tattosDesign[Math.floor(Math.random() * 38)].src}
+                style={{ width: '38px', height:'38px' }}
               />
             </div>
 
             <div className={styles.caption}>
-              <p className={styles.metaText}>
+           {/*  <a href="#" className={glitchStyle.glitch} data-glitch="Explore">Explore</a> */}
+              <p className={[glitchStyle.glitch]} data-glitch='People look at me like "the perfect Doll" and I want much more
+                than that...'>
                 "People look at me like "the perfect Doll" and I want much more
-                than that..." - MetaDoll 0001
+                than ..." - MetaDoll 0001
               </p>
-              <span
+              {/* <span
                 onClick={() =>
                   window.open("https://discord.com/invite/fMhpdrKRDG")
                 }
@@ -186,7 +194,7 @@ export default function Home({ posts }) {
                 data-aos-anchor-placement="bottom-bottom"
               >
                 Join Now
-              </span>
+              </span> */}
             </div>
             <div
               style={{

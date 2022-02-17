@@ -70,7 +70,8 @@
 	}
 }
 
-@media (max-width: 800px){
+
+@media only screen and (max-width: 1400px) {
 	.glitch {
 		font: {
 			size: 0.825em;
@@ -78,14 +79,15 @@
 			weight: 700;
 		};
 		position: absolute;
-		top: 92%;
+		top: 100%;
 		left: 50%;
 	
 	};
 	
 
   }
-@media only screen and (min-width: 800px) and (max-width: 1400px) {
+
+  @media only screen and (max-width: 500px) {
 	.glitch {
 		font: {
 			size: 0.825em;

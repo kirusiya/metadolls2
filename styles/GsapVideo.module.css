@@ -18,7 +18,7 @@
   }
   #bgVideo {
     flex: 1;
-    background-color: #000;
+    background-color: rgb(122, 22, 22);
     opacity: 1;
     visibility: visible;
   }

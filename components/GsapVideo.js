@@ -33,14 +33,14 @@ const GsapVideo = () => {
       scrub: true,
       pin: IntroVideoRef.current,
       start: "center center",
-      end: "800",
+      end: "900",
       markers: false,
       onUpdate: function (self) {
        /*  console.log(self.progress) */
         if (vidRef.current) {
           scrollPos = self.progress;
           videoDuration = vidRef.current.duration;
-          videoCurrentTime = (videoDuration * scrollPos * 0.8);
+          videoCurrentTime = (videoDuration * scrollPos * 0.7);
 
           if (videoCurrentTime) {
             vidRef.current.currentTime = videoCurrentTime;
@@ -51,10 +51,10 @@ const GsapVideo = () => {
   }, [IntroVideoRef, vidRef]);
  
     return(
-        <div ref={IntroVideoRef}>
+        <div>
         <div id="background-container" className={styles.backgroundContainer}>
-    <div  id="vid eo-container" className={styles.videoContainer}>
-      <video  ref={vidRef} src="metavid.mp4" type="video/mp4" id="bgVideo" style={{width:'500px'}}></video>
+    <div ref={IntroVideoRef} id="vid eo-container" className={styles.videoContainer}>
+      <video data-aos="fade-up" ref={vidRef} src="metavid.mp4" type="video/mp4" id="bgVideo" style={{width:'500px'}}></video>
     </div>
    {/*  <button onClick={(e)=>{handlePauseVideo()}}>Pause</button>
     <button onClick={()=>{handlePlayVideo()}}>Play</button> */}

@@ -5,10 +5,11 @@
 		family: 'Raleway', sans-serif;
 		weight: 700;
 	}
+	min-width: 400px;
 	text-decoration: none;
 	text-transform: uppercase;
 	position: absolute;
-	top: 95%;
+	top: 93%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	margin: 0;
@@ -71,7 +72,7 @@
 }
 
 
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1400px) and (min-width: 1800px) {
 	.glitch {
 		font: {
 			size: 0.825em;
@@ -87,7 +88,7 @@
 
   }
 
-  @media only screen and (max-width: 500px) {
+  @media only screen and (max-width: 800px) {
 	.glitch {
 		font: {
 			size: 0.825em;
@@ -95,7 +96,7 @@
 			weight: 700;
 		};
 		position: absolute;
-		top: 110%;
+		top: 90%;
 		left: 50%;
 	
 	};

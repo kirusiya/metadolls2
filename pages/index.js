@@ -43,19 +43,19 @@ const insideStyles = {
   left: "50%",
   transform: "translate(-50%,-50%)",
 };
-
+import 'aos/dist/aos.css';
 /* import ImageSlider from "../components/ImageSlider"; */
 import { IMAGES, VIDEOS, LARGE_IMAGES, tattosDesign } from "../data/data";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
+import AOS from "aos";
 
 
 const ImageSlider = dynamic(() => import("../components/ImageSlider"));
 const RoadMap = dynamic(() => import("../components/RoadMap"));
 
 export default function Home({ posts }) {
-
+  
   const boxRef = useRef();
   const [loading, setLoading] = useState(true);
   useEffect(() => {
@@ -63,6 +63,13 @@ export default function Home({ posts }) {
       setLoading(false);
     }, 3000);
     return () => clearTimeout(timeout);
+  }, []);
+
+
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+    });
   }, []);
 
   useEffect(() => {
@@ -113,7 +120,7 @@ export default function Home({ posts }) {
         >
           <img
             src={"./logo2.png"}
-            style={{ width: "80%", height: "auto", marginTop: "25%" }}
+            style={{ width: "50%", height: "auto", }}
           />
         </div>
       ) : (
@@ -329,7 +336,6 @@ export default function Home({ posts }) {
   <div  style={{WebkitTransform:'rotate(90deg)',position:'relative',zIndex:10000000000000000000000000,right:'50%'}}>
   <Rotary   />
   </div> */}
-
 
             <div ><RoadMap /></div>
             

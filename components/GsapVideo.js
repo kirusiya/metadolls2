@@ -40,7 +40,7 @@ const GsapVideo = () => {
         if (vidRef.current) {
           scrollPos = self.progress;
           videoDuration = vidRef.current.duration;
-          videoCurrentTime = (videoDuration * scrollPos);
+          videoCurrentTime = (videoDuration * scrollPos * 0.8);
 
           if (videoCurrentTime) {
             vidRef.current.currentTime = videoCurrentTime;

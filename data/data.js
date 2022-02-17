@@ -45,31 +45,7 @@ export const IMAGES = [
         src: "Metadoll-004.jpg",
         alt: "Placeholder image",
       },
-      {
-        id: 5,
-        src: "Metadoll-004.jpg",
-        alt: "Placeholder image",
-      },
-      {
-        id: 5,
-        src: "Metadoll-004.jpg",
-        alt: "Placeholder image",
-      },
-      {
-        id: 5,
-        src: "Metadoll-004.jpg",
-        alt: "Placeholder image",
-      },
-      {
-        id: 5,
-        src: "Metadoll-004.jpg",
-        alt: "Placeholder image",
-      },
-      {
-        id: 5,
-        src: "Metadoll-004.jpg",
-        alt: "Placeholder image",
-      },
+     
   ];
   
   export const LARGE_IMAGES = [
@@ -335,7 +311,7 @@ export const IMAGES = [
     },
     {
       id: 21,
-      src: "/tfile/duck copia.png",
+      src: "/tfile/Tattoos/duck copia.png",
       alt: "Placeholder image",
     },
     {

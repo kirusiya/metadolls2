@@ -76,11 +76,7 @@ n=4
         if(i)
     } */
 }
-useEffect(()=>{
-   createMatrix(10)
-   /*  console.log(findingNumber9(10))
-    console.log(count) */
- },[])
+
  
   return (
       <>

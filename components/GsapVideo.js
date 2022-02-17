@@ -54,7 +54,7 @@ const GsapVideo = () => {
         <div>
         <div id="background-container" className={styles.backgroundContainer}>
     <div ref={IntroVideoRef} id="vid eo-container" className={styles.videoContainer}>
-      <video data-aos="fade-up" ref={vidRef} src="metavid.mp4" type="video/mp4" id="bgVideo" style={{width:'500px'}}></video>
+      <video ref={vidRef} src="metavid.mp4" type="video/mp4" id="bgVideo" style={{width:'500px'}}></video>
     </div>
    {/*  <button onClick={(e)=>{handlePauseVideo()}}>Pause</button>
     <button onClick={()=>{handlePlayVideo()}}>Play</button> */}

@@ -30,7 +30,7 @@ const GsapVideo = () => {
 
   ScrollTrigger.create({
       trigger: IntroVideoRef.current,
-      scrub: true,
+      /* scrub: true, */
       pin: IntroVideoRef.current,
       start: "center center",
       end: "900",
@@ -40,7 +40,7 @@ const GsapVideo = () => {
         if (vidRef.current) {
           scrollPos = self.progress;
           videoDuration = vidRef.current.duration;
-          videoCurrentTime = (videoDuration * scrollPos*0.6);
+          videoCurrentTime = (videoDuration * scrollPos*0.8);
 
           if (videoCurrentTime) {
             vidRef.current.currentTime = videoCurrentTime;

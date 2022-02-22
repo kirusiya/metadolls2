@@ -12,7 +12,7 @@
 --control-button-background: transparent;
 --control-bullet-color: #2d5182;
 --control-bullet-active-color: #26456f;
---loader-bar-color: #851515;
+--loader-bar-color: #5a3434;
 --loader-bar-height: 6px;
 min-width: 200px;
 max-height: 600px;
@@ -83,7 +83,7 @@ flex-wrap: wrap;
            
 }
 .titles{
-    font-size:20px;
+    font-size:19px;
    font-family: 'Inconsolata';
     color: white;
     text-align: justify;

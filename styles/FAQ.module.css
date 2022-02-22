@@ -36,14 +36,16 @@
 .descriptionStyle{
     text-align: left; 
      color: rgb(175, 190, 217);
-     font-family: 'Orbitron';
-     display:none
+     font-family: 'Inconsolata';
+     display:none;
+    
 }
 .descriptionStyleactive{
     text-align: left; 
-     color: rgb(175, 190, 217);
-     font-family: 'Orbitron';
-     display:block
+     color: white;
+     font-family: 'Inconsolata';
+     display:block;
+     font-size:18px;
 }
 
 .RoadMapSteps{

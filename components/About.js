@@ -1,7 +1,7 @@
 import React,{useEffect} from 'react'
 import styles from '../styles/About.module.css'
 import AOS from 'aos'
-
+import glitchStyle from "../styles/Glitch.module.scss";
 /* 
 import AwesomeSlider from 'react-awesome-slider';
 
@@ -127,6 +127,7 @@ function About() {
              {/*  <div className={styles.randomImagePicker}>
                 <img className={styles.imageSection}>  </img>
             </div> */}
+            
         </section>
     )
 }

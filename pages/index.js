@@ -321,6 +321,7 @@ export default function Home({ posts }) {
   <div style={{WebkitTransform:'rotate(90deg)',position:'relative',zIndex:10000000000000000000000000,right:'50%'}}>
   <Rotary  />
   </div> */}
+  
             <About />
             <div style={{ padding: "2.5rem 0" }}>
               <ImageSlider images={IMAGES} slidesToShow={3} />

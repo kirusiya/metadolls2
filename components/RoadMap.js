@@ -40,17 +40,17 @@ const RoadMap = () => {
       <div className={styles.RoadMapSteps} data-aos="zoom-in" style={{position:'relative'}}>
         <h2 className={styles.RoadMapTitle}>ROADMAP</h2>
         <br/>
-        <p className={styles.RoadMapIntro}>
+       {/*  <p className={styles.RoadMapIntro}>
         "Rebellion against the perfect blonde is inked on my skin and in the color of my hair." - MetaDoll 0003
 
-        </p>
+        </p> */}
         <p className={styles.numerStyle}>.01 Community Creation and Whitelist</p>
         <ul>
           <li className={styles.descriptionStyle}>
             {" "}
             1000 spots and elegible for 2 MetaDolls per wallet
           </li>
-          <li className={styles.descriptionStyle}> We’ll be dropping Whitelist spots for our community across all social media and on our discord server weekly until we reach 500. After we reach 500, we will reveal the rest of whitelist spots the day before minting.
+          <li className={styles.descriptionStyle}> We’ll be dropping Whitelist spots for our community across all social media and on our discord server weekly until we reach 500.{/*  After we reach 500, we will reveal the rest of whitelist spots the day before minting. */}
 </li>
         </ul>
        {/*  <p className={styles.descriptionStyle}>
@@ -98,8 +98,8 @@ const RoadMap = () => {
             {" "}
             We’ll be building a DAO with all MetaDoll holders to develop our community shaped just as the community wants.
              We believe that these NFT projects should add value to the community not only through amazing art but also 
-             through real world and metaverse experiences. we will all be part of a team and we will create our own set
-              of values and goals.
+             through real world and metaverse experiences. {/* we will all be part of a team and we will create our own set
+              of values and goals. */}
 
           </li>
           <li className={styles.descriptionStyle}>

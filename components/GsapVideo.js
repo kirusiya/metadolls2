@@ -33,7 +33,7 @@ const GsapVideo = () => {
       scrub:  vidRef,
       pin: true,
       start: "center center",
-      end: "800",
+      end:  "900",
       markers: true,
       onUpdate: function (self) {
        /*  self.current.currentTime = self.current.duration * self.progress.toFixed(2); */
@@ -41,7 +41,7 @@ const GsapVideo = () => {
         if (vidRef.current) {
           scrollPos = self.progress;
           videoDuration = vidRef.current.duration;
-          videoCurrentTime = (videoDuration * (scrollPos * 0.8));
+          videoCurrentTime = (videoDuration * (scrollPos * (0.7)));
         
           if (videoCurrentTime) {
             vidRef.current.currentTime = videoCurrentTime;

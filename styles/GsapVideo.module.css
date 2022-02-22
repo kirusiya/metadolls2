@@ -1,5 +1,5 @@
 .backgroundcontainer {
-    position: fixed;
+    position: relative;
     display: flex;
     bottom: 0px;
     left: 0px;

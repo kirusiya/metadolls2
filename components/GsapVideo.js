@@ -41,7 +41,7 @@ let videoCurrentTime
        /*  console.log(self.progress) */
         if (vidRef.current) {
           scrollPos = self.progress;
-          videoDuration = vidRef.current.duration*0.8888888888888888888;
+          videoDuration = vidRef.current.duration*0.555555555555555555555555555555555555555555555555555;
           videoCurrentTime = (videoDuration * scrollPos );
         
           if (videoCurrentTime) {

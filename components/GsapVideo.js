@@ -30,37 +30,41 @@ const GsapVideo = () => {
 
   ScrollTrigger.create({
       trigger: IntroVideoRef.current,
-      scrub: true,
+      scrub:  vidRef,
       pin: true,
       start: "center center",
       end: "800",
-      markers: false,
+      markers: true,
       onUpdate: function (self) {
+       /*  self.current.currentTime = self.current.duration * self.progress.toFixed(2); */
        /*  console.log(self.progress) */
         if (vidRef.current) {
           scrollPos = self.progress;
           videoDuration = vidRef.current.duration;
-          videoCurrentTime = (videoDuration * (scrollPos));
-
+          videoCurrentTime = (videoDuration * (scrollPos * 0.8));
+        
           if (videoCurrentTime) {
             vidRef.current.currentTime = videoCurrentTime;
           }}
     
+      },
+      onended: function(self){
+        vidRef.current.currentTime = 0;
       }
     });
   }, [IntroVideoRef, vidRef]);
  
     return(
-        <div>
-        <div id="background-container" className={styles.backgroundContainer}>
-    <div  ref={IntroVideoRef} id="vid eo-container" className={styles.videoContainer}>
-      <video  ref={vidRef} src="metavid.mp4" type="video/mp4" id="bgVideo" style={{width:'500px'}}></video>
+    
+        <div   id="background-container" className={styles.backgroundContainer}>
+    <div ref={IntroVideoRef}  id="video-container" className={styles.videoContainer}>
+      <video   data-aos="fade-up"  ref={vidRef} src="metavid.mp4" type="video/mp4" id="bgVideo" style={{width:'500px'}}></video>
     </div>
    {/*  <button onClick={(e)=>{handlePauseVideo()}}>Pause</button>
     <button onClick={()=>{handlePlayVideo()}}>Play</button> */}
   </div>
  
-  </div>
+  
     )
 }
 

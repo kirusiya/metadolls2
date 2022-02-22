@@ -5,6 +5,10 @@
     
   }
 
+  .metavid{
+      padding-top: 350px;
+  }
+
 
 .RoadMapContainer{
     background-color:black;
@@ -12,7 +16,7 @@
    flex-direction: row;
     display: flex;
     padding: 0 40px;
-   
+   margin: 10px;
    
 }
 .RoadMapTitle{

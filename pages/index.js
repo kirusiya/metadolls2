@@ -323,12 +323,13 @@ export default function Home({ posts }) {
   </div> */}
   
             <About />
-            <div style={{ padding: "2.5rem 0" }}>
+            <ImageSlider images={IMAGES} slidesToShow={3} />
+            {/* <div style={{ padding: "2.5rem 0" }}>
               <ImageSlider images={IMAGES} slidesToShow={3} />
-            </div>
+            </div> */}
             {/*   <ImageSlider images={LARGE_IMAGES} />
              */}
-            <div style={{ marginBottom: "600px" }} />
+            <div style={{ marginBottom: "300px" }} />
 
             {/* <div className={styles.container}>
     <ImageSlider images={IMAGES} slidesToShow={5} />
@@ -346,7 +347,7 @@ export default function Home({ posts }) {
   <div  style={{WebkitTransform:'rotate(90deg)',position:'relative',zIndex:10000000000000000000000000,right:'50%'}}>
   <Rotary   />
   </div> */}
- <div
+ {/* <div
               style={{
                 WebkitTransform: "rotate(90deg)",
                 position: "relative",
@@ -451,7 +452,7 @@ export default function Home({ posts }) {
                   style={{ width: "5%" ,margin:'10px'}}
                 />
               </div>
-            </div>
+            </div> */}
   
             <div ><RoadMap /></div>
             

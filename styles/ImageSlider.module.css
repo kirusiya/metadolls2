@@ -45,7 +45,7 @@
 
   @media only screen and (max-width: 767px) {
     .imgSliderSize{
-      width:200px; height: auto; object-fit: cover
+      width:170px; height: auto; object-fit: cover
     }
 
   }

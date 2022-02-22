@@ -32,7 +32,7 @@ const Team = ()  => {
       <p className={styles.description1}>Juan Esteban “Dino” Sierra - Business Developer/Marketing
 </p>
 <p className={styles.description}>Lead strategist for MetaDolls, has worked for over 5 years in the crypto world and investment banking. He has had the opportunity to participate in high tech startup accelerators as well as in the development of customer acquisition strategies for a variety of projects. He’s currently focusing in the NFT field understanding how to bring value and utility through this technology to the community. 
-m</p>
+</p>
       </div>
       
       </div>

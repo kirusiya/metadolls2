@@ -328,7 +328,7 @@ export default function Home({ posts }) {
             </div>
             {/*   <ImageSlider images={LARGE_IMAGES} />
              */}
-            <div style={{ marginBottom: "150px" }} />
+            <div style={{ marginBottom: "600px" }} />
 
             {/* <div className={styles.container}>
     <ImageSlider images={IMAGES} slidesToShow={5} />

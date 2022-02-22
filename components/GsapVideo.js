@@ -20,7 +20,7 @@ const GsapVideo = () => {
 
   useEffect(() => {
     AOS.init({
-      duration: 1000,
+      duration: 2000,
     });
   }, []);
   useEffect(() => {
@@ -31,16 +31,16 @@ const GsapVideo = () => {
   ScrollTrigger.create({
       trigger: IntroVideoRef.current,
       scrub: true,
-      pin: IntroVideoRef.current,
+      pin: true,
       start: "center center",
-      end: "900",
+      end: "800",
       markers: false,
       onUpdate: function (self) {
        /*  console.log(self.progress) */
         if (vidRef.current) {
           scrollPos = self.progress;
           videoDuration = vidRef.current.duration;
-          videoCurrentTime = (videoDuration * scrollPos*0.6);
+          videoCurrentTime = (videoDuration * (scrollPos));
 
           if (videoCurrentTime) {
             vidRef.current.currentTime = videoCurrentTime;
@@ -53,8 +53,8 @@ const GsapVideo = () => {
     return(
         <div>
         <div id="background-container" className={styles.backgroundContainer}>
-    <div ref={IntroVideoRef} id="vid eo-container" className={styles.videoContainer}>
-      <video data-aos="fade-up" ref={vidRef} src="metavid.mp4" type="video/mp4" id="bgVideo" style={{width:'500px'}}></video>
+    <div  ref={IntroVideoRef} id="vid eo-container" className={styles.videoContainer}>
+      <video  ref={vidRef} src="metavid.mp4" type="video/mp4" id="bgVideo" style={{width:'500px'}}></video>
     </div>
    {/*  <button onClick={(e)=>{handlePauseVideo()}}>Pause</button>
     <button onClick={()=>{handlePlayVideo()}}>Play</button> */}

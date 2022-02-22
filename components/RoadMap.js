@@ -139,7 +139,8 @@ const RoadMap = () => {
         <p className={styles.descriptionStyle}></p>
       </div>
       </div>
-      <div className={styles.metavid} style={{}}>
+      
+      <div className={styles.metavid} >
       <GsapVideo/>
       </div>
     </div>

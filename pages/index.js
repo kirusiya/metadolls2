@@ -109,7 +109,7 @@ export default function Home({ posts }) {
         /> */}
       </Head>
 
-     {/*  {loading ? (
+      {loading ? (
         <div
           ref={boxRef}
           style={{
@@ -126,7 +126,7 @@ export default function Home({ posts }) {
           />
          
         </div>
-      ) : ( */}
+      ) : (
         <>
           {/* <NavBarv1/> */}
          
@@ -727,7 +727,7 @@ backgroundColor:'#01030d'
   
   <Footer/> */}
         </>
-    {/*   )} */}
+    )} 
     </div>
   );
 }

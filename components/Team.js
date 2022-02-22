@@ -18,10 +18,10 @@ const Team = ()  => {
       <p className={styles.description1}>Alejandro Rincón - Visual Artist </p>
       <p className={styles.description}>The leading artist of the team has been tattooing for over 7 years specializing in micro tattoos while exploring different art mediums. He has dedicated the last years to 3D modeling and digital art combining passions to make Metadolls a reality. 
 </p>
-      <div style={{}}>
-      <img className={styles.circleImg} src='linkedin.png' style={{color:'white'}}/>
+      <div style={{display:'flex',justifyContent:'center',alignItems:'center',flex:1}}>
+      <img style={{width:'45px',height:'auto',objectFit:'contain'}} src='teamLinkdin.png'/>
            
-            <img scr={'twitter.png'} />
+           {/*  <img scr={'teamTwitter.png'} /> */}
       </div>
       </div>
       

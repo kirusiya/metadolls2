@@ -44,15 +44,16 @@ const insideStyles = {
   transform: "translate(-50%,-50%)",
 };
 import 'aos/dist/aos.css';
-/* import ImageSlider from "../components/ImageSlider"; */
+import ImageSlider from "../components/ImageSlider";
+import RoadMap from "../components/RoadMap";
 import { IMAGES, VIDEOS, LARGE_IMAGES, tattosDesign } from "../data/data";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import AOS from "aos";
 
 
-const ImageSlider = dynamic(() => import("../components/ImageSlider"));
-const RoadMap = dynamic(() => import("../components/RoadMap"));
+/* const ImageSlider = dynamic(() => import("../components/ImageSlider")); */
+/* const RoadMap = dynamic(() => import("../components/RoadMap")); */
 
 export default function Home({ posts }) {
   
@@ -74,7 +75,7 @@ export default function Home({ posts }) {
 
   useEffect(() => {
     gsap.to(boxRef.current, {
-      rotation: "+=360",
+     
     });
   });
 
@@ -94,38 +95,41 @@ export default function Home({ posts }) {
           rel="stylesheet"
         />
         <link
-          href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
           rel="stylesheet"
         />
         <link
           href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
           rel="stylesheet"
         />
+        <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&family=Redressed&family=Ubuntu:wght@300&display=swap" rel="stylesheet"></link>
        {/*  <link
           href="https://unpkg.com/aos@2.3.1/dist/aos.css"
           rel="stylesheet"
         /> */}
       </Head>
 
-      {loading ? (
+     {/*  {loading ? (
         <div
           ref={boxRef}
           style={{
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
-            height: "800px",
+            height: "100vh",
             width: "100%",
           }}
         >
            <img 
             src={"./logo2.png"}
-            style={{ width: "50%", height: "auto", }}
+            style={{ width: "50%", height: "auto", maxWidth:'400px'}}
           />
+         
         </div>
-      ) : (
+      ) : ( */}
         <>
           {/* <NavBarv1/> */}
+         
           <Nabvar />
 
           <ManualParallax />
@@ -722,7 +726,7 @@ backgroundColor:'#01030d'
   
   <Footer/> */}
         </>
-      )}
+    {/*   )} */}
     </div>
   );
 }

@@ -69,9 +69,22 @@ flex-wrap: wrap;
     font-weight: bold;
            
 }
+
+.subrayado{
+    font-family: 'Inconsolata';
+    background: linear-gradient(
+        90deg
+        ,#fe1393,#fe1393);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-align: left; 
+  font-weight: bold;
+    
+           
+}
 .titles{
     font-size:20px;
-   font-family: 'Orbitron';
+   font-family: 'Inconsolata';
     color: white;
     text-align: justify;
    padding:30px;

@@ -45,7 +45,7 @@ let videoCurrentTime
           videoCurrentTime = (videoDuration * scrollPos );
         
           if (videoCurrentTime) {
-            vidRef.current.currentTime = videoCurrentTime*(0.699999);
+            vidRef.current.currentTime = videoCurrentTime*(0.65);
           }}
     
       },

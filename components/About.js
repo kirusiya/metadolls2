@@ -34,8 +34,7 @@ function About() {
            
               <h2 className={styles.bigTitle}  >About The</h2>
             <h2 className={styles.titles2} style={{fontWeight:'bold'}}>METADOLLS</h2><br/>
-            <p className={styles.titles} data-aos="fade-right">MetaDolls is an NFT Collection Project based on
-             the Polygon network. it is made up <text className={styles.subrayado}> 7000 randomly generated 3D hyper realistic </text> dolls.
+            <p className={styles.titles} data-aos="fade-right">MetaDolls is an NFT Collection Project based on the Ethereum network. it is made up <text className={styles.subrayado}> 7000 randomly generated 3D hyper realistic </text> dolls.
 <p></p>
              The MetaDolls create a unique style through the changes in their body. Face Tatts, Nose rings, golden chains, original hair styles are examples
               of ways in which MetaDolls build their own identity and aesthetic.
@@ -44,10 +43,11 @@ function About() {
             <p></p>
             <text className={styles.subrayado}>MetaDolls holders</text>  will be able to get exclusive access to a boutique of physical versions of their art.
             <p></p>
-            Our utility doesn’t stop there. We will be building a <text className={styles.subrayado}>Tattoo shop</text> on the metaverse where you can bring your NFTs from our or other collections and give them Tattoos and Body modification. As a Holder you can expect airdropped art
+            <text className={styles.titles2} >"I want to be the unexpected, stereotypes will never define me again!"  - MetaDoll 0002</text>
+            <text className={styles.bigTitle} > </text>
             </p>
             
-           
+            
             {/* <div style={{display:'flex',width:'100%', justifyContent:'space-between',alignItems:'center',}}>
             <p className={styles.bigTitle} > Join now</p>
             <p className={styles.bigTitle} > Discord</p>

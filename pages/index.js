@@ -225,27 +225,27 @@ export default function Home({ posts }) {
               <div >
                  <img className={styles.hideElement}  src={"/tfile/Tattoos/11.png"} style={{ width: "5%",margin:'10px' }} />
                  <img className={styles.hideElement} 
-                  src={"/tfile/Tattoos/69 copia.png"}
+                   src={tattosDesign[Math.floor(Math.random() * 38)].src}
                   style={{ width: "5%",margin:'10px' }}
                 />
                  <img className={styles.hideElement} 
-                  src={"/tfile/Tattoos/365days copia.png"}
+                   src={tattosDesign[Math.floor(Math.random() * 38)].src}
                   style={{ width: "5%",margin:'10px' }}
                 />
                  <img className={styles.hideElement} 
-                  src={"/tfile/Tattoos/666 copia.png"}
+                   src={tattosDesign[Math.floor(Math.random() * 38)].src}
                   style={{ width: "5%",margin:'10px' }}
                 />
                  <img className={styles.hideElement} 
-                  src={"/tfile/Tattoos/721 copia.png"}
+                   src={tattosDesign[Math.floor(Math.random() * 38)].src}
                   style={{ width: "5%" ,margin:'10px'}}
                 />
                  <img className={styles.hideElement} 
-                  src={"/tfile/Tattoos/acab copia.png"}
+                   src={tattosDesign[Math.floor(Math.random() * 38)].src}
                   style={{ width: "5%",margin:'10px' }}
                 />
                  <img className={styles.hideElement} 
-                  src={"/tfile/Tattoos/adventure copia.png"}
+                   src={tattosDesign[Math.floor(Math.random() * 38)].src}
                   style={{ width: "5%",margin:'10px' }}
                 />
                  <img className={styles.hideElement} 
@@ -257,7 +257,7 @@ export default function Home({ posts }) {
                   style={{ width: "5%",margin:'10px' }}
                 />
                  <img className={styles.hideElement} 
-                  src={"/tfile/Tattoos/anarchy copia.png"}
+                   src={tattosDesign[Math.floor(Math.random() * 38)].src}
                   style={{ width: "5%" ,margin:'10px'}}
                 />
               </div>
@@ -282,7 +282,7 @@ export default function Home({ posts }) {
                   style={{ width: "5%",margin:'10px' }}
                 />
                  <img className={styles.hideElement} 
-                  src={"/tfile/Tattoos/365days copia.png"}
+                  src={tattosDesign[Math.floor(Math.random() * 38)].src}
                   style={{ width: "5%" ,margin:'10px'}}
                 />
                  <img className={styles.hideElement} 
@@ -290,7 +290,7 @@ export default function Home({ posts }) {
                   style={{ width: "5%" ,margin:'10px'}}
                 />
                  <img className={styles.hideElement} 
-                  src={"/tfile/Tattoos/721 copia.png"}
+                   src={tattosDesign[Math.floor(Math.random() * 38)].src}
                   style={{ width: "5%" ,margin:'10px'}}
                 />
                  <img className={styles.hideElement} 
@@ -298,7 +298,7 @@ export default function Home({ posts }) {
                   style={{ width: "5%" ,margin:'10px'}}
                 />
                  <img className={styles.hideElement} 
-                  src={"/tfile/Tattoos/adventure copia.png"}
+                   src={tattosDesign[Math.floor(Math.random() * 38)].src}
                   style={{ width: "5%" ,margin:'10px'}}
                 />
                  <img className={styles.hideElement} 
@@ -310,7 +310,7 @@ export default function Home({ posts }) {
                   style={{ width: "5%",margin:'10px' }}
                 />
                  <img className={styles.hideElement} 
-                  src={"/tfile/Tattoos/anarchy copia.png"}
+                   src={tattosDesign[Math.floor(Math.random() * 38)].src}
                   style={{ width: "5%" ,margin:'10px'}}
                 />
               </div>
@@ -472,7 +472,7 @@ export default function Home({ posts }) {
               <div >
                  <img className={styles.hideElement}  src={"/tfile/Tattoos/baby1 copia.png"} style={{ width: "5%",margin:'10px' }} />
                  <img className={styles.hideElement} 
-                  src={"/tfile/Tattoos/badday copia.png"}
+                  src={tattosDesign[Math.floor(Math.random() * 38)].src}
                   style={{ width: "5%",margin:'10px' }}
                 />
                  <img className={styles.hideElement} 
@@ -480,7 +480,7 @@ export default function Home({ posts }) {
                   style={{ width: "5%",margin:'10px' }}
                 />
                  <img className={styles.hideElement} 
-                  src={"/tfile/Tattoos/balance copia.png"}
+                   src={tattosDesign[Math.floor(Math.random() * 38)].src}
                   style={{ width: "5%",margin:'10px' }}
                 />
                  <img className={styles.hideElement} 
@@ -488,7 +488,7 @@ export default function Home({ posts }) {
                   style={{ width: "5%" ,margin:'10px'}}
                 />
                  <img className={styles.hideElement} 
-                  src={"/tfile/Tattoos/BarCode copia.png"}
+                  src={tattosDesign[Math.floor(Math.random() * 38)].src}
                   style={{ width: "5%",margin:'10px' }}
                 />
                  
@@ -514,7 +514,7 @@ export default function Home({ posts }) {
                   style={{ width: "5%",margin:'10px' }}
                 />
                  <img className={styles.hideElement} 
-                  src={"/tfile/Tattoos/badkid copia.png"}
+                   src={tattosDesign[Math.floor(Math.random() * 38)].src}
                   style={{ width: "5%",margin:'10px' }}
                 />
                  <img className={styles.hideElement} 
@@ -522,7 +522,7 @@ export default function Home({ posts }) {
                   style={{ width: "5%",margin:'10px' }}
                 />
                  <img className={styles.hideElement} 
-                  src={"/tfile/Tattoos/bandaid copia.png"}
+                  src={tattosDesign[Math.floor(Math.random() * 38)].src}
                   style={{ width: "5%" ,margin:'10px'}}
                 />
                  <img className={styles.hideElement} 
@@ -563,7 +563,7 @@ export default function Home({ posts }) {
                   style={{ width: "5%",margin:'10px' }}
                 />
                  <img className={styles.hideElement} 
-                  src={"/tfile/Tattoos/365days copia.png"}
+                   src={tattosDesign[Math.floor(Math.random() * 38)].src}
                   style={{ width: "5%",margin:'10px' }}
                 />
                  <img className={styles.hideElement} 
@@ -575,7 +575,7 @@ export default function Home({ posts }) {
                   style={{ width: "5%" ,margin:'10px'}}
                 />
                  <img className={styles.hideElement} 
-                  src={"/tfile/Tattoos/acab copia.png"}
+                  src={tattosDesign[Math.floor(Math.random() * 38)].src}
                   style={{ width: "5%",margin:'10px' }}
                 />
                  <img className={styles.hideElement} 
@@ -583,7 +583,7 @@ export default function Home({ posts }) {
                   style={{ width: "5%",margin:'10px' }}
                 />
                  <img className={styles.hideElement} 
-                  src={"/tfile/Tattoos/alien copia.png"}
+                  src={tattosDesign[Math.floor(Math.random() * 38)].src}
                   style={{ width: "5%" ,margin:'10px'}}
                 />
                  <img className={styles.hideElement} 
@@ -591,7 +591,7 @@ export default function Home({ posts }) {
                   style={{ width: "5%",margin:'10px' }}
                 />
                  <img className={styles.hideElement} 
-                  src={"/tfile/Tattoos/anarchy copia.png"}
+                   src={tattosDesign[Math.floor(Math.random() * 38)].src}
                   style={{ width: "5%" ,margin:'10px'}}
                 />
               </div>
@@ -612,7 +612,7 @@ export default function Home({ posts }) {
               <div>
                  <img className={styles.hideElement}  src={"/tfile/Tattoos/11.png"} style={{ width: "5%" }} />
                  <img className={styles.hideElement} 
-                  src={"/tfile/Tattoos/69 copia.png"}
+                   src={tattosDesign[Math.floor(Math.random() * 38)].src}
                   style={{ width: "5%",margin:'10px' }}
                 />
                  <img className={styles.hideElement} 
@@ -624,7 +624,7 @@ export default function Home({ posts }) {
                   style={{ width: "5%" ,margin:'10px'}}
                 />
                  <img className={styles.hideElement} 
-                  src={"/tfile/Tattoos/721 copia.png"}
+                   src={tattosDesign[Math.floor(Math.random() * 38)].src}
                   style={{ width: "5%" ,margin:'10px'}}
                 />
                  <img className={styles.hideElement} 
@@ -632,7 +632,7 @@ export default function Home({ posts }) {
                   style={{ width: "5%" ,margin:'10px'}}
                 />
                  <img className={styles.hideElement} 
-                  src={"/tfile/Tattoos/adventure copia.png"}
+                   src={tattosDesign[Math.floor(Math.random() * 38)].src}
                   style={{ width: "5%" ,margin:'10px'}}
                 />
                  <img className={styles.hideElement} 
@@ -640,7 +640,7 @@ export default function Home({ posts }) {
                   style={{ width: "5%",margin:'10px' }}
                 />
                  <img className={styles.hideElement} 
-                  src={"/tfile/Tattoos/alwaysbored copia.png"}
+                   src={tattosDesign[Math.floor(Math.random() * 38)].src}
                   style={{ width: "5%",margin:'10px' }}
                 />
                  <img className={styles.hideElement} 

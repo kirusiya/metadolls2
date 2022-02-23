@@ -27,7 +27,7 @@ let videoCurrentTime
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
 
-    vidRef.current.currentTime = 0.1;
+    vidRef.current.currentTime = 0;
 
   ScrollTrigger.create({
       trigger: IntroVideoRef.current,
@@ -45,7 +45,7 @@ let videoCurrentTime
           videoCurrentTime = (videoDuration * scrollPos );
         
           if (videoCurrentTime) {
-            vidRef.current.currentTime = videoCurrentTime;
+            vidRef.current.currentTime = videoCurrentTime*(0.699999);
           }}
     
       },

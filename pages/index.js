@@ -464,7 +464,7 @@ export default function Home({ posts }) {
                 left: "50%",
                 display: "flex",
                 justifyContent: "space-between",
-                bottom: "100px",
+                bottom: "300px",
                 
               }}
               data-aos="zoom-in"
@@ -491,22 +491,7 @@ export default function Home({ posts }) {
                   src={"/tfile/Tattoos/BarCode copia.png"}
                   style={{ width: "5%",margin:'10px' }}
                 />
-                 <img className={styles.hideElement} 
-                  src={"/tfile/Tattoos/basquiat1 copia.png"}
-                  style={{ width: "5%",margin:'10px' }}
-                />
-                 <img className={styles.hideElement} 
-                  src={"/tfile/Tattoos/bayc copia.png"}
-                  style={{ width: "5%" ,margin:'10px'}}
-                />
-                 <img className={styles.hideElement} 
-                  src={"/tfile/Tattoos/binance.png"}
-                  style={{ width: "5%",margin:'10px' }}
-                />
-                 <img className={styles.hideElement} 
-                  src={"/tfile/Tattoos/bones copia.png"}
-                  style={{ width: "5%" ,margin:'10px'}}
-                />
+                 
               </div>
             </div>
             <div
@@ -517,7 +502,7 @@ export default function Home({ posts }) {
                 right: "50%",
                 display: "flex",
                 justifyContent: "space-between",
-                bottom: "200px",
+                bottom: "400px",
                 
               }}
               data-aos="zoom-in"
@@ -544,22 +529,7 @@ export default function Home({ posts }) {
                   src={"/tfile/Tattoos/BarCode copia.png"}
                   style={{ width: "5%",margin:'10px' }}
                 />
-                 <img className={styles.hideElement} 
-                  src={"/tfile/Tattoos/basquiat1 copia.png"}
-                  style={{ width: "5%",margin:'10px' }}
-                />
-                 <img className={styles.hideElement} 
-                  src={"/tfile/Tattoos/bayc copia.png"}
-                  style={{ width: "5%" ,margin:'10px'}}
-                />
-                 <img className={styles.hideElement} 
-                  src={"/tfile/Tattoos/binance.png"}
-                  style={{ width: "5%",margin:'10px' }}
-                />
-                 <img className={styles.hideElement} 
-                  src={"/tfile/Tattoos/bones copia.png"}
-                  style={{ width: "5%" ,margin:'10px'}}
-                />
+               
               </div>
             </div>
           

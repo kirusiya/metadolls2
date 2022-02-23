@@ -46,34 +46,7 @@ const Team = ()  => {
       </div>
       
       </div>
-      <div className={styles.memberTeamInfo}>
-      <img className={styles.circleImg} src='metadoll.jpeg'/>
-      <div className={styles.descriptionContainer}>
-      <p className={styles.description1}>Alejandro Herrada - CGI Designer</p>
-      <p className={styles.description}>Ah Studio Director with X years experience in the hyper realistic rendering field. He has worked in marketing campaigns for brands such as Nivea, Hatsu, Club Colombia and many more.  
-</p>
-<div style={{display:'flex',justifyContent:'flex-start',alignItems:'center',flex:1}}>
-      <img  onClick={()=>{window.open("https://www.instagram.com/ahstudio_co/")}} style={{width:'30px',height:'auto',objectFit:'contain',padding:'2px'}} src='teamInstagram.png'/>
-      
-           {/*  <img scr={'teamTwitter.png'} /> */}
-      </div>
-      </div>
-      
-      </div>
-      <div className={styles.memberTeamInfo}>
-      <img className={styles.circleImg} src='metadoll.jpeg'/>
-      <div className={styles.descriptionContainer}>
-      <p className={styles.description1}>Juan “SebastianRevan” Ruiz - Lead Developer</p>
-      <p className={styles.description}>With experience working in software projects with clients from sillicon valley, europe, and the middle east, Juan Ruiz brings the technical expertise to the team. Proficient in several languages and passionate about distributed systems, unix, cloud, open source software and math, Juan is in charge making sure we have the best in class tools so we can offer a best in class experience.</p>
-      <div style={{display:'flex',justifyContent:'flex-start',alignItems:'center',flex:1}}>
-      <img  onClick={()=>{window.open("https://www.instagram.com/sebastian_revan/")}} style={{width:'30px',height:'auto',objectFit:'contain',padding:'2px'}} src='teamInstagram.png'/>
-      <img  onClick={()=>{window.open("https://www.linkedin.com/in/juan-ruiz-villa-1870395a/")}} style={{width:'30px',height:'auto',objectFit:'contain',padding:'2px'}} src='teamTwitter.png'/>
-           
-           {/*  <img scr={'teamTwitter.png'} /> */}
-      </div>
-      </div>
-      
-      </div>
+     
 
       <div className={styles.memberTeamInfo}>
       <img className={styles.circleImg} src='metadoll.jpeg'/>

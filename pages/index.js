@@ -464,7 +464,7 @@ export default function Home({ posts }) {
                 left: "50%",
                 display: "flex",
                 justifyContent: "space-between",
-                bottom: "-670px",
+                bottom: "100px",
                 
               }}
               data-aos="zoom-in"
@@ -517,7 +517,7 @@ export default function Home({ posts }) {
                 right: "50%",
                 display: "flex",
                 justifyContent: "space-between",
-                bottom: "-570px",
+                bottom: "200px",
                 
               }}
               data-aos="zoom-in"

@@ -43,7 +43,7 @@ function About() {
             <p></p>
             <text className={styles.subrayado}>MetaDolls holders</text>  will be able to get exclusive access to a boutique of physical versions of their art.
             <p></p>
-            <text className={styles.titles2} >"I want to be the unexpected, stereotypes will never define me again!"  - MetaDoll 0002</text>
+            <text className={styles.titles2} >"I want to be the unexpected, stereotypes will never define me again!"  </text> <text className={styles.subrayado}>- MetaDoll 0002</text> 
             <text className={styles.bigTitle} > </text>
             </p>
             

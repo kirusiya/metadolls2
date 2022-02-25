@@ -456,7 +456,7 @@ export default function Home({ posts }) {
   
             <RoadMap />
             
-            <div
+            {/* <div
               style={{
                 WebkitTransform: "rotate(90deg)",
                 position: "relative",
@@ -531,7 +531,7 @@ export default function Home({ posts }) {
                 />
                
               </div>
-            </div>
+            </div> */}
           
             <Team />
             <br />

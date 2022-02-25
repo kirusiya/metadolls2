@@ -4,6 +4,7 @@ import AOS from "aos";
 import { Background } from "react-parallax";
 import GsapVideo from './GsapVideo'
 const RoadMap = () => {
+
   const [email, setEmail] = useState("");
 
   const handleSubmit = (e) => {
@@ -148,3 +149,4 @@ const RoadMap = () => {
 };
 
 export default RoadMap;
+

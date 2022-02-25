@@ -5,7 +5,7 @@ const Team = ()  => {
 
       
   return (
-  <div style={{backgroundColor:"#04091a",margin:' 0 40px',position:'relative',top:'-700px',marginBottom:'-800px'}}>
+  <div className={styles.teamContainer}>
 
 
       <h2 className={styles.titleTeam}>Team</h2>

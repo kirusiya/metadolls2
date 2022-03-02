@@ -19,14 +19,38 @@
 
 }
 
-@media (min-width: 500px) {
-    .joinCommunityContainer {  min-height:65vh; }
-    
-  }
-
 /* button */
 
+.imgJoinCommunity{
+    width:100%;
+    height:800px;
+    object-fit:cover;
+    object-position:0px -100px;
+}
+@media screen and (max-width: 700px){
+    .imgJoinCommunity{
+        width:100%;
+    height:500px;
+    object-position:0px -100px;
+    }
+}
 
+@media screen and (min-width: 2000px) and (max-width: 3000px){
+    .imgJoinCommunity{
+        width:100%;
+    height:2000px;
+    object-position:0px -100px;
+    }
+}
+/* @media screen and (min-width: 700px){
+    .imgJoinCommunity{
+        width:100%;
+        height:400px;
+        object-fit:cover;
+        object-position:0px -100px;
+    }
+}
+ */
 .glowOnHover {
     width: 220px;
     height: 50px;

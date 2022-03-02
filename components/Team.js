@@ -65,6 +65,10 @@ const Team = ()  => {
       </div>
       
       </div>
+      <div className={styles.memberTeamInfo}>
+      
+      
+      </div>
       
     {/*   <div className={styles.memberTeamInfo}>
       <img className={styles.circleImg} src='metadoll.jpeg'/>

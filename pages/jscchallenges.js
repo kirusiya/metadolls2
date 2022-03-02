@@ -1,6 +1,5 @@
-import React,{useEffect} from 'react'
-
-
+import React,{useEffect, useState} from 'react'
+import matrixChess from '../localLogic/board';
 // Challenges for Developers
 
 // Write a function that takes a string as argument
@@ -77,12 +76,147 @@ n=4
     } */
 }
 
+ const printArrayWithRecursion = (start, list) =>{
+    
+    if (Array.isArray(list)) { 
+        console.log('array')
+         length = list.length;
+        if (start >= length){
+            console.log('if')
+            return 
+        }
+        console.log(list[start])
+        printArrayWithRecursion(start+1,list,length)
+     }
+   
+}
+
+const recursivePrint  = ( list ) => {
+    var list = []
+    list = list
+    var initial = 0;
+    if(initial >= list.length){
+        return
+    }
+    console.log(list[initial])
+    
+    recursivePrint(list.shift())
+}
+
+function recursivearray(array) {
+    if (array.length > 0) {
+      console.log(array.shift());
+      recursivearray(array);
+    }
+  }
+var recursive_function = function(array){
+    if(array.length > 0){
+      console.log(array[0]);
+      recursive_function(array.slice(1))
+    }
+  }
+
+  Array.prototype.myForEach = function (fn, thisArg, i = 0) {
+    if (!(i in this)) {
+        return;
+    }
+    fn.bind(thisArg)(this[i], i, this);
+    this.myForEach(fn, thisArg, i + 1);
+};
+
+function showValues(v, i, a) {
+    console.log(v, i, JSON.stringify(a));
+}
+
+const createChessMatrix = ( ) => {
+    let matrix = [];
+    let startSymbol = '';
+    for (let i = 0 ; i<8; i++ ){
+        let row = [];
+        if(i % 2 === 0) {
+             startSymbol = 'w'
+        }else{
+            startSymbol = 'b'
+        }
+        for (let j = 0 ; j<8; j++){
+/* 
+            if ( j == 0 && i == 0){
+                symbol= 'w'
+            } */
+             if( j%2 === 0 && startSymbol==='w'){
+                row.push( 'w' )
+            }
+          
+            else if( j%2 !== 0 && startSymbol==='b'){
+                row.push( 'b' )
+            }
+            if( i%2 === 0 && startSymbol==='w'){
+                row.push( 'w' )
+            }
+          
+            
+           
+           /*  else{
+                row.push('b')
+            } */
+        }
+        matrix.push(row)
+    }
+    console.log(matrix)
+}
+
+let arr = [1,2,3,4,5,6,7,8];
+let start = 0;
+let end = arr.length - 1;
+let target = 10
+function bynarySerach(arr, start,end,target){
+    if(start > end) return false;
+    let midIndex = Math.floor((start+end)/2);
+    if(arr[midIndex] === target){
+        return true;
+    }
+   if(arr[midIndex]>target){
+        return binarySearch(arr,start,midIndex-1,target)
+    }else{
+        return bynarySerach(arr,midIndex+1,end,target)
+    }
+} 
+useEffect(()=>{
+/*  console.log('recursive_function')
+ recursive_function([1,2,3,4,5])
+ console.log('recursivearray')
+
+ recursivePrint([1,2,3,4,5])
+ console.log('recursivePrint')
+ printArrayWithRecursion(0,[1,2,3,4,5],5) */
+ console.log(bynarySerach(arr, start,end,target))
+ createChessMatrix()
+ console.log('matrixChess function')
+ console.log(matrixChess())
+ /* [99, 100, 101, 102].myForEach(showValues); */
+},[])
+
  
   return (
       <>
-      <div style={{fontFamily:'Orbitron'}}>
-          This will be my JavaScript Study Blog Note
+     
+      <div style={{fontFamily:'Ubuntu'}}>
+         <h1> Welcome to GTB </h1>
+        <p>Get a better job as a developer with this system</p>
+        <p>80% people double actual salary 20% improve their salary</p>
       </div>
+      <h1>Get all the content and private couching with 50% of disccount ( Promotion valid until x time)</h1>
+      <p>Get the content that are going to change the process to become a good developer, get pass the interviews.</p>
+      <p>Train Recursivity</p>
+      <p>Train Real Interview Questions</p>
+      <p>Train resolution of problems and algorithmia</p>
+      <section>
+          <h1>JavaScript Challenges</h1>
+          <ul>
+              <li>Write a program to read and print elements of array. - using recursion.</li>
+              <p></p>
+          </ul>
+      </section>
     </>
   )
 }

@@ -32,11 +32,12 @@ let videoCurrentTime
 
   ScrollTrigger.create({
       trigger: IntroVideoRef.current,
-      scrub: true,
+      /* scrub: true, */
+      pinSpacing: false,
       pin: IntroVideoRef.current,
-      start: "top center",
-      end:  "620",
-      markers: false,
+      start: "300px",
+      end:  "bottom",
+      /* markers: true, */
       onUpdate: function (self) {
        /*  self.current.currentTime = self.current.duration * self.progress.toFixed(2); */
        /*  console.log(self.progress) */
@@ -44,10 +45,15 @@ let videoCurrentTime
           scrollPos = self.progress;
           videoDuration = vidRef.current.duration;
           videoCurrentTime = (videoDuration * scrollPos );
-        
+          /* if(videoCurrentTime>=5.7){
+             return videoCurrentTime=5.4
+          } */
           if (videoCurrentTime) {
-            vidRef.current.currentTime = videoCurrentTime*(0.75);
-          }}
+            console.log('time video')
+            console.log(videoCurrentTime)
+            vidRef.current.currentTime = videoCurrentTime * 0.922  ;/* *(0.95) */
+          }
+        }
     
       },
 
@@ -60,7 +66,7 @@ let videoCurrentTime
     
         <div   /* id="background-container" className={styles.backgroundContainer} */>
     <div ref={IntroVideoRef}  id="video-container" className={styles.videoContainer}>
-      <video   data-aos="fade-up"  ref={vidRef} src="metavid.mp4" type="video/mp4" id="bgVideo" style={{width:'500px'}}></video>
+      <video    data-aos="fade-up"  ref={vidRef} src="metavid.mp4" type="video/mp4" id="bgVideo" className={styles.videoTag}></video>
     </div>
    {/*  <button onClick={(e)=>{handlePauseVideo()}}>Pause</button>
     <button onClick={()=>{handlePlayVideo()}}>Play</button> */}

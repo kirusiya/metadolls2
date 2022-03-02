@@ -91,6 +91,17 @@
   }
   
 }
+.videoMobile{
+  
+  display: none;
+}
+@media (max-width: 700px){
+  .videoMobile{
+      display: block;
+      
+  }
+  
+}
 
 
 @media only screen and (max-width: 1172px) {

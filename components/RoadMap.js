@@ -51,6 +51,7 @@ const RoadMap = () => {
             {" "}
             1000 spots and elegible for 2 MetaDolls per wallet
           </li>
+          <br></br>
           <li className={styles.descriptionStyle}> We’ll be dropping Whitelist spots for our community across all social media and on our discord server weekly until we reach 500.{/*  After we reach 500, we will reveal the rest of whitelist spots the day before minting. */}
 </li>
         </ul>
@@ -87,6 +88,7 @@ const RoadMap = () => {
         <p className={styles.numerStyle}>.02 Main Drop</p>
         <ul>
           <li className={styles.descriptionStyle}> Minting TBA Mid-February</li>
+          <br></br>
           <li className={styles.descriptionStyle}> Reveal – TBA 
 </li>
         </ul>
@@ -103,6 +105,7 @@ const RoadMap = () => {
               of values and goals. */}
 
           </li>
+          <br></br>
           <li className={styles.descriptionStyle}>
             {" "}
             We have a lot already prepared. And we will present options for development, given the success of the project itself.
@@ -140,10 +143,10 @@ const RoadMap = () => {
         <p className={styles.descriptionStyle}></p>
       </div>
       </div>
-      
-      <div className={styles.metavid} >
       <GsapVideo/>
-      </div>
+     {/*  <div className={styles.metavid} >
+      <GsapVideo/>
+      </div> */}
     </div>
   );
 };

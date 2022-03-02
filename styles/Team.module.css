@@ -2,16 +2,18 @@
   background-color:#04091a;
   margin:0 40px;
   position:relative;
-  top:-700px;
-  margin-bottom:-800px;
+  
 }
-@media (max-width: 1200px) {
+
+/* top:-700px;
+  margin-bottom:-800px; */
+/* @media (max-width: 1200px) {
   .teamContainer{
    
     top:-560px;
     margin-bottom:-600px;
   }
-}
+} */
 
 .logitos{
   height: 35px;
@@ -88,6 +90,21 @@ font-family: 'Orbitron';
   .gridCoiner { grid-template-columns: repeat(2, 1fr); }
   
 }
+/* @media  only screen and (min-height: 1200px) and (max-height: 2200px) {
+  .teamContainer{
+   
+    
+  }
+} */
+/* 
+
+@media  only screen and (min-height: 1200px) and (max-height: 2200px) {
+  .teamContainer{
+   
+    top:-560px;
+    margin-bottom:-600px;
+  }
+}
 @media only screen and (min-height: 700px) and (max-height: 820px){
   .teamContainer{
     top:-580px;
@@ -121,4 +138,4 @@ font-family: 'Orbitron';
 
 @media (min-width: 900px) {
     .gridCoiner { grid-template-columns: repeat(3, 1fr); }
-  }
+  } */

@@ -329,7 +329,7 @@ export default function Home({ posts }) {
             </div> */}
             {/*   <ImageSlider images={LARGE_IMAGES} />
              */}
-            <div style={{ marginBottom: "600px" }} />
+            <div style={{ marginBottom: "200px" }} />
 
             {/* <div className={styles.container}>
     <ImageSlider images={IMAGES} slidesToShow={5} />
@@ -455,7 +455,12 @@ export default function Home({ posts }) {
             </div> */}
   
             <RoadMap />
-            
+            <div style={{display:'flex',justifyContent:'center',alignItems:'center'}}>
+            <video className={styles.videoMobile}  width="400" controls>
+  <source src="metavid.mp4" type="video/mp4"/>
+  
+</video>
+            </div>
             {/* <div
               style={{
                 WebkitTransform: "rotate(90deg)",
@@ -534,9 +539,8 @@ export default function Home({ posts }) {
             </div> */}
           
             <Team />
-            <br />
-            <br />
-            <br />
+          
+           
             {/* <div style={{WebkitTransform:'rotate(90deg)',position:'relative',zIndex:10000000000000000000000000,left:'50%'}}>
 <Rotary   />
   </div>
@@ -663,11 +667,13 @@ export default function Home({ posts }) {
    <Rotary   />
   </div> */}
 
-            <JoinCommunity />
            
-            <Footer />
             {/* <Rotary/> */}
           </div>
+          <ManualParallax />
+          <JoinCommunity />
+           
+           <Footer />
 
           {/*   <div style={{position:'relative', left:'300px'}}>
   

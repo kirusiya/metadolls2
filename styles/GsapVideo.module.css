@@ -16,6 +16,21 @@
     display: flex;
     justify-content: center;
   }
+
+  .videoTag{
+    width:600px;
+    height:auto;
+    top:-100px;
+    position:relative;
+  }
+
+
+  @media (max-width: 1200px){
+    .videoTag{
+        display: none;
+    }
+    
+  }
   #bgVideo {
     flex: 1;
     background-color: rgb(122, 22, 22);

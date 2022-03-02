@@ -22,7 +22,7 @@ let videoCurrentTime
 
   useEffect(() => {
     AOS.init({
-      duration: 2000,
+      duration: 1000,
     });
   }, []);
   useEffect(() => {
@@ -36,7 +36,7 @@ let videoCurrentTime
       pinSpacing: false,
       pin: IntroVideoRef.current,
       start: "300px",
-      end:  "bottom",
+      end:  "bottom -100px",
       markers: true,
       onUpdate: function (self) {
        /*  self.current.currentTime = self.current.duration * self.progress.toFixed(2); */

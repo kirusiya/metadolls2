@@ -181,7 +181,7 @@ function bynarySerach(arr, start,end,target){
         return bynarySerach(arr,midIndex+1,end,target)
     }
 } 
-useEffect(()=>{
+/* useEffect(()=>{ */
 /*  console.log('recursive_function')
  recursive_function([1,2,3,4,5])
  console.log('recursivearray')
@@ -190,11 +190,11 @@ useEffect(()=>{
  console.log('recursivePrint')
  printArrayWithRecursion(0,[1,2,3,4,5],5) */
 /*  console.log(bynarySerach(arr, start,end,target)) */
- createChessMatrix()
+/*  createChessMatrix()
  console.log('matrixChess function')
- console.log(matrixChess())
+ console.log(matrixChess()) */
  /* [99, 100, 101, 102].myForEach(showValues); */
-},[])
+/* },[]) */
 
  
   return (

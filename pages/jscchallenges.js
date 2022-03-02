@@ -189,7 +189,7 @@ useEffect(()=>{
  recursivePrint([1,2,3,4,5])
  console.log('recursivePrint')
  printArrayWithRecursion(0,[1,2,3,4,5],5) */
- console.log(bynarySerach(arr, start,end,target))
+/*  console.log(bynarySerach(arr, start,end,target)) */
  createChessMatrix()
  console.log('matrixChess function')
  console.log(matrixChess())

@@ -37,7 +37,7 @@ let videoCurrentTime
       pin: IntroVideoRef.current,
       start: "300px",
       end:  "bottom",
-      /* markers: true, */
+      markers: true,
       onUpdate: function (self) {
        /*  self.current.currentTime = self.current.duration * self.progress.toFixed(2); */
        /*  console.log(self.progress) */

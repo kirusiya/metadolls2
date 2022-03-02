@@ -47,6 +47,17 @@
   padding:20px 50px;
 }
 
+.caption2{
+  position: relative;
+  margin-top: 40px;
+  text-align: center;
+  padding:20px 50px;
+  left:45%
+}
+
+
+
+
 .caption .border{
   background-color:white;
  
@@ -100,6 +111,11 @@
       display: block;
       
   }
+
+  .caption2 {
+    left:38%
+    
+    }
   
 }
 

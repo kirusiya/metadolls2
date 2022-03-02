@@ -190,7 +190,7 @@ export default function Home({ posts }) {
               />
             </div>
 
-            <div className={styles.caption}>
+            <div className={styles.caption2}>
            {/*  <a href="#" className={glitchStyle.glitch} data-glitch="Explore">Explore</a> */}
               <p className={[glitchStyle.glitch]} data-glitch='"People look at me like "the perfect Doll" and I want much more
                 than ..." - MetaDoll 0001'>"People look at me like "the perfect Doll" and I want much more
@@ -323,6 +323,21 @@ export default function Home({ posts }) {
   </div> */}
   
             <About />
+            <div className={styles.caption2}>
+           {/*  <a href="#" className={glitchStyle.glitch} data-glitch="Explore">Explore</a> */}
+              <p className={[glitchStyle.glitch]} data-glitch='"I want to be the unexpected, stereotypes will never define me again!" - MetaDoll 0002'>"I want to be the unexpected, stereotypes will never define me again!" - MetaDoll 0002
+              </p>
+              {/* <span
+                onClick={() =>
+                  window.open("https://discord.com/invite/fMhpdrKRDG")
+                }
+                className={styles.border}
+                data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom"
+              >
+                Join Now
+              </span> */}
+            </div>
             <ImageSlider images={IMAGES} slidesToShow={3} />
             {/* <div style={{ padding: "2.5rem 0" }}>
               <ImageSlider images={IMAGES} slidesToShow={3} />
@@ -453,7 +468,21 @@ export default function Home({ posts }) {
                 />
               </div>
             </div> */}
-  
+   <div className={styles.caption2}>
+           {/*  <a href="#" className={glitchStyle.glitch} data-glitch="Explore">Explore</a> */}
+              <p className={[glitchStyle.glitch]} data-glitch='"I can be anything you want for just 0.125 ETH" - MetaDoll 4999'>"I can be anything you want for just 0.125 ETH" - MetaDoll 4999
+              </p>
+              {/* <span
+                onClick={() =>
+                  window.open("https://discord.com/invite/fMhpdrKRDG")
+                }
+                className={styles.border}
+                data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom"
+              >
+                Join Now
+              </span> */}
+            </div>
             <RoadMap />
             <div style={{display:'flex',justifyContent:'center',alignItems:'center'}}>
             <video className={styles.videoMobile}  width="400" controls>

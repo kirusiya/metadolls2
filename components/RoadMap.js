@@ -45,47 +45,18 @@ const RoadMap = () => {
         "Rebellion against the perfect blonde is inked on my skin and in the color of my hair." - MetaDoll 0003
 
         </p> */}
-        <p className={styles.numerStyle}>.01 Community Creation and Whitelist</p>
+        <p className={styles.numerStyle}>1.0 Community Start</p>
         <ul>
           <li className={styles.descriptionStyle}>
             {" "}
-            1000 spots and elegible for 2 MetaDolls per wallet
+            Weekly whitelist raffle
           </li>
-          <br></br>
-          <li className={styles.descriptionStyle}> We’ll be dropping Whitelist spots for our community across all social media and on our discord server weekly until we reach 500.{/*  After we reach 500, we will reveal the rest of whitelist spots the day before minting. */}
-</li>
+          
         </ul>
-       {/*  <p className={styles.descriptionStyle}>
-          Lets run this together, follow the path to freedom
-          <br />
-          <br />
-        </p>
-        <div
-          style={{
-            display: "flex",
-            width: "100%",
-            justifyContent: "space-between",
-            alignItems: "center",
-          }}
-        >
-          <p className={styles.numerStyle}>Discord</p>
-          <p className={styles.numerStyle}>Twitter</p>
-          <p className={styles.numerStyle}>OpenSea</p>
-        </div> */}
-        {/* <form className={styles.main} onSubmit={(e)=>handleSubmit(e)}>
-      
-        <formgroup className={styles.inputGroup}>
        
-          <input required  placeholder="Email " type="email" name="email" className={styles.input} 
-          onChange={(e)=>{setEmail(e.target.value)}}
-           />
-        </formgroup>
-       
-        <input className={styles.numerStyle} style={{margin:'20px'}} type="submit"  value="Enter Whitelist"/>
-        </form> */}
       </div>
       <div className={styles.RoadMapSteps} data-aos="zoom-in">
-        <p className={styles.numerStyle}>.02 Main Drop</p>
+        <p className={styles.numerStyle}>2.0 Presale (Max. 3 Per Wallet)</p>
         <ul>
           <li className={styles.descriptionStyle}> Minting TBA Mid-February</li>
           <br></br>
@@ -95,52 +66,96 @@ const RoadMap = () => {
         <p className={styles.descriptionStyle}></p>
       </div>
       <div className={styles.RoadMapSteps}  data-aos="zoom-in">
-        <p className={styles.numerStyle}>.03 DAO </p>
+        <p className={styles.numerStyle}>2.1 (24h+) Public Sale </p>
         <ul>
           <li className={styles.descriptionStyle} >
             {" "}
-            We’ll be building a DAO with all MetaDoll holders to develop our community shaped just as the community wants.
-             We believe that these NFT projects should add value to the community not only through amazing art but also 
-             through real world and metaverse experiences. {/* we will all be part of a team and we will create our own set
+            Date TBD {/* we will all be part of a team and we will create our own set
               of values and goals. */}
 
           </li>
-          <br></br>
-          <li className={styles.descriptionStyle}>
-            {" "}
-            We have a lot already prepared. And we will present options for development, given the success of the project itself.
-
-          </li>{/*  */}
+         
         </ul>
         <p className={styles.descriptionStyle}></p>
       </div>
       <div className={styles.RoadMapSteps} data-aos="zoom-in">
-        <p className={styles.numerStyle }  >.04 Real World </p>
+        <p className={styles.numerStyle }  >3.0: MetaPets Airdrop </p>
         <ul>
           <li className={styles.descriptionStyle}  >
             {" "}
-            Boutique for real world hand made MetaDolls with real jewelry, tattoos, hair dye and accessories only accessible to NFT Holders.
+            With Metaverse Use.
 
           </li>
         </ul>
         <p className={styles.descriptionStyle}></p>
       </div>
       <div className={styles.RoadMapSteps} data-aos="zoom-in">
-        <p className={styles.numerStyle}>.05 Metaverse Tattoo Shop </p>
+        <p className={styles.numerStyle}>4.0: Land Purchase for MetaTatto Shop
+ </p>
         <ul>
           <li className={styles.descriptionStyle}>
             {" "}
-            We’ll be creating a tattoo shop on the metaverse were you can bring your NFT for us to give them a new tattoo as well as your MetaDolls.
+            Design and Construction Start.
           </li>
         </ul>
         <p className={styles.descriptionStyle}></p>
       </div>
       <div className={styles.RoadMapSteps} data-aos="zoom-in">
-        <p className={styles.numerStyle}>.06 Evolving Dolls </p>
+        <p className={styles.numerStyle}>5.0: First Physical Version Delivered </p>
+       
+      </div>
+      <div className={styles.RoadMapSteps} data-aos="zoom-in">
+        <p className={styles.numerStyle}>6.0: Boutique for Physical MetaDoll Launch
+ </p>
         <ul>
-          <li className={styles.descriptionStyle}> Coming Soon.</li>
+          <li className={styles.descriptionStyle}>
+            {" "}
+            Boutique for real world hand made MetaDolls with real jewelry, tattoos, hair dye and accessories only accessible to NFT Holders.
+          </li>
         </ul>
         <p className={styles.descriptionStyle}></p>
+      </div>
+      <div className={styles.RoadMapSteps} data-aos="zoom-in">
+        <p className={styles.numerStyle}>7.0: MetaJewelry Pieces Airdrop
+ </p>
+        <ul>
+          <li className={styles.descriptionStyle}>
+            {" "}
+            With Metaverse Use
+          </li>
+        </ul>
+        <p className={styles.descriptionStyle}></p>
+      </div>
+      <div className={styles.RoadMapSteps} data-aos="zoom-in">
+        <p className={styles.numerStyle}>8.0: Q3 2022: MetaTattoo Shop
+ </p>
+        <ul>
+          <li className={styles.descriptionStyle}>
+            {" "}
+            PFPs derivatives with tattoos and jewelry
+
+
+          </li>
+          <li className={styles.descriptionStyle}>
+            {" "}
+            Revenue Share (60% of derivative cost goes to MetaDoll Holders)
+
+
+
+          </li>
+          <li className={styles.descriptionStyle}>
+            {" "}
+            Boutique integration
+
+
+          </li>
+        </ul>
+        <p className={styles.descriptionStyle}></p>
+      </div>
+      <div className={styles.RoadMapSteps} data-aos="zoom-in">
+        <p className={styles.numerStyle}>9.0: Q3 2022: Evolved MetaDolls (TBD) 
+ </p>
+       
       </div>
       </div>
       <GsapVideo/>

@@ -138,12 +138,12 @@ flex-wrap: wrap;
         font-weight: 200;
         color: rgb(255, 255, 255);
       
-        width: 100%;
-        min-width: 100%;
+        /* width: 100%; */
+        /* min-width: 100%; */
     }
     
     .aboutContainer{
-   
+        margin: 0;
         padding: 0 30px;
         top:0;
         

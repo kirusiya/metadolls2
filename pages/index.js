@@ -143,6 +143,7 @@ export default function Home({ posts }) {
                 width: "100%",
                 display: "flex",
                 justifyContent: "space-between",
+                margin:'20px'
               }}
             >
                <img 
@@ -191,21 +192,12 @@ export default function Home({ posts }) {
             </div>
 
             <div className={styles.caption2}>
-           {/*  <a href="#" className={glitchStyle.glitch} data-glitch="Explore">Explore</a> */}
+         
               <p className={[glitchStyle.glitch]} data-glitch='"People look at me like "the perfect Doll" and I want much more
                 than ..." - MetaDoll 0001'>"People look at me like "the perfect Doll" and I want much more
                 than ..." - MetaDoll 0001
               </p>
-              {/* <span
-                onClick={() =>
-                  window.open("https://discord.com/invite/fMhpdrKRDG")
-                }
-                className={styles.border}
-                data-aos="fade-up"
-                data-aos-anchor-placement="bottom-bottom"
-              >
-                Join Now
-              </span> */}
+            
             </div>
             <div
               style={{
@@ -216,7 +208,7 @@ export default function Home({ posts }) {
                 display: "flex",
                 justifyContent: "space-between",
                 bottom: "-670px",
-                
+                margin:'40px'
               }}
              
               data-aos="zoom-in"
@@ -271,7 +263,8 @@ export default function Home({ posts }) {
                 display: "flex",
                 justifyContent: "space-between",
                 bottom: "-600px",
-                
+                margin:'40px'
+            
               }}
               data-aos="zoom-in"
             >
@@ -323,7 +316,7 @@ export default function Home({ posts }) {
   </div> */}
   
             <About />
-            <div className={styles.caption2}>
+            <div className={styles.caption3}>
            {/*  <a href="#" className={glitchStyle.glitch} data-glitch="Explore">Explore</a> */}
               <p className={[glitchStyle.glitch]} data-glitch='"I want to be the unexpected, stereotypes will never define me again!" - MetaDoll 0002'>"I want to be the unexpected, stereotypes will never define me again!" - MetaDoll 0002
               </p>
@@ -468,7 +461,7 @@ export default function Home({ posts }) {
                 />
               </div>
             </div> */}
-   <div className={styles.caption2}>
+   <div className={styles.caption4}>
            {/*  <a href="#" className={glitchStyle.glitch} data-glitch="Explore">Explore</a> */}
               <p className={[glitchStyle.glitch]} data-glitch='"I can be anything you want for just 0.125 ETH" - MetaDoll 4999'>"I can be anything you want for just 0.125 ETH" - MetaDoll 4999
               </p>
@@ -615,18 +608,7 @@ export default function Home({ posts }) {
                   src={"/tfile/Tattoos/adventure copia.png"}
                   style={{ width: "5%",margin:'10px' }}
                 />
-                 <img className={styles.hideElement} 
-                  src={tattosDesign[Math.floor(Math.random() * 38)].src}
-                  style={{ width: "5%" ,margin:'10px'}}
-                />
-                 <img className={styles.hideElement} 
-                  src={"/tfile/Tattoos/alwaysbored copia.png"}
-                  style={{ width: "5%",margin:'10px' }}
-                />
-                 <img className={styles.hideElement} 
-                   src={tattosDesign[Math.floor(Math.random() * 38)].src}
-                  style={{ width: "5%" ,margin:'10px'}}
-                />
+                 
               </div>
             </div>
             <div
@@ -668,18 +650,7 @@ export default function Home({ posts }) {
                    src={tattosDesign[Math.floor(Math.random() * 38)].src}
                   style={{ width: "5%" ,margin:'10px'}}
                 />
-                 <img className={styles.hideElement} 
-                  src={"/tfile/Tattoos/alien copia.png"}
-                  style={{ width: "5%",margin:'10px' }}
-                />
-                 <img className={styles.hideElement} 
-                   src={tattosDesign[Math.floor(Math.random() * 38)].src}
-                  style={{ width: "5%",margin:'10px' }}
-                />
-                 <img className={styles.hideElement} 
-                  src={"/tfile/Tattoos/anarchy copia.png"}
-                  style={{ width: "5%" ,margin:'10px'}}
-                />
+                 
               </div>
             </div>
             <FAQ />

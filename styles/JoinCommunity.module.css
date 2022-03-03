@@ -31,7 +31,9 @@
     .imgJoinCommunity{
         width:100%;
     height:500px;
-    object-position:0px -100px;
+    object-position:0px 0px;
+    content:url("../public/Metadoll-005-min.png");
+    background-color: rgb(250,182,255);
     }
 }
 

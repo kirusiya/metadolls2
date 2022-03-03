@@ -52,7 +52,26 @@
   margin-top: 40px;
   text-align: center;
   padding:20px 50px;
-  left:45%
+  left:45%;
+  top:100px
+}
+
+.caption3{
+  position: relative;
+  margin-top: 40px;
+  text-align: center;
+  padding:20px 50px;
+  left:45%;
+  top:-40px
+}
+
+.caption4{
+  position: relative;
+  margin-top: 40px;
+  text-align: center;
+  padding:20px 50px;
+  left:45%;
+  top:-115px
 }
 
 

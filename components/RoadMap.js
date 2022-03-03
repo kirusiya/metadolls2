@@ -104,11 +104,11 @@ const RoadMap = () => {
         <p className={styles.numerStyle}>5.0: First Physical Version Delivered </p>
        
       </div>
-      <div className={styles.RoadMapSteps} data-aos="zoom-in">
-        <p className={styles.numerStyle}>6.0: Boutique for Physical MetaDoll Launch
+      <div className={styles.RoadMapSteps2} data-aos="zoom-in">
+        <p className={styles.numerStyle2}>6.0: Boutique for Physical MetaDoll Launch
  </p>
         <ul>
-          <li className={styles.descriptionStyle}>
+          <li className={styles.descriptionStyle2}>
             {" "}
             Boutique for real world hand made MetaDolls with real jewelry, tattoos, hair dye and accessories only accessible to NFT Holders.
           </li>
@@ -126,24 +126,24 @@ const RoadMap = () => {
         </ul>
         <p className={styles.descriptionStyle}></p>
       </div>
-      <div className={styles.RoadMapSteps} data-aos="zoom-in">
-        <p className={styles.numerStyle}>8.0: Q3 2022: MetaTattoo Shop
+      <div className={styles.RoadMapSteps2} data-aos="zoom-in">
+        <p className={styles.numerStyle2}>8.0: Q3 2022: MetaTattoo Shop
  </p>
         <ul>
-          <li className={styles.descriptionStyle}>
+          <li className={styles.descriptionStyle2}>
             {" "}
             PFPs derivatives with tattoos and jewelry
 
 
           </li>
-          <li className={styles.descriptionStyle}>
+          <li className={styles.descriptionStyle2}>
             {" "}
             Revenue Share (60% of derivative cost goes to MetaDoll Holders)
 
 
 
           </li>
-          <li className={styles.descriptionStyle}>
+          <li className={styles.descriptionStyle2}>
             {" "}
             Boutique integration
 

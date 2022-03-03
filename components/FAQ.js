@@ -12,7 +12,7 @@ const FAQ = () => {
         <section id="faqs" className={styles.RoadMapContainer}>
            
             
-            <div className={styles.RoadMapSteps} data-aos="zoom-in"  onClick={()=>{toggleArray(0)}}>
+            {/* <div className={styles.RoadMapSteps} data-aos="zoom-in"  onClick={()=>{toggleArray(0)}}>
             <h2 className={styles.RoadMapTitle}>FAQ</h2>
                 <p className={styles.numerStyle}>How was the project born?</p>
                 <p  className={toggleFAQ[0] ? styles.descriptionStyleactive : styles.descriptionStyle}>This project is created by colombian artist Alejandro Rincón, tattoo artist for over 7 years. It explores the link and effect that tattoos have in the construction of our identity nowadays.
@@ -23,35 +23,45 @@ The body is represented by the Dolls, iconic objects fabricated in mass and regi
 
 </p>
               
-            </div>
+            </div> */}
 
-            <div className={styles.RoadMapSteps} data-aos="zoom-in" onClick={()=>{toggleArray(1)}}>
+            {/* <div className={styles.RoadMapSteps} data-aos="zoom-in" onClick={()=>{toggleArray(1)}}>
                 <p className={styles.numerStyle}>Who is the artist?</p>
                 <p  className={toggleFAQ[1] ? styles.descriptionStyleactive : styles.descriptionStyle}>This project is created by colombian artist Alejandro Rincón, tattoo artist for over 7 years. It explores the link and effect that tattoos have in the construction of our identity now a days.
 
 The body is represented by the Dolls, iconic objects fabricated in mass and registered in series, which results comparable to the characteristics of human condition in today's world. Additionally the tattoo is done over the inorganic base as an artistic expression and a form of customization, which offers a way of identification or differentiation.</p>
               
-            </div>
+            </div> */}
             <div className={styles.RoadMapSteps} data-aos="zoom-in" onClick={()=>{toggleArray(2)}}>
-                <p className={styles.numerStyle}>Minting Price? </p>
-                <p  className={toggleFAQ[2] ? styles.descriptionStyleactive : styles.descriptionStyle}>0.04 WETH</p>
+                <p className={styles.numerStyle}>Mint Price? </p>
+                <p  className={toggleFAQ[2] ? styles.descriptionStyleactive : styles.descriptionStyle}>0.125 ETH</p>
               
             </div>
             <div className={styles.RoadMapSteps} data-aos="zoom-in" onClick={()=>{toggleArray(3)}}>
                 <p className={styles.numerStyle}>Royalties?</p>
-                <p  className={toggleFAQ[3] ? styles.descriptionStyleactive : styles.descriptionStyle}>3%</p>
+                <p  className={toggleFAQ[3] ? styles.descriptionStyleactive : styles.descriptionStyle}>5% (2% for the community wallet)
+</p>
             </div>
             <div className={styles.RoadMapSteps} data-aos="zoom-in" onClick={()=>{toggleArray(4)}}>
-                <p className={styles.numerStyle}>Which blockchain is the collection going to be minted at?</p>
-                <p  className={toggleFAQ[4] ? styles.descriptionStyleactive : styles.descriptionStyle}>We chose Polygon for this dies project. We believe strongly on Ethereum as a Layer 1 for everything awesome that is happening with the growing development and artistic community and Polygon is a great layer 2 solution to reduce gas fees and increase current adoption.</p>
+                <p className={styles.numerStyle}>Blockchain?</p>
+                <p  className={toggleFAQ[4] ? styles.descriptionStyleactive : styles.descriptionStyle}>Ethereum.</p>
             </div>
             <div className={styles.RoadMapSteps} data-aos="zoom-in" onClick={()=>{toggleArray(5)}}>
                 <p className={styles.numerStyle}>Launch Date?</p>
-                <p  className={toggleFAQ[5] ? styles.descriptionStyleactive : styles.descriptionStyle}> Mid Feb. </p>
+                <p  className={toggleFAQ[5] ? styles.descriptionStyleactive : styles.descriptionStyle}>TBD. </p>
             </div>
             <div className={styles.RoadMapSteps} data-aos="zoom-in" onClick={()=>{toggleArray(6)}}>
-                <p className={styles.numerStyle}>What is the physical doll?</p>
-                <p  className={toggleFAQ[6] ? styles.descriptionStyleactive : styles.descriptionStyle}>We will be launching a digital boutique on the metaverse only accesible to **MetaDoll** holders. There you would be able to purchase a hand made physical version of your Doll with the actual tattoos, jewelry made out of gold, platinum, swarosky and a variety of other things. </p>
+                <p className={styles.numerStyle}>Physical Doll?</p>
+                <p  className={toggleFAQ[6] ? styles.descriptionStyleactive : styles.descriptionStyle}>We will create a boutique for NFT Holders only, where you can get a physical version of your NFT with real tattoos, jewelry, hair styles and 3D printed gold-plated accessories just as in the NFT version.
+We will have a Web 3.0 version with wallet validation and a version inside our metaverse tattoo shop as well.
+</p>
+            </div>
+            <div className={styles.RoadMapSteps} data-aos="zoom-in" onClick={()=>{toggleArray(7)}}>
+                <p className={styles.numerStyle}>Physical Doll?</p>
+                <p  className={toggleFAQ[7] ? styles.descriptionStyleactive : styles.descriptionStyle}>We will build a tattoo shop on the metaverse where you can bring any PFP NFTs and give them tattoos, piercings and body modifications. 
+We will mint a derivative of your PFPs with tattoos and body mods. (Each derivative will cost around 0.05 eth and 60% of it will be split among NFT holders) 
+.
+</p>
             </div>
            
 

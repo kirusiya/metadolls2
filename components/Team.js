@@ -50,7 +50,7 @@ const Team = ()  => {
 
       <div className={styles.memberTeamInfo}>
       <img className={styles.circleImg} src='metadoll.jpeg'/>
-      <div className={styles.descriptionContainer}>
+      {/* <div className={styles.descriptionContainer}>
       <p className={styles.description1}>Camilo Sardi - Chief of Operations
 </p>
       <p className={styles.description}>COO and Cofounder of Maestrik, a leading startup in education for the latinamerican market. With his background in industrial engineering he brings the order and vision to be able to meet with our roadmap´s goals.
@@ -60,9 +60,9 @@ const Team = ()  => {
       <img onClick={()=>{window.open("https://www.linkedin.com/in/camilo-sardi-827132134/")}} style={{width:'30px',height:'auto',objectFit:'contain',padding:'2px'}} src='teamLinkdin.png'/>
       
            
-           {/*  <img scr={'teamTwitter.png'} /> */}
+           
       </div>
-      </div>
+      </div> */}
       
       </div>
       <div className={styles.memberTeamInfo}>

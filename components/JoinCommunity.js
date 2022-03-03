@@ -4,7 +4,7 @@ import styles from '../styles/JoinCommunity.module.css'
     return(
         <div className={styles.joinCommunityContainer} >
             <img className={styles.imgJoinCommunity} src={'Banner-Join-Our-Discord-Website-min.png'} />
-   <button className={styles.glowOnHover} type="button">Join The Community</button> 
+   <button className={styles.glowOnHover} type="button">Join Our Discord</button> 
        
     </div>)
 }

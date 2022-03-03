@@ -2,7 +2,7 @@ import React from "react"
 import styles from '../styles/JoinCommunity.module.css'
  const JoinCommunity = () => {
     return(
-        <div style={{width:'100%',height:'auto'}} >
+        <div className={styles.joinCommunityContainer} >
             <img className={styles.imgJoinCommunity} src={'Banner-Join-Our-Discord-Website-min.png'} />
    <button className={styles.glowOnHover} type="button">Join The Community</button> 
        

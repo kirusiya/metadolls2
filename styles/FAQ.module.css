@@ -1,10 +1,17 @@
 .RoadMapContainer{
-    
+    position: relative;
+    top:-100px;
     margin: 0 40px;
     /* background-color:#01030d; */
     background-color:black;
     
    
+}
+
+@media (max-width: 622px){
+    .RoadMapContainer{
+        top:100px;
+    }
 }
 .RoadMapTitle{
     font-family: 'Orbitron';

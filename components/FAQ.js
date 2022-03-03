@@ -12,7 +12,7 @@ const FAQ = () => {
         <section id="faqs" className={styles.RoadMapContainer}>
            
             
-            {/* <div className={styles.RoadMapSteps} data-aos="zoom-in"  onClick={()=>{toggleArray(0)}}>
+            <div className={styles.RoadMapSteps} data-aos="zoom-in"  onClick={()=>{toggleArray(0)}}>
             <h2 className={styles.RoadMapTitle}>FAQ</h2>
                 <p className={styles.numerStyle}>How was the project born?</p>
                 <p  className={toggleFAQ[0] ? styles.descriptionStyleactive : styles.descriptionStyle}>This project is created by colombian artist Alejandro Rincón, tattoo artist for over 7 years. It explores the link and effect that tattoos have in the construction of our identity nowadays.
@@ -23,15 +23,9 @@ The body is represented by the Dolls, iconic objects fabricated in mass and regi
 
 </p>
               
-            </div> */}
+            </div>
 
-            {/* <div className={styles.RoadMapSteps} data-aos="zoom-in" onClick={()=>{toggleArray(1)}}>
-                <p className={styles.numerStyle}>Who is the artist?</p>
-                <p  className={toggleFAQ[1] ? styles.descriptionStyleactive : styles.descriptionStyle}>This project is created by colombian artist Alejandro Rincón, tattoo artist for over 7 years. It explores the link and effect that tattoos have in the construction of our identity now a days.
-
-The body is represented by the Dolls, iconic objects fabricated in mass and registered in series, which results comparable to the characteristics of human condition in today's world. Additionally the tattoo is done over the inorganic base as an artistic expression and a form of customization, which offers a way of identification or differentiation.</p>
-              
-            </div> */}
+          
             <div className={styles.RoadMapSteps} data-aos="zoom-in" onClick={()=>{toggleArray(2)}}>
                 <p className={styles.numerStyle}>Mint Price? </p>
                 <p  className={toggleFAQ[2] ? styles.descriptionStyleactive : styles.descriptionStyle}>0.125 ETH</p>

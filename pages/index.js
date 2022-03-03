@@ -670,7 +670,7 @@ export default function Home({ posts }) {
            
             {/* <Rotary/> */}
           </div>
-          <ManualParallax />
+         {/*  <ManualParallax /> */}
           <JoinCommunity />
            
            <Footer />

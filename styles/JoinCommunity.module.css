@@ -1,22 +1,8 @@
 .joinCommunityContainer{
-    background-image: url("../public/Banner-Join-Our-Discord-Website-min.png") ;
-    position: relative;
-    background-attachment: fixed;
-    background-position:center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    
-    min-height:100vh;
-  /*  background-size:100%; */
-  
-    /* clip-path: polygon(0 0,100% 0,100% 88%,50% 100%,0 88%); */
- display: flex;
- justify-content: center;
- align-items: center;
- margin: 0 40px;
- font-family: 'Orbitron';
- font-weight: bold;
-
+    width:100%;
+    height:auto;
+    position:relative;
+    top:-150px;
 }
 
 /* button */
@@ -35,13 +21,16 @@
     content:url("../public/Metadoll-005-min.png");
     background-color: rgb(250,182,255);
     }
+    .joinCommunityContainer{
+        top:0px;
+    }
 }
 
 @media screen and (min-width: 2000px) and (max-width: 3000px){
     .imgJoinCommunity{
         width:100%;
-    height:2000px;
-    object-position:0px -100px;
+    height:1000px;
+    object-position:0px -400px;
     }
 }
 /* @media screen and (min-width: 700px){

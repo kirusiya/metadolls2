@@ -37,8 +37,8 @@ let videoCurrentTime
       pin: IntroVideoRef.current,
       start: "350px -50px",
       end:  "2000px",
-      markers: true,
-      ease: "power2",
+      /* markers: true, */
+      /* ease: "power2", */
       onEnter:function (self) {
         if(size.width>1200){
         gsap.to(vidRef.current, { display: "block" });
@@ -57,7 +57,7 @@ let videoCurrentTime
           if (videoCurrentTime) {
            /*  console.log('time video')
             console.log(videoCurrentTime) */
-            vidRef.current.currentTime = videoCurrentTime  *0.95 ;/* *(0.95) */
+            vidRef.current.currentTime = videoCurrentTime  * 0.998 ;/* *(0.95) */
           }
         }
     

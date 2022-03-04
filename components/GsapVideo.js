@@ -35,9 +35,15 @@ let videoCurrentTime
       /* scrub: true, */
       pinSpacing: false,
       pin: IntroVideoRef.current,
-      start: "300px",
-      end:  "bottom 20px    ",
-      /* markers: true, */
+      start: "350px -50px",
+      end:  "2000px",
+      markers: true,
+      ease: "power2",
+      onEnter:function (self) {
+        if(size.width>1200){
+        gsap.to(vidRef.current, { display: "block" });
+      }
+      },
       onUpdate: function (self) {
        /*  self.current.currentTime = self.current.duration * self.progress.toFixed(2); */
        /*  console.log(self.progress) */
@@ -49,13 +55,16 @@ let videoCurrentTime
              return videoCurrentTime=5.4
           } */
           if (videoCurrentTime) {
-            console.log('time video')
-            console.log(videoCurrentTime)
-            vidRef.current.currentTime = videoCurrentTime * 0.922  ;/* *(0.95) */
+           /*  console.log('time video')
+            console.log(videoCurrentTime) */
+            vidRef.current.currentTime = videoCurrentTime  *0.95 ;/* *(0.95) */
           }
         }
     
       },
+      onLeave: function (self){
+       /*  gsap.to(vidRef.current, { display: "none" }); */
+      }
 
       
     

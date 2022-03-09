@@ -50,13 +50,13 @@ The body is represented by the Dolls, iconic objects fabricated in mass and regi
 We will have a Web 3.0 version with wallet validation and a version inside our metaverse tattoo shop as well.
 </p>
             </div>
-            <div className={styles.RoadMapSteps} data-aos="zoom-in" onClick={()=>{toggleArray(7)}}>
+           {/*  <div className={styles.RoadMapSteps} data-aos="zoom-in" onClick={()=>{toggleArray(7)}}>
                 <p className={styles.numerStyle}>Physical Doll?</p>
                 <p  className={toggleFAQ[7] ? styles.descriptionStyleactive : styles.descriptionStyle}>We will build a tattoo shop on the metaverse where you can bring any PFP NFTs and give them tattoos, piercings and body modifications. 
 We will mint a derivative of your PFPs with tattoos and body mods. (Each derivative will cost around 0.05 eth and 60% of it will be split among NFT holders) 
 .
 </p>
-            </div>
+            </div> */}
            
 
             

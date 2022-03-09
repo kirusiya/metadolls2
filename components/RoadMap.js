@@ -58,10 +58,9 @@ const RoadMap = () => {
       <div className={styles.RoadMapSteps} data-aos="zoom-in">
         <p className={styles.numerStyle}>2.0 Presale (Max. 3 Per Wallet)</p>
         <ul>
-          <li className={styles.descriptionStyle}> Minting TBA Mid-February</li>
+          <li className={styles.descriptionStyle}> Minting TBA</li>
           <br></br>
-          <li className={styles.descriptionStyle}> Reveal – TBA 
-</li>
+         
         </ul>
         <p className={styles.descriptionStyle}></p>
       </div>

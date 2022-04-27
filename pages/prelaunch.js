@@ -5,7 +5,7 @@ import React, { useEffect, useState, useRef } from "react";
 import gsap from "gsap";
 
 import styles from "../styles/Home.module.css";
-import glitchStyle from "../styles/Glitch.module.scss";
+import glitchStyle from "../styles/Glitch.module.scss"; 
 import Header from "../components/Header";
 
 import Top from "../components/Top";

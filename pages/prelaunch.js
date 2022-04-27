@@ -134,7 +134,7 @@ export default function Prelauch({ posts }) {
           }}
         >
            <img 
-            src={"./logo2.png"}
+            src={"./favicon.png"}
             style={{ width: "50%", height: "auto", maxWidth:'400px'}}
           />
          

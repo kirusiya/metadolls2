@@ -30,6 +30,7 @@ const images = [
   { url: "metadoll.jpeg" },
 ];
 
+
 import FAQ from "../components/FAQ";
 import FormatEmail from "../components/FormatEmail";
 import Team from "../components/Team";

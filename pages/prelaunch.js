@@ -90,18 +90,18 @@ export default function Prelauch({ posts }) {
       <title>MetaDolls NFT :// First Tattoo Shop on the Metaverse</title>
       <meta name="description" content="Rebellion against the perfect blonde is inked on my skin and in the color of my hair. - MetaDoll" />
 	  
-    	<link rel="icon" type="image/x-icon" href="favicon.png"/>   
+    	<link rel="icon" type="image/x-icon" href="favicon.ico"/>   
         
 	  	<meta name="twitter:card" content="summary" />
       <meta name="twitter:site" content="@metadollsnft" />
       <meta name="twitter:title" content="MetaDolls NFT :// First Tattoo Shop on the Metaverse" />
       <meta name="twitter:description" content="Rebellion against the perfect blonde is inked on my skin and in the color of my hair. - MetaDoll" />
-      <meta name="twitter:image" content="http://metadollsnft.com/share.png" />
+      <meta name="twitter:image" content="https://metadollsnft.com/share.png" />
       <meta property="og:title" content="MetaDolls NFT :// First Tattoo Shop on the Metaverse" />
       <meta property="og:description" content="Rebellion against the perfect blonde is inked on my skin and in the color of my hair. - MetaDoll" />
-      <meta property="og:image" content="http://metadollsnft.com/share.png" />
+      <meta property="og:image" content="https://metadollsnft.com/share.png" />
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="http://metadollsnft.com" />
+      <meta property="og:url" content="https://metadollsnft.com" />
 
         <link
           href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap"

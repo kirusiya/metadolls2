@@ -86,7 +86,7 @@ export default function Prelauch({ posts }) {
         strategy="afterInteractive"
         src="https://unpkg.com/aos@2.3.1/dist/aos.js"
       ></Script>
-      <Head>
+      <Head> 
       <title>MetaDolls NFT :// First Tattoo Shop on the Metaverse</title>
       <meta name="description" content="Rebellion against the perfect blonde is inked on my skin and in the color of my hair. - MetaDoll" />
 	  

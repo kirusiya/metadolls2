@@ -90,7 +90,7 @@ export default function Prelauch({ posts }) {
       <title>MetaDolls NFT :// First Tattoo Shop on the Metaverse</title>
       <meta name="description" content="Rebellion against the perfect blonde is inked on my skin and in the color of my hair. - MetaDoll" />
 	  
-    	<link rel="icon" type="image/x-icon" href="/favicon.png"/>   
+    	<link rel="icon" href="/favicon.ico" /> 
         
 	  	<meta name="twitter:card" content="summary" />
       <meta name="twitter:site" content="@metadollsnft" />

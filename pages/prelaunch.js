@@ -91,7 +91,7 @@ export default function Prelauch({ posts }) {
       <meta name="description" content="Rebellion against the perfect blonde is inked on my skin and in the color of my hair. - MetaDoll" />
 	  
 	  
-	  	<link rel="icon" type="image/x-icon" href="favicon.png">
+	  	<link rel="icon" type="image/x-icon" href="favicon.png"> 
         
 	  	<meta name="twitter:card" content="summary" />
       <meta name="twitter:site" content="@metadollsnft" />

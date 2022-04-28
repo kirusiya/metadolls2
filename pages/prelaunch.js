@@ -512,7 +512,7 @@ export default function Prelauch({ posts }) {
 
   <div className={styles.imgIT}>
    
-    <img src="image.png" class="imgBloques"/>
+    <img src="image.png"  className={styles.imgBloques}/>
    
   </div>
 

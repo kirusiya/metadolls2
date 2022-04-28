@@ -113,10 +113,17 @@
 }
 
 /*edward*/
-.bloqueIT{
-  
+.bloquesContainer{
+  display: block;
 }
 
+.textoIT{
+  width: 50%;
+}
+
+.imgIT{
+  width: 50%;
+}
 
 /*edward*/
 

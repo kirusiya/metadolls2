@@ -504,7 +504,7 @@ export default function Prelauch({ posts }) {
 
 
 <div class="bloquesContainer">
-
+ 
 
   <div class="bloques textoIT">
         

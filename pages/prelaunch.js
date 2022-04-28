@@ -474,6 +474,11 @@ export default function Prelauch({ posts }) {
                 />
               </div>
             </div> */}
+
+
+
+
+            
    <div className={styles.caption4}>
            {/*  <a href="#" className={glitchStyle.glitch} data-glitch="Explore">Explore</a> */}
               <p className={[glitchStyle.glitch]} data-glitch='"I can be anything you want for just 0.125 ETH" - MetaDoll 4999'>"I can be anything you want for just 0.125 ETH" - MetaDoll 4999
@@ -496,6 +501,34 @@ export default function Prelauch({ posts }) {
   
 </video>
             </div>
+
+
+
+{/*edward*/ }
+
+<div className={styles.bloqueIT}> 
+
+
+    <div className="bloque textoIT">
+      
+      
+    <div/> 
+
+    <div className="imgIT">
+      
+      
+    <div/>              
+
+
+</div>
+
+
+
+{/*edward*/ }
+
+                
+
+
             {/* <div
               style={{
                 WebkitTransform: "rotate(90deg)",
@@ -572,6 +605,9 @@ export default function Prelauch({ posts }) {
                
               </div>
             </div> */}
+
+
+
           
             <Team />
           

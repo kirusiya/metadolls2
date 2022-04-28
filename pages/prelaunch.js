@@ -506,7 +506,7 @@ export default function Prelauch({ posts }) {
 <div class="bloquesContainer">
  
 
-  <div class="bloques textoIT">
+      <div class="bloques textoIT">
         
         <h1>Meta Tattoo Shop</h1>
 
@@ -516,7 +516,7 @@ export default function Prelauch({ posts }) {
 
         <p>A **derivative of your PFP** will be minted with tattoos and body mods. (Each derivative will cost around 0.05 eth and 60% of it will be split among MetaDolls NFT holders)</p>
         
-      <div/> 
+      </div> 
 
       <div class="bloques imgIT">
         
@@ -525,7 +525,7 @@ export default function Prelauch({ posts }) {
       </div>              
 
 
-  </div> 
+ 
 
 </div>
 

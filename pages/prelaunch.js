@@ -522,10 +522,7 @@ export default function Prelauch({ posts }) {
         
         <img src="image.png" class="imgBloques"/>
         
-      </div>              
-
-
- 
+      </div>    
 
 </div>
 

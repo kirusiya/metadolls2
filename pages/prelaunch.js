@@ -495,10 +495,10 @@ export default function Prelauch({ posts }) {
               </span> */}
             </div>
 
-            <div class="bloquesContainer">
+<div className={styles.bloquesContainer}>
  
 
-<div class="bloques textoIT">
+  <div className={styles.textoIT} >
    
    <h1>Meta Tattoo Shop</h1>
 
@@ -508,13 +508,13 @@ export default function Prelauch({ posts }) {
 
    <p>A **derivative of your PFP** will be minted with tattoos and body mods. (Each derivative will cost around 0.05 eth and 60% of it will be split among MetaDolls NFT holders)</p>
    
- </div> 
+  </div> 
 
- <div class="bloques imgIT">
+  <div className={styles.imgIT}>
    
-   <img src="image.png" class="imgBloques"/>
+    <img src="image.png" class="imgBloques"/>
    
- </div>
+  </div>
 
   <p className={[glitchStyle.glitch]} 
   data-glitch='"My body is like a canvas where I can express my personality. Look and tell me what you read? My skin can be a box of secrets" - MetaDoll 0006'>"My body is like a canvas where I can express my personality. Look and tell me what you read? My skin can be a box of secrets" - MetaDoll 0006

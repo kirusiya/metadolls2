@@ -39,10 +39,7 @@ function About() {
              The MetaDolls create a unique style through the changes in their body. Face Tatts, Nose rings, golden chains, original hair styles are examples
               of ways in which MetaDolls build their own identity and aesthetic.
               <p></p>
-              We’ll create a Metaverse Tattoo shop where anyone can bring their PFPs and get derivatives with tattoos and body mods.<text className={styles.subrayado}> The revenue from this will be split among MetaDolls holders.</text>
-            <p></p>
-            <text className={styles.subrayado}>MetaDolls holders</text>  will be able to get exclusive access to a boutique of physical versions of their art.
-            <p></p>
+              
            
             <text className={styles.bigTitle} > </text>
             </p>

@@ -108,9 +108,11 @@
   margin: 0 auto
 } */
 
+/*
 .bigContainer{
- /* position: absolute; */
+  position: absolute; 
 }
+*/
 
 /*edward*/
 .bloquesContainer{
@@ -123,6 +125,10 @@
 
 .imgIT{
   width: 50%;
+}
+
+.imgBloques{
+  position: relative;
 }
 
 /*edward*/

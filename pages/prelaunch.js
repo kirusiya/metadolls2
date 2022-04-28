@@ -503,10 +503,10 @@ export default function Prelauch({ posts }) {
             </div>
 
 
-<div class="bloqueIT">
+<div class="bloquesContainer">
 
 
-  <div class="bloqueS textoIT">
+  <div class="bloques textoIT">
         
         <h1>Meta Tattoo Shop</h1>
 
@@ -518,9 +518,9 @@ export default function Prelauch({ posts }) {
         
       <div/> 
 
-      <div class="imgIT">
+      <div class="bloques imgIT">
         
-        <img src="image.png" class=""/>
+        <img src="image.png" class="imgBloques"/>
         
       </div>              
 

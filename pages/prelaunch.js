@@ -494,6 +494,32 @@ export default function Prelauch({ posts }) {
                 Join Now
               </span> */}
             </div>
+
+            <div class="bloquesContainer">
+ 
+
+ <div class="bloques textoIT">
+   
+   <h1>Meta Tattoo Shop</h1>
+
+   <h2>Be part of the first Tattoo Shop on The Metaverse</h2>
+
+   <p>You can bring any **PFP NFTs** and **give them Face Tatts**, Piercings, Accesories and many body modifications.</p>
+
+   <p>A **derivative of your PFP** will be minted with tattoos and body mods. (Each derivative will cost around 0.05 eth and 60% of it will be split among MetaDolls NFT holders)</p>
+   
+ </div> 
+
+ <div class="bloques imgIT">
+   
+   <img src="image.png" class="imgBloques"/>
+   
+ </div>    
+
+</div>
+
+
+
             <RoadMap />
             <div style={{display:'flex',justifyContent:'center',alignItems:'center'}}>
             <video className={styles.videoMobile}  width="400" controls>
@@ -503,31 +529,10 @@ export default function Prelauch({ posts }) {
             </div>
 
 
-            
 
 
-<div class="bloquesContainer">
- 
 
-      <div class="bloques textoIT">
-        
-        <h1>Meta Tattoo Shop</h1>
 
-        <h2>Be part of the first Tattoo Shop on The Metaverse</h2>
-
-        <p>You can bring any **PFP NFTs** and **give them Face Tatts**, Piercings, Accesories and many body modifications.</p>
-
-        <p>A **derivative of your PFP** will be minted with tattoos and body mods. (Each derivative will cost around 0.05 eth and 60% of it will be split among MetaDolls NFT holders)</p>
-        
-      </div> 
-
-      <div class="bloques imgIT">
-        
-        <img src="image.png" class="imgBloques"/>
-        
-      </div>    
-
-</div>
 
 
             {/* <div

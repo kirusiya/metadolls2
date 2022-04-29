@@ -116,6 +116,10 @@ export default function Prelauch({ posts }) {
           rel="stylesheet"
         />
         <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&family=Redressed&family=Ubuntu:wght@300&display=swap" rel="stylesheet"></link>
+       
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"/>
+
+       
        {/*  <link
           href="https://unpkg.com/aos@2.3.1/dist/aos.css"
           rel="stylesheet"

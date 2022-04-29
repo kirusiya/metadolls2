@@ -28,6 +28,10 @@
       90deg
       ,#fe1393,#fe1393);
           -webkit-background-clip: text;
+          -moz-background-clip: text;
+          -ms-background-clip: text;
+          -o-background-clip: text;
+          background-clip: text;
           -webkit-text-fill-color: transparent;
           text-align: center; 
   font-size: 1.5rem;

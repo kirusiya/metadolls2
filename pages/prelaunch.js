@@ -522,7 +522,7 @@ export default function Prelauch({ posts }) {
     </div>
   </div>
 
-  <div className={styles.dFlex}>
+  <div className={styles.dFlexGlicht}>
     <p className={[glitchStyle.glitch]} data-glitch='"My body is like a canvas where I can express my personality. Look and tell me what you read? My skin can be a box of secrets" - MetaDoll 0006'>"My body is like a canvas where I can express my personality. Look and tell me what you read? My skin can be a box of secrets" - MetaDoll 0006
     </p>
   </div>   

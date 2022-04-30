@@ -193,10 +193,13 @@
 
 .imgIT{
   width: 50%;
+  padding: 30px 10px;
 }
 
 .imgIT img{
   margin: 0 auto;
+  width: auto;
+  max-width: 100%;
 }
 
  

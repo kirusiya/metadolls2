@@ -47,6 +47,7 @@ const Nabvar = () => {
             {/* <li className={toggleMenu ? styles.navbarLinks2 : styles.navbarLinks}><a style={{color: "rgb(0, 162, 255)",fontWeight:'bold'}} href='#about'>About</a></li>
             <li className={toggleMenu ? styles.navbarLinks2 : styles.navbarLinks}><a style={{color: "rgb(0, 162, 255)",fontWeight:'bold'}} href='#'>RoadMap</a></li> */}
             
+            <h1 className={styles.navbarHeader}>First Tattoo Shop<br/>on the Metaverse al home.</h1>
             { size.width>600 ? <button className={["btn btn-primary btn-sm "]} onClick={()=>{window.open("https://discord.com/invite/fMhpdrKRDG")}}>Join  Discord</button> : null }
           
             {/* <button className="btn btn-primary m-3">Join our Discord</button>

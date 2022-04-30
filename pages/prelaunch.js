@@ -501,28 +501,32 @@ export default function Prelauch({ posts }) {
             </div>
 
 <div className={styles.bloquesContainer}>
- 
+  <div className={styles.dFlex}>            
 
-  <div className={styles.textoIT} >
-   
-   <h1>Meta Tattoo Shop</h1>
+    <div className={styles.textoIT} >
+    
+      <h1>Meta Tattoo Shop</h1>
 
-   <h2>Be part of the first Tattoo Shop on The Metaverse</h2>
+      <h2>Be part of the first Tattoo Shop on The Metaverse</h2>
 
-   <p>You can bring any **PFP NFTs** and **give them Face Tatts**, Piercings, Accesories and many body modifications.</p>
+      <p>You can bring any **PFP NFTs** and **give them Face Tatts**, Piercings, Accesories and many body modifications.</p>
 
-   <p>A **derivative of your PFP** will be minted with tattoos and body mods. (Each derivative will cost around 0.05 eth and 60% of it will be split among MetaDolls NFT holders)</p>
-   
-  </div> 
+      <p>A **derivative of your PFP** will be minted with tattoos and body mods. (Each derivative will cost around 0.05 eth and 60% of it will be split among MetaDolls NFT holders)</p>
+      
+    </div> 
 
-  <div className={styles.imgIT}>
-   
-    <img src={"./image.png"}  className={styles.imgBloques}/>
-   
+    <div className={styles.imgIT}>
+    
+      <img src={"./image.png"}  className={styles.imgBloques}/>
+    
+    </div>
+    
   </div>
 
-  <p className={[glitchStyle.glitch]} data-glitch='"My body is like a canvas where I can express my personality. Look and tell me what you read? My skin can be a box of secrets" - MetaDoll 0006'>"My body is like a canvas where I can express my personality. Look and tell me what you read? My skin can be a box of secrets" - MetaDoll 0006
-  </p>   
+  <div className={styles.dFlex}>
+    <p className={[glitchStyle.glitch]} data-glitch='"My body is like a canvas where I can express my personality. Look and tell me what you read? My skin can be a box of secrets" - MetaDoll 0006'>"My body is like a canvas where I can express my personality. Look and tell me what you read? My skin can be a box of secrets" - MetaDoll 0006
+    </p>
+  </div>   
 
 </div>
 

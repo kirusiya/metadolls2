@@ -158,6 +158,8 @@
   width: 50%;
 }
 
+
+
 .textoIT h1{
   font-family: Orbitron;
   -webkit-text-fill-color: transparent;
@@ -192,12 +194,64 @@
   padding: 0 20px;
 }
 
+.textoIT3{
+  font-family: Orbitron;
+  width: 100%;
+}
+
+.textoIT3 h1{
+  font-family: Orbitron;
+  -webkit-text-fill-color: transparent;
+  text-align: left;
+  font-size: 2rem;
+  font-weight: 700;
+  background: -webkit-gradient(linear,left top,right top,from(#fe1393),to(#fff));
+  background: -webkit-linear-gradient(left,#fe1393,#fff);
+  background: -moz-linear-gradient(left,#fe1393,#fff);
+  background: linear-gradient(90deg,#fe1393,#fff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  text-align: left;
+  padding: 20px 0 0 20px;
+  margin-bottom: 10px;
+}
+
+.textoIT3 h2{
+  font-size: 2rem;
+  color: #fff;
+  text-align: left;
+  margin-bottom: 20px;
+  padding: 0 20px;
+
+}
+
+.textoIT3 p{
+  font-size: 19px;
+  font-family: Inconsolata;
+  color: #fff;
+  text-align: justify;
+  padding: 0 20px;
+}
+
 .imgIT{
   width: 50%;
   padding: 30px 10px;
 }
 
+
+
 .imgIT img{
+  margin: 0 auto;
+  width: auto;
+  max-width: 100%;
+}
+
+.imgIT3{
+  width: 100%;
+  padding: 30px 10px;
+}
+
+.imgIT3 img{
   margin: 0 auto;
   width: auto;
   max-width: 100%;

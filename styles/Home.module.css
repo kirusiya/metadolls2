@@ -127,6 +127,22 @@
   display: flex;
 }
 
+.dFlexGlicht p{
+  display: flex;
+  font-size: 1.125em;
+  font-family: Raleway,sans-serif;
+  font-weight: 700;
+  min-width: 400px;
+  text-decoration: none;
+  text-transform: uppercase;
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin: 0;
+  color: #fff;
+  letter-spacing: 5px;
+}
+
 .textoIT{
   font-family: Orbitron;
   width: 50%;

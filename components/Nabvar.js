@@ -47,7 +47,6 @@ const Nabvar = () => {
             {/* <li className={toggleMenu ? styles.navbarLinks2 : styles.navbarLinks}><a style={{color: "rgb(0, 162, 255)",fontWeight:'bold'}} href='#about'>About</a></li>
             <li className={toggleMenu ? styles.navbarLinks2 : styles.navbarLinks}><a style={{color: "rgb(0, 162, 255)",fontWeight:'bold'}} href='#'>RoadMap</a></li> */}
             
-            
             { size.width>600 ? <button className={["btn btn-primary btn-sm "]} onClick={()=>{window.open("https://discord.com/invite/fMhpdrKRDG")}}>Join  Discord</button> : null }
           
             {/* <button className="btn btn-primary m-3">Join our Discord</button>

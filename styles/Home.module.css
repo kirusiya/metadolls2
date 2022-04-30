@@ -141,6 +141,12 @@
   display: flex;
 }
 
+.dFlexButton{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
 .dFlexImg img{
   margin: 0 auto;
   width: auto;

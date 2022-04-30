@@ -137,6 +137,16 @@
   display: flex;
 }
 
+.dFlexImg{
+  display: flex;
+}
+
+.dFlexImg img{
+  margin: 0 auto;
+  width: auto;
+  max-width: 100%;
+}
+
 .dFlexGlicht {
   position: relative;
   margin-top: 40px;

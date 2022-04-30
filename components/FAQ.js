@@ -28,7 +28,7 @@ The body is represented by the Dolls, iconic objects fabricated in mass and regi
           
             <div className={styles.RoadMapSteps} data-aos="zoom-in" onClick={()=>{toggleArray(2)}}>
                 <p className={styles.numerStyle}>Mint Price? </p>
-                <p  className={toggleFAQ[2] ? styles.descriptionStyleactive : styles.descriptionStyle}>0.125 ETH</p>
+                <p  className={toggleFAQ[2] ? styles.descriptionStyleactive : styles.descriptionStyle}>TBA.</p>
               
             </div>
             <div className={styles.RoadMapSteps} data-aos="zoom-in" onClick={()=>{toggleArray(3)}}>
@@ -46,16 +46,11 @@ The body is represented by the Dolls, iconic objects fabricated in mass and regi
             </div>
             <div className={styles.RoadMapSteps} data-aos="zoom-in" onClick={()=>{toggleArray(6)}}>
                 <p className={styles.numerStyle}>Physical Doll?</p>
-                <p  className={toggleFAQ[6] ? styles.descriptionStyleactive : styles.descriptionStyle}>We will create a boutique for NFT Holders only, where you can get a physical version of your NFT with real tattoos, jewelry, hair styles and 3D printed gold-plated accessories just as in the NFT version.
-We will have a Web 3.0 version with wallet validation and a version inside our metaverse tattoo shop as well.
-</p>
+                <p  className={toggleFAQ[6] ? styles.descriptionStyleactive : styles.descriptionStyle}>MetaDolls is a project created to foster the value of both real life experiences as well as metaverse experiences. MetaDoll holders will be granted exclusive access to a boutique were they can connect their wallet to verify NFT ownership and then will be able to buy a physical version of their NFT. Hand made by our Lead Artist and his team. It will have gold-plated 3D printed accessories as well as piercings and real tattoos.</p>
             </div>
             <div className={styles.RoadMapSteps} data-aos="zoom-in" onClick={()=>{toggleArray(7)}}>
                 <p className={styles.numerStyle}>Meta Tattoo Shop</p>
-                <p  className={toggleFAQ[7] ? styles.descriptionStyleactive : styles.descriptionStyle}>We will build a tattoo shop on the metaverse where you can bring any PFP NFTs and give them tattoos, piercings and body modifications. 
-We will mint a derivative of your PFPs with tattoos and body mods. (Each derivative will cost around 0.05 eth and 60% of it will be split among NFT holders) 
-.
-</p>
+                <p  className={toggleFAQ[7] ? styles.descriptionStyleactive : styles.descriptionStyle}>They project will purchase land on the metaverse (either The SandBox or The Otherside) and create a Tattoo Shop where MetaDolls will be making derivatives from other PFPs. This Derivatives will be hand crafted, minted and sent to client for around 0.05 ETH (TBD). This income will be split among the team and MetaDolls holders.</p>
             </div>
            
 

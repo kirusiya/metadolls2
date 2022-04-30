@@ -588,7 +588,7 @@ export default function Prelauch({ posts }) {
      
   </div>
 
-  <div className={styles.dFlex}>  
+  <div className={styles.dFlexButton}>  
     <button onClick={()=>{window.open("#0")}} className={styles.glowOnHoverH} type="button">Button</button> 
   </div>
 

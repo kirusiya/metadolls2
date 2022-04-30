@@ -257,7 +257,11 @@
   max-width: 100%;
 }
 
- 
+/*fix video*/
+#video-container{
+  top: -100px !important;
+}
+/*fix video*/
 
 /*edward*/
 

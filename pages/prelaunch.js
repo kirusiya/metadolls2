@@ -589,11 +589,12 @@ export default function Prelauch({ posts }) {
 
 
             <RoadMap />
+            
             <div style={{display:'flex',justifyContent:'center',alignItems:'center'}}>
-            <video className={styles.videoMobile}  width="400" controls>
-  <source src="metavid.mp4" type="video/mp4"/>
-  
-</video>
+              <video className={styles.videoMobile}  width="400" controls>
+                <source src="metavid.mp4" type="video/mp4"/>
+                
+              </video>
             </div>
 
 

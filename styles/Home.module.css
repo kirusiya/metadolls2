@@ -137,7 +137,6 @@
   text-align: center;
   padding: 20px 50px;
   left: 45%;
-  top: -115px;
 }
 
 .dFlexGlicht p{
@@ -152,7 +151,7 @@
   transform: translate(-50%,-50%);
   margin: 0;
   color: #fff;
-    letter-spacing: 5px;
+  letter-spacing: 5px;
 }
 
 .textoIT{

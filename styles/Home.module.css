@@ -159,14 +159,11 @@
 }
 
 .textoIT h1{
-
   font-family: Orbitron;
   -webkit-text-fill-color: transparent;
   text-align: left;
   font-size: 2rem;
   font-weight: 700;
-
-
   background: -webkit-gradient(linear,left top,right top,from(#fe1393),to(#fff));
   background: -webkit-linear-gradient(left,#fe1393,#fff);
   background: -moz-linear-gradient(left,#fe1393,#fff);
@@ -174,7 +171,8 @@
   -webkit-background-clip: text;
   background-clip: text;
   text-align: left;
-  padding: 0 20px;
+  padding: 20px 0 0 20px;
+  margin-bottom: 10px;
 }
 
 .textoIT h2{

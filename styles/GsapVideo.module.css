@@ -64,8 +64,7 @@
   }
 
 /*fix video*/
-#video-container,
-.videoContainer{
-  top: 100px !important;
+.videoTag{
+  top: 0px !important;
 }
 /*fix video*/

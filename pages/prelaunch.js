@@ -579,7 +579,6 @@ export default function Prelauch({ posts }) {
   </div>
 
   <div className={styles.dFlexImg}>
-     
     
       <img src={"./image.png"}  className={styles.imgBloques}/>
       <img src={"./image.png"}  className={styles.imgBloques}/>

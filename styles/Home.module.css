@@ -131,7 +131,7 @@
   font-family: Orbitron;
 }
 
-.textoIT h1{
+.textoITh1{
   -webkit-text-fill-color: transparent;
   text-align: left;
   font-size: 1.2rem;
@@ -148,13 +148,13 @@
   background-clip: text;
 }
 
-.textoIT h2{
+.textoITh2{
   font-size: 2rem;
   color: #fff;
 
 }
 
-.textoIT p{
+.textoITp{
   font-size: 19px;
   font-family: Inconsolata;
   color: #fff;
@@ -162,7 +162,11 @@
   
 }
 
-.imgIT img{
+.imgIT{
+  width: 100%;
+}
+
+.imgITimg{
   width: 100%;
 }
 

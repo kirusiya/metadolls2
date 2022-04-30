@@ -66,6 +66,6 @@
 /*fix video*/
 #video-container,
 .videoContainer{
-  top: -100px !important;
+  top: 50px !important;
 }
 /*fix video*/

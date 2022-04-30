@@ -62,3 +62,10 @@
     color: #fff;
     opacity: 1;
   }
+
+/*fix video*/
+#video-container,
+.videoContainer{
+  top: -100px !important;
+}
+/*fix video*/

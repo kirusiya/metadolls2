@@ -624,7 +624,7 @@ export default function Prelauch({ posts }) {
 
 </div>
 
-<div className={styles.bloquesContainer} >
+<div className={styles.bloquesContainerGlitchSolo} >
   
   <div className={styles.dFlexGlicht}>
     <p className={[glitchStyle.glitch]} data-glitch='"Pendiente'>"Pendiente

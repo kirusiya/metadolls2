@@ -579,13 +579,17 @@ export default function Prelauch({ posts }) {
   </div>
 
   <div className={styles.dFlexImg}>
-    
+
       <img src={"./image.png"}  className={styles.imgBloques}/>
       <img src={"./image.png"}  className={styles.imgBloques}/>
       <img src={"./image.png"}  className={styles.imgBloques}/>
       <img src={"./image.png"}  className={styles.imgBloques}/>
     
      
+  </div>
+
+  <div className={styles.dFlex}>  
+    <button onClick={()=>{window.open("#0")}} className={styles.glowOnHoverH} type="button">Button</button> 
   </div>
 
   <div className={styles.dFlexGlicht}>

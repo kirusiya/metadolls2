@@ -47,7 +47,8 @@ const Wrapper = styled.div`
         -moz-transform: scale(1.08);
         transform: scale(1) !important;
         opacity: 1 !important;
-        transition: ease-in-out 0.5s;
+        -webkit-transition: opacity ease-out 0.5s;
+        transition: opacity ease-out 0.5s;
         /* item */
       }
       .slick-slide {

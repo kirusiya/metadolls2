@@ -559,17 +559,19 @@ export default function Prelauch({ posts }) {
 <div className={styles.bloquesContainer} data-aos="fade-up">
   <div className={styles.dFlex}>            
 
-    <div className={styles.textoIT} >
+    <div className={styles.textoIT3} >
     
-      <h1>Live and MetaLive</h1>
+      <h1>MetaLifestyle</h1>
 
-      <h2>Holders will have an exclusive boutique for hand made physical versions of their NFT artwork.</h2>
+      <h2>Exclusive Access to Real World Partners</h2>
 
-      <p>MetaDoll Holders will get exclusive access to a digital boutique, where they can get a physical version of their NFT with real tattoos, jewelry, hair styles and 3D printed gold-plated accessories just as in the NFT version  hand made by our Creative Director. We will have a Web 3.0 version with wallet validation and a version inside our MetaTattoo Shop as well.</p>
+      <p>Probably every  project and their mother offer exclusive events for holders with a vague explanation to what that actually means. As a MetaDoll holder you will have exclusive access and discounts across the US, the Caribe and Latinamerica to MetaPartners that share our lifestyle and values. Tattoo Shops, Restaurants, Clubs and Hotels (In Tulum) are a sneak peek to what’s being prepaired for our Community.</p>
 
-      </div> 
-
-    <div className={styles.imgIT}>
+    </div> 
+  </div>
+  
+  <div className={styles.dFlex}>
+    <div className={styles.imgIT3}>
     
       <img src={"./image.png"}  className={styles.imgBloques}/>
     

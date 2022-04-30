@@ -500,10 +500,10 @@ export default function Prelauch({ posts }) {
               </span> */}
             </div>
 
-<div className={styles.bloquesContainer} data-aos="fade-up">
+<div className={styles.bloquesContainer} data-aos="zoom-in">
   <div className={styles.dFlex}>            
 
-    <div className={styles.textoIT} >
+    <div className={styles.textoIT} data-aos="fade-right">
     
       <h1>Meta Tattoo Shop</h1>
 
@@ -513,9 +513,9 @@ export default function Prelauch({ posts }) {
 
       <p>A **derivative of your PFP** will be minted with tattoos and body mods. (Each derivative will cost around 0.05 eth and 60% of it will be split among MetaDolls NFT holders)</p>
       
-      </div> 
+    </div> 
 
-    <div className={styles.imgIT} data-aos="fade-up">
+    <div className={styles.imgIT} data-aos="fade-left">
     
       <img src={"./image.png"}  className={styles.imgBloques}/>
     
@@ -529,10 +529,10 @@ export default function Prelauch({ posts }) {
 
 </div>
 
-<div className={styles.bloquesContainer} data-aos="fade-up">
+<div className={styles.bloquesContainer} data-aos="zoom-in">
   <div className={styles.dFlex}>            
 
-    <div className={styles.textoIT} >
+    <div className={styles.textoIT}  data-aos="fade-right">
     
       <h1>Live and MetaLive</h1>
 
@@ -540,9 +540,9 @@ export default function Prelauch({ posts }) {
 
       <p>MetaDoll Holders will get exclusive access to a digital boutique, where they can get a physical version of their NFT with real tattoos, jewelry, hair styles and 3D printed gold-plated accessories just as in the NFT version  hand made by our Creative Director. We will have a Web 3.0 version with wallet validation and a version inside our MetaTattoo Shop as well.</p>
 
-      </div> 
+    </div> 
 
-    <div className={styles.imgIT}>
+    <div className={styles.imgIT} data-aos="fade-left">
     
       <img src={"./image.png"}  className={styles.imgBloques}/>
     
@@ -556,10 +556,10 @@ export default function Prelauch({ posts }) {
 
 </div>
 
-<div className={styles.bloquesContainer} data-aos="fade-up">
+<div className={styles.bloquesContainer} data-aos="zoom-in">
   <div className={styles.dFlex}>            
 
-    <div className={styles.textoIT3} >
+    <div className={styles.textoIT3}  data-aos="fade-right">
     
       <h1>MetaLifestyle</h1>
 
@@ -570,7 +570,7 @@ export default function Prelauch({ posts }) {
     </div> 
   </div>
   
-  <div className={styles.dFlex}>
+  <div className={styles.dFlex}  data-aos="fade-left">
     <div className={styles.imgIT3}>
     
       <img src={"./image.png"}  className={styles.imgBloques}/>

@@ -579,7 +579,7 @@ export default function Prelauch({ posts }) {
   </div>
 
   <div className={styles.dFlexGlicht}>
-    <p className={[glitchStyle.glitch]} data-glitch='"Rebellion against the perfect blonde is inked on my skin and in the color of my hair." - MetaDoll #2022'>"Rebellion against the perfect blonde is inked on my skin and in the color of my hair." - MetaDoll #2022
+    <p className={[glitchStyle.glitch]} data-glitch='"Pendiente'>"Pendiente
     </p>
   </div>   
 
@@ -597,7 +597,41 @@ export default function Prelauch({ posts }) {
             </div>
 
 
+            <div className={styles.bloquesContainer} data-aos="zoom-in">
+  <div className={styles.dFlex}>            
 
+    <div className={styles.textoIT}  data-aos="fade-right">
+    
+      <h1>Live and MetaLive</h1>
+
+      <h2>Holders will have an exclusive boutique for hand made physical versions of their NFT artwork.</h2>
+
+      <p>MetaDoll Holders will get exclusive access to a digital boutique, where they can get a physical version of their NFT with real tattoos, jewelry, hair styles and 3D printed gold-plated accessories just as in the NFT version  hand made by our Creative Director. We will have a Web 3.0 version with wallet validation and a version inside our MetaTattoo Shop as well.</p>
+
+    </div> 
+
+    <div className={styles.imgIT} data-aos="fade-left">
+    
+      <img src={"./image.png"}  className={styles.imgBloques}/>
+    
+    </div>
+  </div>
+
+  <div className={styles.dFlexGlicht}>
+    <p className={[glitchStyle.glitch]} data-glitch='"Rebellion against the perfect blonde is inked on my skin and in the color of my hair." - MetaDoll #2022'>"Rebellion against the perfect blonde is inked on my skin and in the color of my hair." - MetaDoll #2022
+    </p>
+  </div>   
+
+</div>
+
+<div className={styles.bloquesContainer} >
+  
+  <div className={styles.dFlexGlicht}>
+    <p className={[glitchStyle.glitch]} data-glitch='"Pendiente'>"Pendiente
+    </p>
+  </div>   
+
+</div>
 
 
 

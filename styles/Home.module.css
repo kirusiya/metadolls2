@@ -120,20 +120,48 @@
 
 /*edward*/
 .bloquesContainer{
-  display: block;
+  background: #04091a;
+}
+
+.dFlex{
+  display: flex;
 }
 
 .textoIT{
-  width: 50%;
+  font-family: Orbitron;
+}
+
+.textoIT h1{
+  -webkit-text-fill-color: transparent;
+  text-align: left;
+  font-size: 1.2rem;
+  font-weight: 700;
+  background: -webkit-gradient(linear,left top,right top,from(#fe1393),to(#fff));
+  background: -webkit-linear-gradient(left,#fe1393,#fff);
+  background: -moz-linear-gradient(left,#fe1393,#fff);
+  background: linear-gradient(90deg,#fe1393,#fff);
+  -webkit-background-clip: text;
+}
+
+.textoIT h2{
+  font-size: 2rem;
+  color: #fff;
+
+}
+
+.textoIT p{
+  font-size: 19px;
+  font-family: Inconsolata;
+  color: #fff;
+  text-align: justify;
+  
 }
 
 .imgIT{
-  width: 50%;
+  width: 100%;
 }
 
-.imgBloques{
-  position: relative;
-}
+ 
 
 /*edward*/
 

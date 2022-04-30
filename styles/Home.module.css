@@ -131,8 +131,16 @@
   display: flex;
 }
 
+.dFlexGlicht {
+  position: relative;
+  margin-top: 40px;
+  text-align: center;
+  padding: 20px 50px;
+  left: 45%;
+  top: -115px;
+}
+
 .dFlexGlicht p{
-  display: flex;
   font-size: 1.125em;
   font-family: Raleway,sans-serif;
   font-weight: 700;
@@ -144,7 +152,7 @@
   transform: translate(-50%,-50%);
   margin: 0;
   color: #fff;
-  letter-spacing: 5px;
+    letter-spacing: 5px;
 }
 
 .textoIT{

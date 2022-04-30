@@ -500,7 +500,7 @@ export default function Prelauch({ posts }) {
               </span> */}
             </div>
 
-<div className={styles.bloquesContainer}>
+<section className={styles.bloquesContainer}>
   <div className={styles.dFlex}>            
 
     <div className={styles.textoIT} >
@@ -520,7 +520,7 @@ export default function Prelauch({ posts }) {
       <img src={"./image.png"}  className={styles.imgBloques}/>
     
     </div>
-    
+
   </div>
 
   <div className={styles.dFlex}>
@@ -528,7 +528,7 @@ export default function Prelauch({ posts }) {
     </p>
   </div>   
 
-</div>
+</section>
 
 
 

@@ -35,12 +35,12 @@ const Wrapper = styled.div`
         height: 10px;
         width: 10px;
       
-        transition: all 0.5s;
+        transition: opacity all 0.5s;
       }
     }
     .slick-active button {
       width: 30px;
-      transition: all 0.5s;
+      transition: opacity all 0.5s;
     }
     .slick-center {
         -webkit-transform: scale(1.08);

@@ -578,16 +578,15 @@ export default function Prelauch({ posts }) {
     </div>
   </div>
 
-  <div className={styles.dFlex}  data-aos="fade-left">
-    <div className={styles.imgITlogos}>
+  <div className={styles.dFlexImg}>
+     
     
       <img src={"./image.png"}  className={styles.imgBloques}/>
       <img src={"./image.png"}  className={styles.imgBloques}/>
       <img src={"./image.png"}  className={styles.imgBloques}/>
       <img src={"./image.png"}  className={styles.imgBloques}/>
-      <img src={"./image.png"}  className={styles.imgBloques}/>
     
-    </div>
+     
   </div>
 
   <div className={styles.dFlexGlicht}>

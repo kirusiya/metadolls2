@@ -578,6 +578,18 @@ export default function Prelauch({ posts }) {
     </div>
   </div>
 
+  <div className={styles.dFlex}  data-aos="fade-left">
+    <div className={styles.imgITlogos}>
+    
+      <img src={"./image.png"}  className={styles.imgBloques}/>
+      <img src={"./image.png"}  className={styles.imgBloques}/>
+      <img src={"./image.png"}  className={styles.imgBloques}/>
+      <img src={"./image.png"}  className={styles.imgBloques}/>
+      <img src={"./image.png"}  className={styles.imgBloques}/>
+    
+    </div>
+  </div>
+
   <div className={styles.dFlexGlicht}>
     <p className={[glitchStyle.glitch]} data-glitch='"Pendiente'>"Pendiente
     </p>
@@ -589,7 +601,7 @@ export default function Prelauch({ posts }) {
 
 
             <RoadMap />
-            
+
             <div style={{display:'flex',justifyContent:'center',alignItems:'center'}}>
               <video className={styles.videoMobile}  width="400" controls>
                 <source src="metavid.mp4" type="video/mp4"/>

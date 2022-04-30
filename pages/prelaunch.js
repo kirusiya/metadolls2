@@ -523,7 +523,7 @@ export default function Prelauch({ posts }) {
   </div>
 
   <div className={styles.dFlexGlicht}>
-    <p className={[glitchStyle.glitch]} data-glitch='"My body is like a canvas where I can express my personality. &#xa;Look and tell me what you read? My skin can be a box of secrets" - MetaDoll 0006'>"My body is like a canvas where I can express my personality.<br/>Look and tell me what you read? My skin can be a box of secrets" - MetaDoll 0006
+    <p className={[glitchStyle.glitch]} data-glitch='"My body is like a canvas where I can express my personality.\Look and tell me what you read? My skin can be a box of secrets" - MetaDoll 0006'>"My body is like a canvas where I can express my personality.<br/>Look and tell me what you read? My skin can be a box of secrets" - MetaDoll 0006
     </p>
   </div>   
 
@@ -550,7 +550,7 @@ export default function Prelauch({ posts }) {
   </div>
 
   <div className={styles.dFlexGlicht}>
-    <p className={[glitchStyle.glitch]} data-glitch='"Rebellion against the perfect blonde is inked on my &#xa;skin and in the color of my hair." - MetaDoll #2022'>"Rebellion against the perfect blonde is inked on my <br/>skin and in the color of my hair." - MetaDoll #2022
+    <p className={[glitchStyle.glitch]} data-glitch='"Rebellion against the perfect blonde is inked on my\skin and in the color of my hair." - MetaDoll #2022'>"Rebellion against the perfect blonde is inked on my<br/>skin and in the color of my hair." - MetaDoll #2022
     </p>
   </div>   
 

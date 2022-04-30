@@ -116,9 +116,6 @@ export default function Prelauch({ posts }) {
           rel="stylesheet"
         />
         <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&family=Redressed&family=Ubuntu:wght@300&display=swap" rel="stylesheet"></link>
-       
-        {<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" />}
-
 
        
        {/*  <link
@@ -505,19 +502,19 @@ export default function Prelauch({ posts }) {
 
     <div className={styles.textoIT} >
     
-      <h1>Meta Tattoo Shop</h1>
+      <h1 className={styles.textoITh1}>Meta Tattoo Shop</h1>
 
-      <h2>Be part of the first Tattoo Shop on The Metaverse</h2>
+      <h2 className={styles.textoITh2}>Be part of the first Tattoo Shop on The Metaverse</h2>
 
-      <p>You can bring any **PFP NFTs** and **give them Face Tatts**, Piercings, Accesories and many body modifications.</p>
+      <p className={styles.textoITp}>You can bring any **PFP NFTs** and **give them Face Tatts**, Piercings, Accesories and many body modifications.</p>
 
-      <p>A **derivative of your PFP** will be minted with tattoos and body mods. (Each derivative will cost around 0.05 eth and 60% of it will be split among MetaDolls NFT holders)</p>
+      <p className={styles.textoITp}>A **derivative of your PFP** will be minted with tattoos and body mods. (Each derivative will cost around 0.05 eth and 60% of it will be split among MetaDolls NFT holders)</p>
       
     </div> 
 
     <div className={styles.imgIT}>
     
-      <img src={"./image.png"}  className={styles.imgBloques}/>
+      <img src={"./image.png"}  className={styles.imgITimg}/>
     
     </div>
 

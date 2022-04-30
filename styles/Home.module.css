@@ -136,11 +136,16 @@
   text-align: left;
   font-size: 1.2rem;
   font-weight: 700;
-  background: -webkit-gradient(linear,left top,right top,from(#fe1393),to(#fff));
-  background: -webkit-linear-gradient(left,#fe1393,#fff);
-  background: -moz-linear-gradient(left,#fe1393,#fff);
+  background: -webkit-linear-gradient(90deg,#fe1393,#fff);
+  background: -moz-linear-gradient(90deg,#fe1393,#fff);
+  background: -ms-linear-gradient(90deg,#fe1393,#fff);
+  background: -o-linear-gradient(90deg,#fe1393,#fff);
   background: linear-gradient(90deg,#fe1393,#fff);
   -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -ms-background-clip: text;
+  -o-background-clip: text;
+  background-clip: text;
 }
 
 .textoIT h2{
@@ -157,7 +162,7 @@
   
 }
 
-.imgIT{
+.imgIT img{
   width: 100%;
 }
 

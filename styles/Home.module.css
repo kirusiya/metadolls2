@@ -129,6 +129,7 @@
 
 .textoIT{
   font-family: Orbitron;
+  width: 50%;
 }
 
 .textoIT h1{
@@ -160,6 +161,10 @@
   color: #fff;
   text-align: justify;
   
+}
+
+.imgIT{
+  width: 50%;
 }
 
 .imgIT img{
